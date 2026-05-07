@@ -1,0 +1,28 @@
+\section{La forme normale de Jordan}
+\newdef{Un \emph{bloc de Jordan} est définie comme
+		\[	
+		J(\lambda,n)=\begin{pmatrix}
+			\lambda & 1 &  &  &  \\
+			& \lambda & 1 &  & \\
+			&  &  \ddots &  \ddots\\
+			&  &  &  \lambda & 1 \\
+			&  &  &  & \lambda
+		\end{pmatrix} \in \C^{n \times n}
+	\]
+	où $\lambda \in \C$ et $n \in \N$. On remarque que $J(\lambda, n) = \mathrm{diag}(\lambda, \ldots, \lambda) + J(0,n)$ où $J(0,n)$ est une matrice nilpotente, puisque $J(0, n)^{n} = 0$. De plus on dit qu'une matrice $A \in \C^{n \times n}$ est une \emph{forme normale de Jordan} si
+	\[
+	A = \begin{pmatrix} J(\lambda_1, n_1) & & \\ & \ddots &  \\ &  & J(\lambda_k, n_k) \end{pmatrix}
+	\]
+}{}
+
+\newlem{Soit $A \in \C^{n \times n}$ une matrice normale de Jordan alors
+	\[
+	\chi_A(x) = (-1)^n \prod_{i=1}^k (x - \lambda_i)^{n_i}
+	\]
+}{}
+
+\prf{Comme $A - x \mathrm{Id}$ est une matrice triangulaire supérieure, alors sont déterminant est donné par le produit des termes diagonaux, ainsi on a bien
+	\[
+	\chi_A(x) = \det(A - x \mathrm{Id}) = (-1)^n \prod_{i=1}^n (x - \lambda_i)^{n_i}
+	\]
+}

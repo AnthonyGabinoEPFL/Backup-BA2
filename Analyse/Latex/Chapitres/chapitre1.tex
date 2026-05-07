@@ -1,0 +1,111 @@
+\section{Intégrales généralisées}
+On se pose la question de comment généraliser la définition de l'intégrale de Riemann $\int_a^b f(x) ~\mathrm dx$ dans le cas où l'intervalle d'intégration est borné mais pas fermé, comme avec les exemples suivants :
+\[
+\int_0^1 \ln(x)~\mathrm dx , \quad \int_0^1 \frac{1}{x} ~\mathrm dx
+\]
+ou encore, comment généraliser la définition de l'intégrale sur un intervalle non borné, par exemple :
+\[
+\int_0^\infty e^{-x} ~\mathrm dx, \quad \int_{-\infty}^\infty \frac{1}{1 + x^2} ~\mathrm dx
+\]
+
+\subsection{Intégrale généralisée sur un intervalle borné}
+On considère dans ce sous chapitre uniquement des fonctions définie sur un intervalle borné.
+
+\newdef{Soient $f : [a, b[ \to \R$ intégrable au sens de Riemann sur tout sous-intervalle fermé $J \subset [a,b[$ et $F(t) = \int_a^t f(x) ~\mathrm dx$ pour tout $t\in [a,b[$. Alors si $\lim_{t \to b^-} F(t)$ existe, on dit que $\int_a^b f(x) ~\mathrm dx$ existe et on pose,
+	\[
+	\int_a^b f(x) ~\mathrm dx = \lim_{t \to b^-} F(t)
+	\]
+Tandis que si $\lim_{t \to b^-} F(t)$ n'existe pas on que l'intégrale diverge. La dinition reste analogue si $f$ est définie sur l'intervalle $]a,b]$.
+}{}
+
+\newlem{Soit $f : [a,b[ \to \R$ continue, si $f$ est prolongeable par continuité en $b$, on définit la fonction continue sur $[a,b]$,
+\[
+\tilde f (x) = \left \{ \begin{array}{lr}
+							f(x) & \quad x \in [a,b[, \\
+							\lim_{t \to b^-} f(t)& x = b.
+						\end{array}
+				\right.
+\]
+Alors l'intégrale généralisée $\int_a^b f(x) ~\mathrm dx$ existe et,
+\[
+\int_a^b f(x) ~\mathrm dx = \int_a^b \tilde f (x) ~\mathrm dx
+\]
+}{}
+
+\newlem{Soit $f, g : [a,b[ \to \R$ deux fonctions intégrables sur tout sous-intervalle $J \subset [a,b[$ et supposons qu'il existe $c \in [a,b[$ tel que,
+	\[
+	\forall x \in c, b[, \quad 0 \leqslant f(x) \leqslant g(x) 
+	\]
+Si $\int_a^b g(x) ~\mathrm dx$ existe, alors $\int_a^b f(x) ~\mathrm dx$ existe aussi. Inversement, si $\int_a^b f(x) ~\mathrm dx$ diverge, alors $\int_a^b g(x) ~\mathrm dx$ diverge aussi}{Critère de comparaison}
+
+\prf{Si $\int_a^b g(x) ~\mathrm dx$ existe alors $\int_c^b g(x) ~\mathrm dx$ existe aussi. De plus, pour tout $t \in [c, b[$,
+\[
+F(t) = \int_c^t f(x) ~\mathrm dx \int_c^t g(x) ~\mathrm dx \leqslant \int_c^b g(x) ~\mathrm dx < + \infty
+\]
+Puisque $F$ est croissant et bornée supérieurement sur $[c,b[$, on a que $\lim_{t \to b^-} F(t)$ existe. Ainsi $\int_c^b f(x) ~\mathrm dx$ converge et 
+\[
+\int_a^b f(x) ~\mathrm dx = \lim_{t \to b^-} \int_a^t f(x) ~\mathrm dx = \int_a^c f(x) ~\mathrm dx + \lim_{t \to b^-} \int c^t f(x) ~\mathrm dx 
+\]
+existe aussi. La seconde affirmation est la contraposée de la première.
+}
+\subsubsection{Intégrale généralisée sur intervalle bornée ouvert}
+\newdef{Soit $f : ]a,b[ \to \R$ intégrable sur tout sous-intervalle fermé $J \subset ]a,b[$. Pour $c \in ]a,b[$, si les deux intégrales généralisées
+	\[
+	\int_a^c f(x) ~\mathrm dx \et \int_c^b f(x) ~\mathrm dx
+	\]
+convergent, on dit que l'intégrale généralisée $\int_a^b f(x) ~\mathrm dx$ converge et l'on pose, par définition, que
+\[
+\int_a^b f(x) ~\mathrm dx =  \int_a^c f(x) ~\mathrm dx + \int_c^b f(x) ~\mathrm dx 
+\]
+Dans le cas contraire, lorsque l'une ou l'autre des intégrales généralisées diverge, on dit que l'intégrale généralisée $\int_a^b f(x) ~\mathrm dx$ diverge.
+}{}
+
+\newprop{Soit $f : ]a,b[ \to \R$ intégrable sur tout sous-intervalle fermé $J \subset ]a,b[$ alors l'existence (ou non) de l'intégrale généralisée $\int_a^b f(x) ~\mathrm dx$ ne dépend pas du choix de $c \in ]a,b[$.
+}{}
+
+\prf{Soit $\tilde c \in ]a,b[, \tilde c \neq x$, alors
+	\[
+	\int_a^{\tilde c} f(x) ~\mathrm dx = \int_a^c f(x) ~\mathrm dx + \int_c^{\tilde c}
+	\]
+	existe si et seulement si $\int_a^c f(x) ~\mathrm dx$ existe, car $f$ est intégrale sur $[c, \tilde c]\cup[\tilde c,c]$. De même,
+	\[
+	\int_{\tilde c}^b f(x) ~\mathrm dx = \int_{\tilde c}^c f(x) ~\mathrm dx + \int_c^b f(x) ~\mathrm dx
+	\]
+	existe si et seulement si $\int_c^b f(x) ~\mathrm dx$ existe. Et 
+	\[
+	\int_a^{\tilde c} f(x) ~\mathrm dx + \int_{\tilde c}^b f(x) ~\mathrm dx =  \int_a^c f(x) ~\mathrm dx + \int_c^{\tilde c} f(x) ~\mathrm dx  + \int_{\tilde c}^c f(x) ~\mathrm dx  + \int_c^b f(x) ~\mathrm dx  = \int_a^b f(x) ~\mathrm dx 
+	\]
+}
+
+\subsection{Intégrale généralisée absolument convergente}
+
+\newdef{Soient $I$ un intervalle bornée quelconque et $f : I \to \R$ intégrable sur tout sous-intervalle fermé $J \subset I$. On dit que l'intégrale généralisée est absolument convergente si l'intégrale $\int_I |f(x)| ~\mathrm dx$ existe.
+}{Intégrale généralisée absolument convergente}
+
+\newthm{Si l'intégrale $\int_I f(x) ~\mathrm dx$ est absolument convergente, alors elle existe.}{}
+
+\prf{On pose $f_+(x) = \max\{ f(x), 0 \}$ et $f_-(x) = -\min \{ f(x),0\}$. On a par définition $f(x) = f_+(x)  - f_-(x)$ et $|f(x)| = f(x)_+ + f_-(x)$, ainsi
+	\[
+	\forall x \in I, \quad 0 \leqslant f_+(x) \leqslant |f(x)| \et 0 \leqslant f_-(x) \leqslant |f(x)|
+	\]
+Donc par le critère de comparaison (\ref{Critère de comparaison}), $\int_I f_+(x) ~\mathrm dx $ et $\int_I f_-(x) ~\mathrm dx $ existent, et donc
+\[
+\int_I f(x) ~\mathrm dx = \int_I (f_+(x) - f_-(x)) ~\mathrm dx 
+\]
+existe aussi.
+}
+
+\subsection{Intégrale généralisée sur un intervalle non borné}
+
+\newdef{Si $I = [a, \infty[$ et $\lim_{t \to \infty} \int_a^t f(x) ~\mathrm dx$ existe, on dit que l'intégrale généralisée $\int_a^\infty f(x) ~\mathrm dx$ existe et on pose
+	\[
+	\int_a^\infty f(x) ~\mathrm dx = \lim_{t \to \infty} \int_a^t f(x) ~\mathrm dx
+	\]
+	De plus on dit que $\int_a^\infty f(x) ~\mathrm dx$ est absolument convergente si $\int_a^\infty |f(x)| ~\mathrm dx$ converge.
+}{}
+
+\newrem{Il est claire que les intégrales généralisée sur un intervalle non borné possèdent les mêmes propriétés que celle restreint sur un intervalle bornée. Ainsi les résultats précédents sont extensibles dans le cas des intégrales généralisées sur un intervalle non bornée.
+}{}
+
+
+
