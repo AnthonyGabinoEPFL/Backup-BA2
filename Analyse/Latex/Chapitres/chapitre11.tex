@@ -365,3 +365,263 @@ De plus $f$ est continue en $\bm x_0$
 	\]
 	On conclut que $\bm g : V \to U$ est différentiable en tout $\bm y \in V$ et $D \bm g(\bm y) = D \bm f(\bm x)^{-1}$, avec $\bm x = \bm g(\bm y)$. Enfin puisque $D \bm f(\bm x)$ en continue en tout $\bm x \in B(\bm x_0, r), ~ D \bm f(\bm x)^{-1}$ est continue pour vu que $\det D \bm f(\bm x) \neq 0$, ce qui est vrai dans $B(\bm x_0, r)$. Ceci montre que $\bm g$ est de classe $C^1$.
 }
+
+\newprf{Soit $E \subset \R^{n+1}$ un ouvert non vide, $f : \rn \to \R$ une fonction de classe $C^1$, $\Sigma = \{(\bm x, y) \in E ~|~ f(\bm x, y) = 0\}$ et $\bm z_0 = (\bm x_0, y_0) \in \Sigma$ tel que $\frac{\partial f}{\partial y}(\bm x_0, y_0) \neq 0$. Alors il existe un ouvert $U = B(\bm x_0, \delta) \subset \rn$ de $\bm x_0$, un ouvert $V \subset E$ contenant $\bm z_0$ et une unique application $\phi : U \to \R$ de classe $C^1$ telle que : 
+	\begin{enumerate}
+		\item $y_0 = \phi(\bm x_0)$
+		\item $\forall \bm x \in U, \quad (\bm x, \phi(\bm x)) \et f(\bm x, \phi(\bm x)) = 0$
+		\item $G(\phi) = \Sigma \cap V$
+	\end{enumerate}
+	De plus, on a pour tout $\bm x \in U, \quad \frac{\partial f}{\partial y} (\bm x, \phi(\bm x)) \neq 0$ et,
+	\[
+	\frac{\partial \phi}{\partial x_i} (\bm x) = - \frac{\frac{\partial f}{\partial x_i} (\bm x, \phi(\bm x))}{\frac{\partial f}{\partial y}(\bm x, \phi(\bm x))}
+	\]
+	et si $f \in C^k$ alors $\phi \in C^k$.
+}{Théorème des fonctions implicites}
+
+
+\prf{Sans perte de généralité, supposons que $\frac{\partial f}{\partial y} (\bm x_0, y_0) > 0$. Puisque $\frac{\partial f}{\partial y}$ est continue sur $E$, il existe donc $\delta_1, \delta_2 > 0$ tels que, pour tout $(\bm x, y) \in B(\bm x_0, \delta_1) \times [y_0 - \delta_2, y_0 + \delta_2]$, on a
+	\[
+	\frac{\partial f}{\partial y} (\bm x, y) > 0
+	\]
+	Ainsi pour tout $\bm x \in B(\bm x_0, \delta_1)$, la fonction $y \mapsto g_{\bm x}(y) = f(\bm x, y)$ est strictement croissante dans l'intervalle $[y_0 - \delta_2, y_0 + \delta_2]$. En particulier,
+	\[
+	g_{\bm x_0} (y_0 - \delta_2)< g_{\bm x_0}(y_0) = 0 < g_{\bm x_0}(y_0 + \delta_2)m
+	\]
+	Mais puisque $f$ est continue, il existe $0 < \delta < \delta_1$ tel que,
+	\[
+	\forall \bm x \in U := B(\bm x_0, \delta), \quad g_{\bm x} (y - \delta_2) =  f(\bm x, y_0 - \delta_2) < 0 \et g_{\bm x}(y + \delta 2) = f(\bm x, y_0 + \delta_2) > 0
+	\]
+	Ainsi pour $\bm x \in U$, $g_{\bm x} (y)$ est continue est strictement croissante sur l'intervalle $[y_0 - \delta_2, y_0 + \delta_2]$, et donc il existe un unique $y = \phi(x) \in ]y_0 - \delta_2, y_0 + \delta_2[$ tel que $g_{\bm x}(y) = f(\bm x, y) = 0$. Cette procédure permet de définir de façon unique une fonction $\phi : U \to \R$ telle que,
+	\[
+	\phi(\bm x_0) = y_0 \et f(\bm x, \phi(\bm x)) = 0
+	\]
+	De plus si on note $V = B(\bm x_0, \delta) \times ]y_0 - \delta_2, y_0 + \delta_2[$, on a $G(\phi) = \Sigma \cap V$.\\\\
+	\textit{Continuité de $\phi$ : } Soit $\bm{\overline x} \in U$ et $\overline y = \phi(\bm{\overline x})$. Pour tout $\varepsilon \in ]0, \delta_2 - |\overline y - y_0|]$, on considère
+	\[
+	W_\varepsilon = B(\bm x_0, \delta_1) \times [\overline y - \varepsilon, \overline y + \varepsilon]
+	\]
+	Ainsi par construction $W_\varepsilon \subset W$, donc $\frac{\partial f}{\partial y} > 0$ sur $W_\varepsilon$. De la même manière que auparavant, mais sur $W_\varepsilon$ au lieu de $W$, il existe $\delta_\varepsilon >0$ et une fonction $\overline \phi : B(\bm{\overline x}, \delta_\varepsilon) \cap U : \to \R$ tels que 
+	\[
+	\overline y = \overline \phi(\bm{\overline x}) \et f(\bm x, \overline \phi(\bm x)) = 0
+	\]
+	Mais par unicité de la fonction implicite sur $W$ et le choix de $W_\varepsilon$, on a $\overline \phi(\bm x) = \phi(\bm x) \in [\overline y, \varepsilon, \overline y + \varepsilon]$ pour tout $\bm x \in B(\bm{\overline x}, \delta_\varepsilon)\cap U$. On a donc montré que pour tout $\varepsilon > 0$ il existe $\delta_\varepsilon > 0$ tel que,
+	\[
+	\forall \bm x \in B(\bm{\overline x} \cap U, \delta_\varepsilon), \quad |\phi(\bm x) - \phi(\bm{\overline x})| \leqslant \varepsilon 
+	\]
+	ce qui montre la continuité de $\phi$ est $\bm{\overline x}$ et donc par arbitrarité de $\bm{\overline x}$ on conclut que $\phi$ est continue sur $U$. \\\\
+	\textit{Continuité de $\frac{\partial \phi}{\partial x_i}$ : } Soient $\bm x_1 \neq \bm x_2$ dans $U$, $y_1 = \phi(\bm x_1)$ et	$y_2 = \phi(\bm x_2)$. Puisque $f \in C^1$, on a 
+	\[
+	0 = f(\bm x_2, y_1,) - f(\bm x_1, y_1) = \nabla f(\bm \xi, \eta) \cdot (\bm x_2 - \bm x_1, y_2 - y_1)
+	\]
+	Si l'on note $\nabla_{\bm x} f$ les $n$ première composantes on a,
+	\[
+	\nabla_{\bm x} f(\bm \xi, \eta) \cdot (\bm x_2 - \bm x_1) + \frac{\partial f}{\partial y} (\bm \xi, \eta)(y_2 - y_1) = 0
+	\]
+	Alors,
+	\[
+	\frac{\phi(\bm x_2) - \phi(\bm x_1)}{\norme{\bm x_2 - \bm x_1}} = - \frac{\nabla_{\bm x} f(\bm \xi, \eta)}{\frac{\partial f}{\partial y} (\bm \xi, \eta)} \cdot \frac{\bm x_2 - \bm x_1}{\norme{\bm x_2 - \bm x_1}}
+	\]
+	puisque $\frac{\partial f}{\partial y} > 0$ car $(\bm \xi, \eta) \in V \subset W$. On obtient donc par passage à la limite,
+	\[
+	\phi(\bm x_2) = \phi(\bm x_1) - \frac{\nabla_{\bm x} f(\bm x_1, y_1)}{\frac{\partial f}{\partial y}(\bm x_1, y_1)} \cdot (\bm x_2 - \bm x_1) + o(\norme{\bm x_2 - \bm x_1})
+	\]
+	donc $\phi$ est différentiable et par unicité de la différentielle,
+	\[
+	\forall i \in \entiers, \quad \frac{\partial \phi}{\partial x_i}(\bm x) = -\frac{\frac{\partial f}{\partial x_i} f(\bm x_1, y_1)}{\frac{\partial f}{\partial y}(\bm x_1, y_1)} 
+	\]
+	De plus les dérivées partielles de $\phi$ sont continues car celles de $f$ le sont. La démonstration que $\phi \in C^k$ se fait par récurrence sur $k \geqslant 1$.
+}
+
+\newprf{Soit $E \subset \rn$ un ouvert non vide, $f : E \to \R$ de classe $C^2$ sur $E$ et $\bm x_0 \in E$ un point stationnaire de $f$. Si $H_f(\bm x_0)$ est définit positive (resp. définit négative) alors $f$ admet un minimum (resp. maximum) local strict en $\bm x_0$.
+}{Condition suffisante pour extrema locaux}
+
+\prf{Puisque $f$ est de classe $C^2$ alors on peut écrire un développement limité d'ordre $2$ de $f$ au point $\bm x_0$,
+	\[
+	\forall \bm x \in E, \quad f(\bm x) = f(\bm x_0) + \nabla f(\bm x_0) \cdot (\bm x - \bm x_0) + \frac{1}{2} Q_{H_f}(\bm x - \bm x_0) + R_f(\bm x)
+	\]
+	Comme $R_f(\bm x) = o(\norme{\bm x - \bm x_0}^2)$ alors il existe $\delta > 0$ tel que pour tout $\bm x \in B(\bm x_0, \delta)\backslash \{\bm x_0\}$, on a $\bm x \in E$ et $|R_f(\bm x)| \leqslant \frac{c}{4} \norme{\bm x - \bm x_0}^2$. Mais comme $\bm x_0$ est un point stationnaire, alors $\nabla f (\bm x_0) = 0$ et puisque $H_f(\bm x_0)$ est définie positive alors $\forall \bm x \in \rn, \quad Q_{H_F}(\bm x) \geqslant c \norme{\bm x}^2$, ainsi
+	\[
+	\forall \bm x \in B(\bm x_0, \delta) \backslash \{ \bm x_0\}, \quad f(\bm x) = f(\bm x_0) + \frac{1}{2} Q_{H_f}(\bm x - \bm x_0) + R_f(\bm x) \geqslant f(\bm x_0) + \frac{c}{4} \norme{\bm x - \bm x_0}^2 > f(\bm x_0)
+	\]
+	ce qui montre que $\bm x_0$ est bien un minimum locale strict.
+}
+
+\newprf{Soit $E \subset \rn$ un ouvert non-vide, $f,g : E \to \R$ deux fonctions de classe $C^1$. Soit $\bm z_0$ un point d'extremum local lié de $f$ sur $\Sigma_g$. Si $\nabla g(\bm z_0) \neq 0$, alors il existe $\lambda \in \R$ tel que,
+	\[
+	\nabla f (\bm z_0) = \lambda \nabla g(\bm z_0)
+	\]
+}{Condition nécessaire d'optimalité}
+
+\prf{Puisque $\nabla g(\bm z_0) \neq 0$ alors il existe au moins un composante non-nulle, soit $\frac{\partial g}{\partial x_j}(\bm z_0) \neq 0$. Pour se fixer les idées, supposons que $j = n$. Notons alors $y = z_n$ et $\bm x = (z_1, \ldots, z_{n-1}) \in \R^{n-1}$, de sorte que tout point $\bm z \in E$ puisse s'écrire comme $(\bm x, y)$. En particulier $\bm z_0 = (\bm x_0, y_0)$.
+	
+	Par le théorème des fonctions implicites, il existe $\delta > 0$ et une unique fonction $\phi : B(\bm x_0, \delta) \subset \R^{n-1} \to \R$ telle que $\phi(\bm x_0) = y_0, ~(\bm x, \phi(\bm x)) \in E \et g(\bm x, \phi(\bm x)) = 0$ sur $B(\bm x_0, \delta)$, et le graphe de $\phi$ coïncident avec $\Sigma_g$ dans un voisinage de $\bm z_0$. Ainsi la fonction $\tilde f(\bm x) = f(\bm x, \phi(\bm x)$ admet un maximum locale libre en $\bm x_0$ et $\nabla \tilde f(\bm x_0) = 0$. Donc
+	\[
+	\forall i \in \llbracket 1, n-1 \rrbracket, \quad 0 = \frac{\partial f}{\partial x_i}(\bm x_0) = \frac{\partial f}{\partial x_i}(\bm x, \phi(\bm x)) +  \frac{\partial f}{\partial y} (\bm x_0, \phi(\bm x_0)) \frac{\partial \phi}{\partial x_i} (\bm x_0)
+	\]
+	D'autre part,
+	\[
+	\frac{\partial \phi}{\partial x_i} = (\bm x_0) = - \frac{\frac{\partial g}{\partial x_i}(\bm z_0)}{\frac{\partial g}{\partial y}(\bm z_0)}
+	\]
+	Par conséquent, on a
+	\[
+	\forall i \in \llbracket 1, n-1 \rrbracket, \quad \frac{\partial f}{\partial x_i} (\bm z_0) - \frac{\partial f}{\partial y} (\bm z_0) \frac{\frac{\partial g}{\partial x_i}(\bm z_0)}{\frac{\partial g}{\partial y}(\bm z_0)} = 0
+	\]
+	Si on pose $\lambda = \frac{\frac{\partial f}{\partial y} (\bm z_0)}{\frac{\partial g}{\partial y} (\bm z_0)}$, alors
+	\[
+	\forall i \in \llbracket 1, n-1 \rrbracket, \quad \frac{\partial f}{\partial x_i}(\bm z_0) =  \lambda \frac{\partial g}{\partial x_i}(\bm z_0)
+	\]
+	et, par définition $\frac{\partial f}{\partial y}(\bm z_0) = \lambda \frac{\partial g}{\partial y} (\bm z_0)$. On a donc bien
+	\[
+	\nabla f(\bm z_0) = \lambda \nabla g (\bm z_0)
+	\]
+}
+
+\newprf{Soit $P$ une partition d'un pavé $R \subset \rn$. Alors
+	\[
+	\mathrm{Vol}(R) = \sum_{Q \in P} \mathrm{Vol}(Q)
+	\]
+}{}
+
+\prf{Supposons d'abord que $P$ est tensorielle,
+	\[
+	P = (t_1^0, \ldots , t_1^{N_1}) \otimes \ldots \otimes (t_n^0, \ldots, t_n^{N_n})
+	\]
+	Alors
+	\begin{align*}
+		\sum_{Q \in P} \mathrm{Vol}(R) &= \sum_{\alpha_1 = 0}^{N_1 - 1} \dots \sum_{\alpha_n = 0}^{N_n -1} (t_1^{1 +\alpha_1} - t_1^{\alpha_1}) \cdot \ldots \cdot (t_n^{1 +\alpha_n} - t_n^{\alpha_n}) \\
+		&= \sum_{\alpha_1 = 0}^{N_1-1} (t_1^{1 +\alpha_1} - t_1^{\alpha_1}) \cdot \ldots \cdot \sum_{\alpha_n = 0}^{N_n -1} (t_n^{1 +\alpha_n} - t_n^{\alpha_n}) \\
+		&= (t_1^{N_1} - t_1^0) \cdot \ldots \cdot (t_n^{N_n} - t_n^0) = \mathrm{Vol}(R)
+	\end{align*}
+	Passons au cas général, on sait que $P$ admet un raffinement tensorielle $P'$. On a donc par ce qui précède 
+	\begin{align*}
+		\mathrm{Vol}(R) &= \sum_{Q' \in P'} \mathrm{Vol}(Q') \\
+		&= \sum_{Q \in P} \left( \sum_{Q' \in P', ~ Q' \subset Q} \mathrm{Vol}(Q') \right) \\
+		&= \sum_{Q \in P} \mathrm{Vol}(Q)
+	\end{align*}
+}
+\newprf{Soit $P'$ un raffinement de $P$ alors
+	\[
+	\underline S(f, P) \leqslant \underline S(f, P') \leqslant \overline S(f, P') \leqslant \overline S(f, P)
+	\]
+	De plus de manière générale pour $P$ et $P'$ deux partitions de $R$ alors,
+	\[
+	\underline S(f, P) \leqslant \overline S(f, P')
+	\]
+}{}
+
+\prf{Par définition
+	\begin{align*}
+		\overline S(f,P) = \sum_{Q \in P} \inf_{\bm x \in Q} f(\bm x) \mathrm{Vol} Q &= \sum_{Q \in P} \inf_{\bm x \in Q} f(\bm x)\left( \sum_{Q' \in P',~Q' \subset Q} \mathrm{Vol} Q'\right)  \\
+		&\leqslant \sum_{Q \in P} \sum_{Q' \in P',~Q' \subset Q} \inf_{\bm x \in Q'} f(\bm x) \mathrm{Vol} Q' = \sum_{Q' \in P'} \inf_{\bm x \in Q'} f(\bm x) \mathrm{Vol} Q' = \underline S(f, P')
+	\end{align*}
+	Le reste est analogue. De plus étant donné $P$ et $P'$ par le lemme précédent il existe $P''$ qui raffine $P$ et $P'$, alors par ce qui précède
+	\[
+	\underline S(f, P) \leqslant \underline S(f, P'') \leqslant \overline S(f,P'') \leqslant \overline S(f,P')
+	\]
+}
+
+\newprf{$f$ est inégrable au sens de Riemann si et seulement si pour tout $\varepsilon > 0$ il existe une partition $P_\varepsilon$ de $R$ tel que,
+	\[
+	\overline S(f, P_\varepsilon) - \underline S(f,P_{\varepsilon})
+	\]
+}{}
+
+\prf{Soit $\varepsilon > 0$, alors 
+	\[
+	\overline{\int_R} f(\bm x)~\mathrm d \bm x \leqslant \overline S(f, P_\varepsilon) \et \underline{\int_R} f(\bm x)~\mathrm \geqslant \underline S(f, P_\varepsilon)
+	\]
+	et donc
+	\[
+	\overline{\int_R} f(\bm x) ~\mathrm d \bm x -\underline{\int_R} f(\bm x)~\mathrm d \bm x \leqslant \varepsilon
+	\]
+	et donc par arbitrarité de $\varepsilon$ on obtient bien que $f$ est intégrable au sens de Riemann.
+	
+	Réciproquement, si $f$ est intégrable au sens de Riemann, par caractérisation du sup et de l'inf, pour $\varepsilon > 0$,
+	\[
+	\exists P_\varepsilon ', \quad \overline S(f, P_\varepsilon') \leqslant \overline{\int_R} f(\bm x) ~\mathrm d \bm x + \frac{\varepsilon}{2}
+	\]
+	\[
+	\exists P_\varepsilon '', \quad \underline S(f, P_\varepsilon'') \geqslant \underline{\int_R} f(\bm x) ~\mathrm d \bm x - \frac{\varepsilon}{2}
+	\]
+	Ainsi on considère le raffinement $P_{\varepsilon}$ de  $P_\varepsilon ',  P_\varepsilon ''$ alors
+	\[
+	\overline S(f, P_\varepsilon) - \underline S(f,P_{\varepsilon}) \leqslant\overline S(f, P_\varepsilon') -\underline S(f, P_\varepsilon') \leqslant \overline{\int_R} f(\bm x) ~\mathrm d \bm x + \frac{\varepsilon}{2} - \underline{\int_R} f(\bm x) ~\mathrm d \bm x + \frac{\varepsilon}{2} \leqslant \varepsilon
+	\]
+}
+
+\newprf{Un ensemble $E \subset \rn$ est mesurable si et seulement si $\partial E$ est négligeable.}{}
+
+\prf{Soit $R$ un pavé qui contient $E$. Supposons que $E$ est mesurable, alors pour tout $\varepsilon > 0$, il existe une partition $P$ telle que
+	\[
+	\overline S(\ind_E, P) - \underline S(\ind_E, P) \leqslant \varepsilon
+	\]
+	si et seulement si
+	\[
+	\sum_{Q \cap E \neq \emptyset, ~Q \neq E^c \neq \emptyset} \mathrm{Vol}(Q) \leqslant \varepsilon
+	\]
+	Or on a 
+	\[
+	\partial E \subset \bigcup_{Q \in \Omega}Q \cup \underbrace{\bigcup_{Q \in P} \partial Q}_{négligeable}
+	\]
+	où $\Omega = \{ Q \in P ~|~ Q \cap E \neq \emptyset, ~Q \cap E^c \neq \emptyset \}$. Ainsi on pose
+	\[
+	\Omega' = \{ Q \subset E, ~\partial Q, Q \in P\}
+	\]
+	donc
+	\[
+	\sum_{\tilde Q \in \Omega'} \mathrm{Vol}(\tilde Q) \leqslant \varepsilon
+	\]
+	et comme $\partial E \subset \bigcup_{\tilde Q \in \Omega'} \tilde Q$ alors $\partial E$ est négligeable par (\ref{Caractérisation de négligeabilité}).
+	
+	Réciproquement, supposons que $\partial E$ soit négligeable, alors pour tout $\varepsilon > 0$ il existe $P$ telle que
+	\[
+	\overline S(\ind_{\partial E}, P) - \underline S(\ind_{\partial E}, P) \leqslant \varepsilon
+	\]
+	et donc 
+	\[
+	\sum_{Q \in P, ~Q \cap \partial E \neq \emptyset} \mathrm{Vol}(Q) \leqslant \varepsilon
+	\]
+	On a
+	\[
+	\overline S (\ind_E, P) - \underline S(\ind_E, P) = \sum_{Q \cap E \neq \emptyset, ~Q \cap E^c \neq \emptyset} \mathrm{Vol}(Q) \leqslant \sum_{Q \cap \partial E \neq \emptyset} \mathrm{Vol}(Q) \leqslant \varepsilon
+	\]
+	et donc $\ind_E$ est intégrable et $E$ est mesurable.
+}
+
+\newprf{Soit $R \subset \rn$ un pavé et $f : R \to \R$ bornée. Si l'ensemble des points de discontinuité de $f$ est négligeable, alors $f$ est intégrable.
+}{Caractérisation par négligeabilité des points de discontinuité}
+
+\prf{Soit $N$ l'ensemble des points de discontinuité de $f$ et $M := \sup_{\bm x \in R} |f(\bm x)|$. Puisque $N$ est négligeable, pour $\varepsilon > 0$, il existe une partition $\tilde P$ telle que
+	\[
+	\overline S(\ind_N, \tilde P) - \underbrace{\underline S(\ind_N,  \tilde P)}_{=0} \leqslant \frac{\varepsilon}{1 + 4M}
+	\]
+	où
+	\[
+	\overline S(\ind_N, \tilde P) = \sum_{Q \cap N \neq \emptyset} \mathrm{Vol}(Q) \leqslant \frac{\varepsilon}{1 + M}
+	\]
+	Ainsi soit 
+	\[
+	K = \bigcup_{Q \in P, ~Q \cap N =  \emptyset} Q
+	\]
+	$K$ est compact, donc $f$ est uniformément continue sur $K$, donc il existe $\delta >  0$ tel que
+	\[
+	\forall \bm x, \bm y \in K, \quad \norme{\bm x - \bm y} \leqslant \delta \implies |f(\bm x) - f(\bm y)| \leqslant \frac{\varepsilon}{1 + 2 \mathrm{Vol}(R)}
+	\]
+	Soit $P$ un raffinement de $\tilde P$ tel que
+	\[
+	\mathrm{diam}(Q) = \sup_{\bm x, \bm y \in Q} \norme{\bm x - \bm y} \leqslant \delta 
+	\]
+	alors
+	\begin{align*}
+		\overline S(f, P) - \underline S(f, P) &= \sum_{Q \in P}(\sup_Q f - \inf_Q f) \mathrm{Vol}(Q) \\
+		&= \sum_{Q \subset K} \underbrace{(\sup_Q f - \inf_Q f)}_{\leqslant \frac{\varepsilon}{1 + 2 \mathrm{Vol}(R)}} \mathrm{Vol}(Q) + \sum_{Q \cap N \neq \emptyset} \underbrace{(\sup_Q f - \inf_Q f)}_{\leqslant 2 M} \mathrm{Vol}(Q) \\
+		&\leqslant \frac{\varepsilon}{1 + 2 \mathrm{Vol}(R)} \mathrm{Vol}(R) + 2M \frac{\varepsilon}{1 + 4M} \leqslant \varepsilon
+	\end{align*}
+	donc $f$ est intégrable.
+}
+
+\newprf{Soit $E \subset \rn$ borné et mesurable. Si $f : E \to \R$ est bornée sur $E$ et continue sur $\mathring E$, alors $f$ est intégrable sur $E$ au sens de Riemann.}{}
+
+\prf{Soit $R$ un pavé contenant $E$ et $\tilde f$ le prolongement par zéro de $f$. Comme $E$ est mesurable, alors $\partial E $ est négligeable. Ne plus l'ensemble $\tilde N$ des points de discontinuité de $\tilde f$ est inclus dans $\partial E$, et donc $\tilde N$ est négligeable. Ainsi par le théorème (\ref{Caractérisation par négligeabilité des points de discontinuité}), $\tilde f \in \mathcal R(R)$ et donc $f$ est intégrable au sens de Riemann sur $E$.
+}

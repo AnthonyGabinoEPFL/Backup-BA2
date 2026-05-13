@@ -50,4 +50,6 @@
 \contentsline {subsection}{\numberline {9.6}Généralisation de la formule des intégrales itérées}{57}{subsection.9.6}%
 \contentsline {subsection}{\numberline {9.7}Changement de variables dans les intégrales de Riemann}{59}{subsection.9.7}%
 \contentsline {subsubsection}{\numberline {9.7.1}Changement de variable polaire, cylindrique et sphérique}{60}{subsubsection.9.7.1}%
-\contentsline {section}{\numberline {10}Preuve à connaitre}{61}{section.10}%
+\contentsline {subsection}{\numberline {9.8}Intégrale de Riemann généralisée}{60}{subsection.9.8}%
+\contentsline {section}{\numberline {10}Équations différentielles ordinaires}{62}{section.10}%
+\contentsline {section}{\numberline {11}Preuve à connaitre}{63}{section.11}%

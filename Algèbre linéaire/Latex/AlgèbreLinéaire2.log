@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  6 MAY 2026 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  12 MAY 2026 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,17 +882,17 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \c@lemma=\count353
 \c@proposition=\count354
 \c@corrolary=\count355
-\c@remark=\count356
-\c@exemple=\count357
-\c@exo=\count358
+\c@exo=\count356
+\c@remark=\count357
+\c@exemple=\count358
 Package french3.ldf Info: Setting StandardItemizeEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 220.
+(french3.ldf)             reported on input line 234.
 Package french3.ldf Info: Setting StandardEnumerateEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 220.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 22
-0.
+(french3.ldf)             reported on input line 234.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23
+4.
  (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1063,29 +1063,41 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 ) (Chapitres/exos.aux))
 \openout1 = `AlgèbreLinéaire2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 220.
-LaTeX Font Info:    ... okay on input line 220.
-LaTeX Info: Redefining \degres on input line 220.
-Package hyperref Info: Link coloring ON on input line 220.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 234.
+LaTeX Font Info:    ... okay on input line 234.
+LaTeX Info: Redefining \degres on input line 234.
+Package hyperref Info: Link coloring ON on input line 234.
  (AlgèbreLinéaire2.out) (AlgèbreLinéaire2.out)
 \@outlinefile=\write4
 \openout4 = `AlgèbreLinéaire2.out'.
@@ -1151,54 +1163,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<images/logo-epfl.png, id=162, 1927.2pt x 1084.05pt>
+<images/logo-epfl.png, id=170, 1927.2pt x 1084.05pt>
 File: images/logo-epfl.png Graphic file (type png)
 <use images/logo-epfl.png>
-Package pdftex.def Info: images/logo-epfl.png  used on input line 228.
+Package pdftex.def Info: images/logo-epfl.png  used on input line 242.
 (pdftex.def)             Requested size: 164.41711pt x 92.48212pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-57.
+71.
  (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-57.
+71.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-257.
+271.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-257.
+271.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 257.
+(Font)              <10> on input line 271.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 257.
+(Font)              <7> on input line 271.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 257.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 257
+(Font)              <5> on input line 271.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 271
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 257
+LaTeX Font Info:    Trying to load font information for U+msb on input line 271
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-57.
+71.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [1
@@ -1210,46 +1222,46 @@ fl.png>] (AlgèbreLinéaire2.toc)
 \openout5 = `AlgèbreLinéaire2.toc'.
 
 Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported on input line 282.
+(babel)             Reported on input line 296.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.282 	\include{"Chapitres/chapitre1.tex"}
+l.296 	\include{"Chapitres/chapitre1.tex"}
                                            [1
 
-]
+] [2]
 \openout2 = `Chapitres/chapitre1.aux'.
 
  (Chapitres/chapitre1.tex
-[2
+[3
 
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-[3{C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
-c}] [4] [5] [6] [7] [8]) [9]
+[4{C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
+c}] [5] [6] [7] [8] [9]) [10]
 \openout2 = `Chapitres/chapitre2.aux'.
 
- (Chapitres/chapitre2.tex [10
+ (Chapitres/chapitre2.tex [11
 
 
 
-] [11] [12]
+] [12] [13]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 188.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 188.
-) [13]
+) [14]
 \openout2 = `Chapitres/chapitre3.aux'.
 
 
-(Chapitres/chapitre3.tex [14
+(Chapitres/chapitre3.tex [15
 
 
 
-] [15]
+] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
 
  []
@@ -1257,7 +1269,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--145
 
 LaTeX Warning: Command \` invalid in math mode on input line 145.
 
-[16]) [17]
+[17]) [18]
 \openout2 = `Chapitres/chapitre4.aux'.
 
  (Chapitres/chapitre4.tex
@@ -1270,7 +1282,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
 
  []
 
-[18
+[19
 
 
 
@@ -1279,52 +1291,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--95
 
  []
 
-[19] [20] [21] [22]
+[20] [21] [22] [23]
 Underfull \hbox (badness 10000) in paragraph at lines 299--299
 
  []
 
-) [23]
+) [24]
 \openout2 = `Chapitres/chapitre5.aux'.
 
- (Chapitres/chapitre5.tex [24
+ (Chapitres/chapitre5.tex [25
 
 
 
-] [25] [26] [27] [28] [29] [30] [31]
-[32] [33]) [34]
+] [26] [27] [28] [29] [30] [31] [32]
+[33] [34]) [35]
 \openout2 = `Chapitres/chapitre6.aux'.
 
- (Chapitres/chapitre6.tex [35
+ (Chapitres/chapitre6.tex [36
 
 
 
-]) [36]
+]) [37]
 \openout2 = `Chapitres/chapitre7.aux'.
 
- (Chapitres/chapitre7.tex)
-[37
+ (Chapitres/chapitre7.tex
+[38
 
 
 
-]
+] [39]) [40]
 \openout2 = `Chapitres/exos.aux'.
 
- (Chapitres/exos.tex [38
+ (Chapitres/exos.tex [41
 
 
 
-] [39]
+] [42]
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
 
  []
 
-[40]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 189--189
 
  []
 
-[41] [42] [43] [44] [45] [46] [47] [48] [49]) (AlgèbreLinéaire2.aux
+[44] [45] [46] [47] [48] [49] [50] [51] [52] [53]) (AlgèbreLinéaire2.aux
 (Chapitres/chapitre1.aux) (Chapitres/chapitre2.aux) (Chapitres/chapitre3.aux)
 (Chapitres/chapitre4.aux) (Chapitres/chapitre5.aux) (Chapitres/chapitre6.aux)
 (Chapitres/chapitre7.aux) (Chapitres/exos.aux))
@@ -1337,16 +1349,16 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `AlgèbreLinéaire2.out' has not changed.
-(rerunfilecheck)             Checksum: B882BD71F3F80F507AE8E5E29BEFD875;6770.
+(rerunfilecheck)             Checksum: 7C162A7D154509B8441B80AC24A093A4;7143.
  ) 
 Here is how much of TeX's memory you used:
- 27641 strings out of 467866
- 527580 string characters out of 5418325
- 928888 words of memory out of 5000000
- 55735 multiletter control sequences out of 15000+600000
- 713308 words of font info for 106 fonts, out of 8000000 for 9000
+ 27665 strings out of 467866
+ 527857 string characters out of 5418325
+ 929020 words of memory out of 5000000
+ 55744 multiletter control sequences out of 15000+600000
+ 719287 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,12n,121p,740b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,16n,121p,740b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb
@@ -1375,9 +1387,9 @@ ls/msam7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on AlgèbreLinéaire2.pdf (50 pages, 763819 bytes).
+Output written on AlgèbreLinéaire2.pdf (54 pages, 785028 bytes).
 PDF statistics:
- 804 PDF objects out of 1000 (max. 8388607)
- 251 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 264 named destinations out of 1000 (max. 500000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
 

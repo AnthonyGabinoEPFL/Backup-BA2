@@ -569,3 +569,62 @@ Ainsi $\bm \psi$ est un difféomorphisme global sur les ouverts $U = ]0, \infty[
 \[
 \det \bm \psi (\rho, \theta) = \det \begin{pmatrix} \cos\theta & - \rho \sin \theta \\ \sin \theta & \rho \cos \theta \end{pmatrix} = \rho > 0
 \]
+
+
+\subsection{Intégrale de Riemann généralisée}
+
+\newdef{Soit $E \subset \rn$ un ouvert non-vide et $f : E \to \R$. Soit $\{K_j\}_{j \in \N}$ une suite de sous-ensembles tels que
+	\begin{enumerate}
+		\item $K \subset E$ est mesurable et compact
+		\item $K_j \subset \mathring K_{j+1}$
+		\item $E = \bigcup_{j \in \N} K_j$
+	\end{enumerate}
+	Supposons que $f$ est bornée et intégrable sur chaque $K_j$. On dit que $f$ est absolument intégrable sur $E$ si
+	\[
+	\lim_{j \to \infty} \int_{K_j} f|(\bm x)| ~\mathrm d \bm x
+	\]
+	existe. Dans ce cas on note
+	\[
+	\int_E f(\bm x) ~\mathrm d \bm x = \lim_{j \to \infty} \int_{K_j} f(\bm x) ~\mathrm d \bm x
+	\]
+}{}
+
+\newthm{Soit $f : E \to \R$ intégrable absolument par rapport à une suite $\{ K_j\}_{j \in \N}$ qui satisfait les propriétés ci-dessus. Soit $\{K_j'\}_{j \in \N}$ une autre suite qui satisfait ces propriétés. Alors $f$ est intégrable sur chaque $K_j'$ et 
+	\[
+	\lim_{j \to \infty} \int_{K_j} f(\bm x) ~\mathrm d \bm x = \lim_{j \to \infty} \int_{K_j'} f(\bm x) ~\mathrm d \bm x
+	\]
+}{}
+
+\prf{On fixe $j \in \N$ et $K_j'$ tel que
+	\[
+	K_j' \subset E = \bigcup_{m \in \N} K_m \subset \bigcup_{m \in \N} \mathring K_{m+1}
+	\]
+	Or $K_j'$ est un compact et $\{\mathring K_m\}_{m \in \N}$ est un recouvrement d'ouvert, alors il existe des indices $m_1, \ldots m_{N_j}$ tels que
+	\[
+	K_j' \subset \bigcup_{i=1}^{N_j} \mathring K_{m_i} = \mathring K_{m_{N_j}}
+	\]
+	On sait que $f$ est intégrable sur $K_{m_{N_j}}$ et $K_j' \subset \mathring K_{m_{N_j}}$ est un sous-ensemble mesurable et compact de $K_{m_{N_J}}$. Donc $f$ est intégrable sur $K_j'$, il en va de même pour $|f|, f_+$ et $f_-$. On en déduit alors que
+	\[
+	\int_{K_j'} f_+(\bm x) ~\mathrm d \bm x \leqslant \int_{K_{m_{N_j}}} f_+(\bm x) ~\mathrm d \bm x \leqslant \lim_{m \to \infty} \int_{K_m} f_+(\bm x) ~\mathrm d \bm x
+	\]
+	et 
+	\[
+	\int_{K_j'} f_-(\bm x) ~\mathrm d \bm x \leqslant \int_{K_{m_{N_j}}} f_-(\bm x) ~\mathrm d \bm x \leqslant \lim_{m \to \infty} \int_{K_m} f_-(\bm x) ~\mathrm d \bm x
+	\]
+	Donc
+	\[
+	\lim_{j \to \infty} \int_{K_j'} f_+(\bm x) ~\mathrm d \bm x \leqslant \lim_{m \to \infty} \int_{K_m} f_+(\bm x) ~\mathrm d \bm x \et \lim_{j \to \infty} \int_{K_j'} f_-(\bm x) ~\mathrm d \bm x \leqslant \lim_{m \to \infty} \int_{K_m} f_-(\bm x) ~\mathrm d \bm x
+	\]
+	Si on renverse les rôles de $K_j$ et $K_j'$, on a
+	\[
+	\lim_{j \to \infty} \int_{K_j} f_+(\bm x) ~\mathrm d \bm x \leqslant \lim_{m \to \infty} \int_{K_m'} f_+(\bm x) ~\mathrm d \bm x \et \lim_{j \to \infty} \int_{K_j} f_-(\bm x) ~\mathrm d \bm x \leqslant \lim_{m \to \infty} \int_{K_m'} f_-(\bm x) ~\mathrm d \bm x
+	\]
+	Donc
+	\[
+	\lim_{j \to \infty} \int_{K_j'} f_+(\bm x) ~\mathrm d \bm x = \lim_{m \to \infty} \int_{K_m} f_+(\bm x) ~\mathrm d \bm x \et \lim_{j \to \infty} \int_{K_j'} f_-(\bm x) ~\mathrm d \bm x = \lim_{m \to \infty} \int_{K_m} f_-(\bm x) ~\mathrm d \bm x
+	\]
+	En combinant les parties positives et négatives on a bien
+	\[
+	\lim_{j \to \infty} \int_{K_j'} f(\bm x) ~\mathrm d \bm x = \lim_{j \to \infty} f_+(\bm x) + f_-(\bm x) ~\mathrm d \bm x = \lim_{m \to \infty} \int_{K_m} f(\bm x) ~\mathrm d \bm x
+	\]
+	}

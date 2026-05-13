@@ -47,6 +47,17 @@
 {\newline}  % Saut de ligne après le titre
 {}          % Format du titre
 
+\newtheoremstyle{noit} % Nom du style
+{\topsep}   % Espace avant
+{\topsep}   % Espace après
+{}  % Style du texte
+{}          % Indentation
+{\bfseries} % Style du titre
+{.}         % Ponctuation après le titre
+{\newline}  % Saut de ligne après le titre
+{}          % Format du titre
+
+
 
 \theoremstyle{break}
 \newtheorem{theorem}{Théorème}[section]
@@ -54,9 +65,13 @@
 \newtheorem{lemma}{Lemme}[section]
 \newtheorem{proposition}{Proposition}[section]
 \newtheorem{corrolary}{Corollaire}[section]
+\newtheorem{prooftoknow}{Théorème}
+
+\theoremstyle{noit}
 \newtheorem{remark}{Remarque}[section]
 \newtheorem{exemple}{Exemple}[section]
-\newtheorem{prooftoknow}{Théorème}
+
+
 
 \renewenvironment{proof}
 {\noindent\underline{\textsc{Démonstration} :}\newline}
@@ -287,6 +302,7 @@
 	\include{"Chapitres/chapitre7.tex"}
 	\include{"Chapitres/chapitre8.tex"}
 	\include{"Chapitres/chapitre9.tex"}
+	\include{"Chapitres/chapitre10.tex"}
 	\include{"Chapitres/chapitre11.tex"}
 	
 

@@ -383,3 +383,34 @@ Par le cours, on pose $A^\top = (a_1 - z, \ldots , a_m - z) \in \R^{n \times m}$
 \end{enumerate}
 }
 
+
+\subsection{Semaine 11}
+
+\newexo{Soit $A \in \C^{n \times n}$ inversible. Montrer que $A$ est diagonalisable si et seulement si $A^m$ est diagonalisable pour un certain $m \in \N^*$. 
+	
+Donnez un contre-exemple lorsque $A$ n'est pas inversible.
+}{Supposons que $A$ est diagonalisable alors il suffit de prendre $m = 1$.
+
+Réciproquement, supposons que $A^m$ soit diagonalisable pour un certain $m \in \N^*$. Donc le polynôme minimal de $A^m$
+\[
+\mu_{A^m} = \prod_{i=1}^k (x - \lambda_i)
+\]
+est scindé simple. On considère le polynôme $p(x) = \mu_{A^m} (x^m)$, on remarque alors que $p(A) = 0$. Donc
+\[
+\mu_A \mid p(x)
+\]
+car $\mu_A$ divise tout polynôme annulateur de $A$. Il suffit alors de montrer que $p(x)$ est scindé simple, or
+\[
+p(x) = \prod_{i=1}^k (x^m - \lambda_i) = \prod_{i=1}^k \prod_{j=1}^m (x - \mu_{ij})
+\]
+Supposons que $\mu_{ab} = \mu_{cd}$ alors
+\[
+\mu_{ab}^m = \mu_{cd}^m \implies \lambda_a = \lambda_c \implies a = c
+\]
+Ainsi les facteurs $x^m - \lambda_i$ de partagent pas de racines entre eux. De plus
+\[
+\mathrm{pgcd} (x^m - \lambda_i, m x^{m-1}) = 1
+\]
+puisque $\lambda_i \neq 0$ car $A$ est inversible. Ainsi $p(x)$ n'admet que des racines simples. Mais comme $\mu_A$ divise $p(x)$ alors $\mu_A$ est scindé simple et donc $A$ est diagonalisable.
+}
+

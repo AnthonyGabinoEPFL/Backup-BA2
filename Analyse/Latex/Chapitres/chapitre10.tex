@@ -1,0 +1,30 @@
+\section{Équations différentielles ordinaires}
+Soit $I = ]a,b[$, $E \subset \rn$ et $f(t, x)$ continue avec $t \in I$ et $x \in E$. On chercher une fonction $u : I \to E$ de classe $C^1$ telle que
+\[
+\forall t \in I, \quad u'(t) = f(t, u(t))
+\]
+
+\newdef{Soit $I = ]a,b[$ un intervalle ouvert, $E \subset \rn$ un ouvert et $\bm f : I \times E \to \rn$. On cherche $\bm u : I \to E$ telle que $\bm u'(t) = \bm f(t, \bm u(t))$ pour tout $t \in I$. On a 
+	\[
+	\bm f(t, \bm x) = \begin{pmatrix} f_1(t, \bm x) \\ \vdots \\ f_n(t, \bm x) \end{pmatrix}, \quad \bm u(t) = \begin{pmatrix} u_1(t) \\ \vdots \\ u_n(t) \end{pmatrix}
+	\]
+	On a alors un système de $n$ EDO couplées : 
+	\begin{align*}
+		u_1'(t) &=  f_1(t, u_1(t), \ldots, u_n(t)) \\  &\vdots \\ u_n'(t) &= f_n(t, u_1(t), \ldots, u_n(t))
+	\end{align*}
+}{}
+
+\newrem{Si on a une EDO d'ordre $n$, c'est-à-dire que pour un intervalle $I = ]a,b[$ ouvert, $E \subset \rn$ et $f : I \times E \to \R$. On cherche une fonction $u : I \to E$ de classe $C^n$ telle que
+	\[
+	u^{(n)}(t) = f(t, u(t), u'(t), \ldots , u^{(n-1)}(t))
+	\]
+	lors on peut toujours se ramener à un système de $n$ EDO d'ordre $1$. On pose alors
+	\[
+	u_1(t) = u(t), ~u_2(t) = u'(t), ~\ldots ~, ~u_n(t) = u^{(n-1)}(t)
+	\]
+	et
+	\[
+	\bm f : I \times E \to \R, \quad \bm f(t, u_1, \ldots, u_n) = \begin{pmatrix} u_2 \\ \vdots \\ u_n \\ f(t, u_1	, \ldots, u_n) \end{pmatrix}
+	\]
+	ce qui permet d'écrire pour tout $t \in I, \quad \bm u'(t) = \bm f(t, \bm u(t))$. Ainsi une étude complète des systèmes d'EDO du premier ordre est suffisante pour pouvoir traiter aussi des équations d'ordres supérieurs.}
+	{}

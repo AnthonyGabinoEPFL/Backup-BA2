@@ -13,6 +13,7 @@
 	\[
 	A = \begin{pmatrix} J(\lambda_1, n_1) & & \\ & \ddots &  \\ &  & J(\lambda_k, n_k) \end{pmatrix}
 	\]
+	avec $\sum n_k = n$.
 }{}
 
 \newlem{Soit $A \in \C^{n \times n}$ une matrice normale de Jordan alors
@@ -21,8 +22,120 @@
 	\]
 }{}
 
-\prf{Comme $A - x \mathrm{Id}$ est une matrice triangulaire supérieure, alors sont déterminant est donné par le produit des termes diagonaux, ainsi on a bien
+\prf{Comme $A - x \mathrm{Id}$ est une matrice triangulaire supérieure, alors son déterminant est donné par le produit des termes diagonaux, ainsi on a bien
 	\[
 	\chi_A(x) = \det(A - x \mathrm{Id}) = (-1)^n \prod_{i=1}^n (x - \lambda_i)^{n_i}
 	\]
 }
+
+
+
+\newlem{Soit $J \in \C^{n \times n}$ une forme normale de Jordan. Alors
+	\[
+	 J=\underbrace{ \begin{pmatrix}
+	 		\lambda_{1}I_{n_{1}} &  &  \\
+	 		& \ddots &  \\
+	 		&  & \lambda _{k}I_{n_{k}}
+	 \end{pmatrix} }_{ D }+\underbrace{ \begin{pmatrix}
+	 		J(0,n_{1}) &  &  \\
+	 		& \ddots &  \\
+	 		&  & J(0,n_{k})
+	 \end{pmatrix} }_{ N }.
+	\]
+	où $D$ et $N$ commutent, et $N$ est nilpotent.
+}{}
+
+\prf{On a
+	\[
+	N^i = \begin{pmatrix}
+		J(0,n_{1})^i &  &  \\
+		& \ddots &  \\
+		&  & J(0,n_{k})^i
+	\end{pmatrix}
+	\]
+	Soit $j = \max\{n_1, \ldots, n_k\}$, alors $N^j = 0$. On a que $D$ et $N$ commutent
+	\[
+	\lambda_i I_{n_i} J(0, n_i) = J(0, n_i) \lambda_i I_{n_i} \implies D N = ND
+	\]
+}
+\subsection{Déterminer la forme normale de Jordan}
+\newthm{Soit $A \in \C^{n \times n}$, alors il existe une matrice $P \in \C^{n \times n}$ inversible et une forme normale de Jordan $J \in \C^{n \times n}$ tel que
+	\[
+	A = P J P^{-1}
+	\]
+}{Réduction de Jordan}
+
+\newlem{Soit $J \in \C^{n \times n}$ une forme normale de Jordan et soient $\lambda_1, \ldots, \lambda_k \in \C$ des valeurs propres distincts de $A \in \C^{n \times n}$. Alors le polynôme minimal de $J$ est 
+	\[
+	\mu_j(x) = (x- \lambda_1)^{e_i} \cdot \ldots \cdot (x- \lambda_k)^{e_i}
+	\]
+	où $e_i = \max \{n_i \mid J(\lambda_i, n_i) \text{ est un bloc de Jordan}\}$.
+}{}
+
+\prf{Soit 
+	\[
+	J=\begin{pmatrix}
+		J(\lambda_{1},n_{1}) \\
+		& J(\lambda_{1},n_{2}) \\
+		&  & \ddots  \\
+		&  &  & J(\lambda_{1},n_{k}) \\
+		&  &  &  &  J(\lambda_{2},n_{k+1}) \\
+		&  &  &  &  & \\
+		&  &  &  &  & \ddots 
+	\end{pmatrix}
+	\]
+	alors en posant $e_1 = \max\{n_i \mid J(\lambda_1, n_i) \text{ est un bloc de Jordan}\} = \max \{ n_i \mid i \in \llbracket 1, k \rrbracket \}$, alors
+		\[
+		\begin{pmatrix}
+			J(0,n_{1})^{e_{1}} \\
+			&  \ddots \\
+			&  &  J(0,n_{k})^{e_{1}}
+		\end{pmatrix}=0
+		\]
+	et pareil pour les autres blocs. 
+}	
+\newlem{Soit $k \in \N$, alors
+	\[
+	\dim \ker(A- \lambda I)^k = \dim \ker (J - \lambda I)^k
+	\]
+}{}
+
+\prf{Pour $\lambda \in \C$ on voit que
+	\[
+	(A - \lambda I)^k = (P J P^{-1} - \lambda P P^{-1})^k = (P(J - \lambda I)P^{-1})^k = P(J - \lambda I)^k P^{-1}
+	\]
+	Ainsi un élément $x \in \C$ est contenu dans le noyau de $(A - \lambda)^k$, si et seulement si $P^{-1} x \in \ker (J - \lambda I)^k$, d'où la proposition.
+}
+
+
+\newthm{Soit $A \in \C^{n \times n}$ et $\lambda_1, \ldots, \lambda_k \in \C$ les valeurs propres distinctes de $A$. Soit
+	\[
+	d_i = \dim \ker(A - \lambda_1 I)^i
+	\]
+	alors
+	\[
+	n_i = d_i - d_{i-1}
+	\]
+	correspond au nombre de blocs de Jordan dont $\lambda_1$ est l'élément diagonal et de longueur aux moins $i$.
+}{}
+
+\prf{Soit $J$ une forme de Jordan de $A$, alors $J$ est de la forme
+	\[
+	J = \mathrm{diag} (J(\lambda_1, n_{1, 1}), J(\lambda_1, n_{2,1}), \ldots J(\lambda_1, n_{k,1}), J(\lambda_2, n_{2,1}), \ldots, J(\lambda_n, n_{n,m}))
+	\]
+	Ainsi par le lemme qui précede, on considère la quantité $(J - \lambda_1 I)^i$, ce qui nous donne
+	\[
+	(J - \lambda_1 I)^i = \mathrm{diag}  (J(0, n_{1, 1})^i, \ldots, J(0, n_{2,1})^i, \ldots J(0, n_{k,1})^i, J(\lambda_2 - \lambda_1, n_{2,1})^i, \ldots, J(\lambda_n - \lambda_1, n_{n,m})^i)
+	\]
+	On remarque alors que $J(0, n_{j,1})^i = 0$ si $i \geqslant n_{j,1}$ pour tout $j = 1,2, \ldots, k$. Donc on a bien
+	\[
+	d_i = d_{i-1} + \#\text{de bloc de longueurs} \geqslant i 
+	\]
+	d'où le théorème.
+}
+\newcor{Soit $A \in \C^{n \times n}$, $J \in \C^{n \times n}$ une forme normale de Jordan de $A$ et $\lambda \in \C$ une valeur propre de $A$. Soit $k \in \entiers$ et $n_k$ le nombre de bloc de Jordan avec $\lambda$ comme élément diagonal et de longueur $k$ est donné par
+	\[
+	n_k = 2 d_i - d_{i-1} - d_{i+1}
+	\]
+}{}
+
