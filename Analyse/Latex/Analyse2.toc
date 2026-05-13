@@ -52,4 +52,7 @@
 \contentsline {subsubsection}{\numberline {9.7.1}Changement de variable polaire, cylindrique et sphérique}{60}{subsubsection.9.7.1}%
 \contentsline {subsection}{\numberline {9.8}Intégrale de Riemann généralisée}{60}{subsection.9.8}%
 \contentsline {section}{\numberline {10}Équations différentielles ordinaires}{62}{section.10}%
-\contentsline {section}{\numberline {11}Preuve à connaitre}{63}{section.11}%
+\contentsline {subsection}{\numberline {10.1}Problème de Cauchy}{63}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Équations différentielles à variable séparées}{63}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}EDO scalaire linéaire du premier ordre}{64}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Preuve à connaitre}{66}{section.11}%
