@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  13 MAY 2026 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  19 MAY 2026 02:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,6 +1161,18 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 ) (Chapitres/chapitre11.aux))
 \openout1 = `Analyse2.aux'.
 
@@ -1249,7 +1261,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<images/logo-epfl.png, id=202, 1927.2pt x 1084.05pt>
+<images/logo-epfl.png, id=206, 1927.2pt x 1084.05pt>
 File: images/logo-epfl.png Graphic file (type png)
 <use images/logo-epfl.png>
 Package pdftex.def Info: images/logo-epfl.png  used on input line 242.
@@ -1386,7 +1398,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 206.
 
-<images/boules.png, id=348, 1072.005pt x 292.09125pt>
+<images/boules.png, id=353, 1072.005pt x 292.09125pt>
 File: images/boules.png Graphic file (type png)
 <use images/boules.png>
 Package pdftex.def Info: images/boules.png  used on input line 221.
@@ -1574,7 +1586,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
-[64])
+[64]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.80502pt, for example:
@@ -1583,13 +1595,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
 [65]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.80502pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.80502pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
+
+[66])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.80502pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.80502pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
+
+[67]
 \openout2 = `Chapitres/chapitre11.aux'.
 
- (Chapitres/chapitre11.tex [66
+ (Chapitres/chapitre11.tex [68
 
 
 
-] [67] [68] [69] [70] [71]
+] [69] [70] [71] [72] [73]
 Overfull \hbox (31.91035pt too wide) in paragraph at lines 367--367
 \T1/lmr/m/n/10 et de plus donc par conti-nuité de l'ap-pli-ca-tion $\OML/cmm/b/
 it/10 x \OMS/lmsy/m/n/10 7! [] \OML/lmm/m/it/10 D\OML/cmm/b/it/10 f\OT1/lmr/m/n
@@ -1600,7 +1628,7 @@ t/10 f\OT1/lmr/m/n/10 (\OML/cmm/b/it/10 x\OT1/lmr/m/n/10 ) \OMS/lmsy/m/n/10 6\O
 T1/lmr/m/n/10 =
  []
 
-[72]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 367--367
 
  []
@@ -1610,7 +1638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--367
 
  []
 
-[73]
+[75]
 Underfull \hbox (badness 10000) in paragraph at lines 434--434
 
  []
@@ -1620,11 +1648,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--434
 
  []
 
-[74] [75] [76] [77]
+[76] [77] [78] [79]
 
 LaTeX Warning: Command \' invalid in math mode on input line 590.
 
-[78]) [79] (Analyse2.aux (Chapitres/chapitre1.aux) (Chapitres/chapitre2.aux)
+[80]) [81] (Analyse2.aux (Chapitres/chapitre1.aux) (Chapitres/chapitre2.aux)
 (Chapitres/chapitre3.aux) (Chapitres/chapitre4.aux) (Chapitres/chapitre5.aux)
 (Chapitres/chapitre6.aux) (Chapitres/chapitre7.aux) (Chapitres/chapitre8.aux)
 (Chapitres/chapitre9.aux) (Chapitres/chapitre10.aux) (Chapitres/chapitre11.aux)
@@ -1644,14 +1672,14 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Analyse2.out' has not changed.
-(rerunfilecheck)             Checksum: 4F4900F1DE28A540D4FD8BBCBCE0035A;11557.
+(rerunfilecheck)             Checksum: 4B0AB97495DC6DF973EA9CB39C1E42AC;11797.
  ) 
 Here is how much of TeX's memory you used:
- 28506 strings out of 467866
- 545174 string characters out of 5418325
- 932701 words of memory out of 5000000
- 56448 multiletter control sequences out of 15000+600000
- 729672 words of font info for 142 fonts, out of 8000000 for 9000
+ 28533 strings out of 467866
+ 545571 string characters out of 5418325
+ 934863 words of memory out of 5000000
+ 56458 multiletter control sequences out of 15000+600000
+ 733943 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,15n,121p,692b,764s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gabin\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600\bbm10
@@ -1663,34 +1691,35 @@ fonts/type1/public/amsfonts/cmextra/cmmib5.pfb><C:/Users/gabin/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users/gabin/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/gabin/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/gabin/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/gabin/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/gabin/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/gabin/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/gabin/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/gabin/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/gabin/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/gabin/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/gabin/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/gabin/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/gabin/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/gabin/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/gabin/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/gabin/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/gabin/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/gabin/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/gabin/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/gabin/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/gabin/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gabin/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:
-/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/hoekwater/stmary10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/hoekwater/stmary7.pfb>
-Output written on Analyse2.pdf (80 pages, 993497 bytes).
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/gabin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/gabin/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/gabin/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/gabin/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/gabin/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/gabin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/gabin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/gabin/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/gabin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/gabin/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/gabin/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/gabin/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/gabin/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/gabin/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/gabin/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/gabin/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/gabin/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/gabin/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/gabin/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gabin
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C
+:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/hoekwater/stmary10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/hoekwater/stmary7.pfb>
+Output written on Analyse2.pdf (82 pages, 1028958 bytes).
 PDF statistics:
- 1092 PDF objects out of 1200 (max. 8388607)
- 356 named destinations out of 1000 (max. 500000)
- 415 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1128 PDF objects out of 1200 (max. 8388607)
+ 372 named destinations out of 1000 (max. 500000)
+ 423 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -29,15 +29,16 @@
 \contentsline {section}{\numberline {6}Système différentiels linéaires}{36}{section.6}%
 \contentsline {section}{\numberline {7}La forme normale de Jordan}{38}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Déterminer la forme normale de Jordan}{39}{subsection.7.1}%
-\contentsline {section}{\numberline {8}Exercices étoiles}{41}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Semaine 1}{41}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Semaine 2}{42}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Semaine 3}{43}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Semaine 4}{44}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Semaine 5}{46}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Semaine 6}{47}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}Semaine 7}{48}{subsection.8.7}%
-\contentsline {subsection}{\numberline {8.8}Semaine 8}{49}{subsection.8.8}%
-\contentsline {subsection}{\numberline {8.9}Semaine 9}{50}{subsection.8.9}%
-\contentsline {subsection}{\numberline {8.10}Semaine 10}{51}{subsection.8.10}%
-\contentsline {subsection}{\numberline {8.11}Semaine 11}{53}{subsection.8.11}%
+\contentsline {subsection}{\numberline {7.2}Décomposition selon le polynôme caractéristique}{40}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Exercices étoiles}{43}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Semaine 1}{43}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Semaine 2}{44}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Semaine 3}{45}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Semaine 4}{46}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Semaine 5}{48}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Semaine 6}{49}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Semaine 7}{50}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Semaine 8}{51}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}Semaine 9}{52}{subsection.8.9}%
+\contentsline {subsection}{\numberline {8.10}Semaine 10}{53}{subsection.8.10}%
+\contentsline {subsection}{\numberline {8.11}Semaine 11}{55}{subsection.8.11}%

@@ -139,6 +139,120 @@ On parle d'équation différentielle \emph{linéaire} du premier ordre lorsque $
 De plus on remarque que $u(t_0) = u_0$, d'où le résultat.
 }
 
+\subsection{Existence et unicité de solutions}
+On considère le problème de Cauchy,
+\[
+\left \{ \begin{array}{l} \bm u'(t) = \bm f(t, \bm u(t)), \quad t \in I \\
+	\bm u(t_0) = \bm u_0
+\end{array} \right.
+\]
+avec $I \subset \R$ un ouvert, $E \subset \rn$ un ouvert et $\bm f : I \times E \to \R$. On remarque, en particulier que $\bm u \in C^1(J, E)$ et 
+\[
+\forall t \in J, \quad \bm u(t) = \bm u_0 + \int_{t_0}^t \bm f(s, \bm u(s)) ~\mathrm ds
+\]
+Si on introduit la fonction $\phi : C^0(J, E) \to C^0(J,E)$ définie par
+\[
+\forall t \in J, \quad \phi(\bm v)(t) = \bm u_0 + \int_{t_0}^t \bm f(s, \bm v(s)) ~\mathrm ds
+\]
+alors la solution du problème de Cauchy est un \emph{point fixe} de l'application $\phi$, c'est-à-dire $\phi(\bm u) = \bm u$. Ainsi résoudre le problème de Cauchy revient à trouver des points fixes.
+
+\subsubsection{Espace de Banach et complétude de $C^0(J)$.}
+
+\newdef{Soit $V$ un espace vectoriel normé et $(\bm v^k)_{k \in \N} \subset V$ une suite d'éléments de $V$ on dit que 
+	\begin{enumerate}
+		\item $(\bm v^k)$ converge vers $\bm v \in V$ si,
+		\[
+		\forall \varepsilon >0, ~\exists N > 0, ~\forall k \geqslant N, \quad \norme{\bm v^k - \bm v} \leqslant \varepsilon
+		\]
+		il est facile de vérifier que, si elle existe, la limite $\bm v \in V$ est unique.
+		\item $(\bm v^k)$ est une suite de Cauchy si,
+		\[
+		\forall \varepsilon > 0, ~\exists N >  0, ~\forall k, l \geqslant N, \quad \norme{\bm v^k - \bm v^l} \leqslant \varepsilon
+		\]
+	\end{enumerate}
+	On dit qu'un espace vectoriel normé $V$ est \emph{complet} si toute suite de Cauchy de $V$ converge dans $V$. Un espace vectoriel normé complet est appelé \textbf{Espace de Banach}. Cette définition est extensible pour un sous-ensemble $K \subset V$.
+}{}
+
+\newlem{Soit $V$ un espace de Banach et $K \subset V$ un sous-ensemble de $V$. Alors, $K$ est complet si et seulement si $K$ est fermé.
+}{}
+
+\newthm{Soit $V$ un espace de Banach et $K \subset V$ un sous-ensemble fermé non-vide et $\phi : K \to K$ une application contractante, c'est-à-dire
+	\[
+	\exists \rho \in ]0,1[, ~\forall \bm u, \bm v \in K, \quad  \norme{\phi(\bm u) - \phi(\bm v)} \leqslant \rho \norme{\bm u - \bm v}
+	\]
+	Alors il existe un unique $\bm v^* \in K$ tel que $\phi(\bm v^*) = \bm v^*$.
+}{Point fixe de Banach}
+
+\prf{Similaire à (\ref{Théorème du point fixe de Banach}).}
+
+
+\newprop{Soit $\Omega \subset \rn$ un compact. L'espace vectoriel $C^0(\Omega, \rmm)$, muni de la norme
+	\[
+	\norme{\bm v}_{C^0(\Omega)} = \max_{\bm x \in \Omega} \norme{\bm v(\bm x)}
+	\]
+	est un espace de Banach.
+}{}
+
+En particulier, on travaillera plutôt sur des boules fermées de $C^0(\Omega)$ définie par
+\[
+K_{b, \bm u} (\Omega) := \overline B(\bm u, b) = \{ \bm v \in C^0(\Omega), ~ \norme{\bm v - \bm u}_{C^0(\Omega)} \leqslant b \}
+\]
+pour $b > 0$ et $\bm u \in C^0(\Omega)$.
+
+\subsubsection{Théorème d'existence et unicité locale}
+\newthm{Si $\bm f$ est continue sur $I \times E$, alors il existe au moins une solutions locale $(J, \bm u)$ où $J \subset I$ et $\bm u \in C^1(J)$.
+}{Cauchy-Peano}
+
+\newrem{Contrairement au théorème suivant (\ref{Cauchy-Lipschitz --- version locale}) l'unicité de la solution locale n'est pas garantie. C'est pour ça qu'il faut rajouter une certaine régularité sur $\bm f$ pour avoir unicité de la solution locale.
+}
+
+\newdef{Soit $I \subset \R$ un intervalle ouvert, $E \subset \rn$ et $ \bm f: I \times E \to \rn$ une fonction continune. On dit que $\bm f$ est \emph{localement lipschitzienne} par rapport au deuxième argument, si pour tout $(t_0, u_0) \in I \times E$, il existe $a,b > 0$ avec $[t_0 - a, t_0 + a]\times \overline B(\bm u_0, b) \subset I \times E$ et une constante $L > 0$ tels que
+	\[
+	\forall t \in [t_0 -a, t_0 + a], ~\forall \bm x, \bm y \in \overline B(\bm u_0, b), \quad \norme{\bm f(t, \bm x) - \bm f(t, \bm y)} \leqslant L \norme{\bm x - \bm y}
+	\]
+	où $a,b$ et $L$ dépendent éventuellement de $(t_0, \bm u_0)$.
+}{}
+
+\newrem{On remarque, en particulier, que si $\bm f : I \times E \to \rn$, est continue avec dérivée partielle $\frac{\partial f_i}{\partial x_j}$ continues pour tout $i,j = 1, \ldots, n$, alors $\bm f$ est localement lipschitzienne par rapport à la deuxième variable.
+}
+
+\newthm{Soit $I \subset \R$ un intervalle ouvert, $E \subset \rn$ ouvert et $\bm f : I \times E \to \rn$ une fonction continue et localement lipschitzienne par rapport à la deuxième variable. 
+	
+Alors pour tout $(t_0, \bm u_0) \in I \times E$, il existe $\delta >  0$ tel que $J_\delta := [t_0 - \delta, t_0 + \delta] \subset I$ et une fonction $\bm u : J_\delta \to E$ de classe $C^1$ solution du problème de Cauchy.
+
+De plus cette solution est localement unique.
+}{Cauchy-Lipschitz --- version locale}
+
+\prf{Puisque $\bm f$ est localement lipschitzienne par rapport au deuxième arguement,il existe $a,b > 0$ avec $[t_0 - a, t_0 + a]\times \overline B(\bm u_0, b) \subset I \times E$ et une constante $L > 0$ tels que
+	\[
+	\forall t \in [t_0 -a, t_0 + a], ~\forall \bm x, \bm y \in \overline B(\bm u_0, b), \quad \norme{\bm f(t, \bm x) - \bm f(t, \bm y)} \leqslant L \norme{\bm x - \bm y}
+	\]
+	On choisit
+	\[
+	M > \max_{(t, \bm x) \in [t_0 - a, t_0 + a] \times \overline B(\bm u_0, b)} \norme{\bm f(t, \bm x)}
+	\] 
+	Soit maintenant $\delta \in ]0,a], ~J_\delta := [t_0 - a,t_0 + \delta]\subset I$ et considérons la quantité
+	\[
+	K_{b, \bm u_0} (J_\delta) = \{\bm v \in C^0(J_\delta), ~ \max_{t \in J_\delta} \norme{\bm v(t) -\bm u_0} \leqslant b \}
+	\]
+	qui est alors une sous-ensemble fermé (donc complet) de $C^0(J_\delta)$. On considère l'application $\phi : K_{b, \bm u_0}(J_\delta) \to C^0(J_\delta)$ définie par 
+	\[
+	\forall t \in J_\delta, \quad \phi(\bm v)(t) = \bm u_0 + \int_{t_0}^t \bm f(s, \bm v(s))~\mathrm ds
+	\]
+	Or pour tout $\bm v \in K_{b, \bm u_0}(J_\delta)$ et $t \in J_\delta$,
+	\[
+	\norme{\phi(\bm v) - \bm u_0} = \norme{\int_{t_0}^t \bm f(s, \bm v(s)) ~\mathrm d s} \leqslant \left|\int_{t_0}^t \norme{\bm f(s, \bm v(s))} ~\mathrm ds \right| \leqslant M \delta
+	\]
+	donc si on prend $\delta \leqslant \frac{b}{M}$ on a $\norme{\phi(\bm v) -  \bm u_0}_{C^0(J_\delta)} \leqslant b$, c'est-à-dire $\phi(\bm v) \in 	K_{b, \bm u_0} (J_\delta)$ pour tout $v \in K_{b, \bm u_0} (J_\delta)$. De plus, pour tout $\bm v_1, v_2 \in K_{b, \bm u_0} (J_\delta)$ et pour tout $t \in J_\delta$,
+	\begin{align*}
+		\norme{\phi(\bm v_1) - \phi(\bm v_2)} &= \norme{\int_{t_0}^t \bm f(s, \bm v_1(s)) - \bm f(s, \bm v_2(s)) ~\mathrm d s} \leqslant \left| \int_{t_0}^t \norme{\bm f(s, \bm v_1(s)) - \bm f(s, \bm v_2(s)) } ~\mathrm ds \right| \\
+		&\leqslant \left| \int_{t_0}^t L \norme{\bm v_1(s) - \bm v_2(s)} ~\mathrm d s \right| \leqslant L \delta \max_{t \in J_\delta} \norme{\bm v_1(t) - \bm v_2(t)}
+	\end{align*}
+	ce qui implique que $\norme{\phi(\bm v_1) - \phi(\bm v_2)}_C^0(J_\delta) \leqslant L \delta \norme{\bm v_1 - \bm v_2}_{C^0(J_\delta)}$. Donc, pour $\delta < \min\{a, \frac{b}{M}, \frac1L\}$, l'application $\phi : K_{b, \bm u_0} (J_\delta) \to K_{b, \bm u_0} (J_\delta)$ est contractante et il existe un unique $ \bm u \in K_{b, \bm u_0} (J_\delta)$ point fixe de $\phi$. Alors $(J_\delta, \bm u)$ est l'unique solution du problème de Cauchy dans $K_{b, \bm u_0} (J_\delta)$.
+}
+
+
+	
 
 
 

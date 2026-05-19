@@ -139,3 +139,104 @@
 	\]
 }{}
 
+\subsection{Décomposition selon le polynôme caractéristique}
+\newdef{Soient $W \subset \C^n$ un sous-espace vectoriel et soit $A \in \C^{n \times n}$, on dit que $W$ est \emph{invariant} sous $A$,
+	\[
+	\forall x \in W, \quad A x \in W
+	\]
+}{}
+
+\newlem{Soient $f \in \K[X]$ et $A \in \K^{n \times n}$ une matrice quelconque, alors
+	\[
+	\ker (f(A))
+	\]
+	est invariant sous $A$.
+}{}
+
+\prf{Soit $x \in \ker(f(A))$ on trouve que
+	\[
+	f(A) \cdot Av = A \cdot f(A) \cdot x = A \cdot 0 = 0
+	\]
+	Ainsi $Av \in \ker(f(A))$.
+}
+
+\newthm{Soit $A \in \K^{n \times n}$ et soit $f(x) = f_1(x) \cdot f_2(x) \in \K[X]$ tel que
+	\begin{enumerate}
+		\item $\deg f_i > 0$ pour tout $i$ 	
+		\item $\mathrm{pgcd}(f_1, f_2) = 1$
+	\end{enumerate}
+	Alors
+	\[
+	\ker(f(A)) = \ker(f_1(A)) \oplus \ker(f_2(A))
+	\]
+}{Lemme des noyaux}
+
+\prf{Comme $\mathrm{pgcd}(f_1, f_2) = 1$, par Bézout on sait qu'il existe $g_1(x), g_2(x) \in \K[X]$ tel que
+	\[
+	1 = g_1(x) f_1(x) + g_2(x) f_2(x)
+	\]
+	et alors par évaluation
+	\[
+	I_n = g_1(A) \cdot f_1(A) + g_2(A) \cdot f_2(A)
+	\]
+	Ainsi pour $v \in \ker(f(A))$, on a
+	\[
+	v = g_1(A) \cdot f_1(A)v + g_2(A) \cdot f_2(A)v
+	\]
+	On remarque que
+	\[
+	g_1(A) \cdot f_1(A) v \in \ker (f_2(A))
+	\]
+	en effet
+	\[
+	f_2(A) g_1(A) f_1(A) v = g_1(A) f_1(A) f_2(A) v = g_1(A) f(A) v = 0
+	\]
+	il en va de même que $g_2(A) \cdot f_2(A) v \in \ker(f_1(A))$. Soit $v \in \ker(f_1(A)) \cap \ker(f_2(A))$, on a 
+	\[
+		v = g_1(A) \cdot f_1(A)v + g_2(A) \cdot f_2(A)v = 0
+	\]
+	ce qui démontre bien que la somme est directe.
+}
+
+\newcor{On peut sans problème généraliser ce résultat, ainsi soit $f(x) = f_1(x) \cdot \ldots \cdot f_k(x) \in \K[X]$ tel que
+	\begin{enumerate}
+		\item $\deg f_i > 0$ pour tout $i$
+		\item $\mathrm{pgcd}(f_i, f_j) = 1$ pour tout $i \neq j$
+	\end{enumerate}
+	alors
+	\[
+	\ker(f(A)) = \ker(f_1(A)) \oplus \dots \oplus \ker(f_k(A)) = \bigoplus_{i=1}^k \ker(f_i(A))
+	\]
+}
+
+\newthm{Soit $A \in \C^{n \times n}$, alors $\C^n$ est la somme directe de sous-espace vectoriel $\C^{n} = W_1 \oplus \dots \oplus W_k$ tels que
+	\begin{enumerate}
+		\item $W_i$ est invariant par $A$ pour tout $i$
+		\item $A_{\mid W_i}$ est de la forme $\lambda_i I_{n_i} + N_i$ où $N_i$ est nilpotente
+	\end{enumerate}
+}{}
+
+\prf{Soit $\chi_A(x)$ le polynôme caractéristique de $A$, par Cayley-Hamilton, on sait que $\chi_A(A) = 0$. De plus par le théorème fondamentale de l'algèbre on sait que $\chi_A$ se laisse factoriser sur $\C$ comme
+	\[
+	\chi_A(x) = (-1)^n (x - \lambda_1)^{n_1} \cdot \ldots \cdot (x - \lambda_k)^{n_k}
+	\]
+	avec des $\lambda_i$ deux à deux distincts. Alors par le théorème qui précède on a bien,
+	\[
+	\C^n = \ker(\chi_A(A)) = \ker(A - \lambda_1 I_n)^{n_1} \oplus \ldots \oplus \ker(A - \lambda_k I_n)^{n_k}
+	\]
+	On pose alors $W_i = \ker (A - \lambda_iI_n)^{n_i}$. De plus
+	\[
+	A_{\mid W_i} = (A - \lambda_i I_n)_{\mid W_i} + \lambda_i {I_n}_{\mid W_i} := N_i + \lambda_i I_n
+	\]
+	or $N_i$ est bien nilpotent car
+	\[
+	N_i^{n_i} = (A - \lambda_i I_n)_{\mid W_i}^{n_i} = 0
+	\]
+}
+
+
+
+
+
+
+

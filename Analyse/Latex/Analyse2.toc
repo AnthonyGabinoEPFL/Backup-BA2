@@ -55,4 +55,7 @@
 \contentsline {subsection}{\numberline {10.1}Problème de Cauchy}{63}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Équations différentielles à variable séparées}{63}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}EDO scalaire linéaire du premier ordre}{64}{subsection.10.3}%
-\contentsline {section}{\numberline {11}Preuve à connaitre}{66}{section.11}%
+\contentsline {subsection}{\numberline {10.4}Existence et unicité de solutions}{65}{subsection.10.4}%
+\contentsline {subsubsection}{\numberline {10.4.1}Espace de Banach et complétude de $C^0(J)$.}{65}{subsubsection.10.4.1}%
+\contentsline {subsubsection}{\numberline {10.4.2}Théorème d'existence et unicité locale}{66}{subsubsection.10.4.2}%
+\contentsline {section}{\numberline {11}Preuve à connaitre}{68}{section.11}%

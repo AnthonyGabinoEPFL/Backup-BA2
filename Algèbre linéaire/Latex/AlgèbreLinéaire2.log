@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  12 MAY 2026 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  13 MAY 2026 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1075,6 +1075,15 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 ) (Chapitres/exos.aux))
 \openout1 = `AlgèbreLinéaire2.aux'.
 
@@ -1163,7 +1172,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<images/logo-epfl.png, id=170, 1927.2pt x 1084.05pt>
+<images/logo-epfl.png, id=174, 1927.2pt x 1084.05pt>
 File: images/logo-epfl.png Graphic file (type png)
 <use images/logo-epfl.png>
 Package pdftex.def Info: images/logo-epfl.png  used on input line 242.
@@ -1217,31 +1226,32 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
 
 {C:/Users/gabin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gabi
 n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./images/logo-ep
-fl.png>] (AlgèbreLinéaire2.toc)
-\tf@toc=\write5
-\openout5 = `AlgèbreLinéaire2.toc'.
-
+fl.png>] (AlgèbreLinéaire2.toc
 Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported on input line 296.
+(babel)             Reported on input line 44.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.296 	\include{"Chapitres/chapitre1.tex"}
-                                           [1
+l.44 ...ine {8.11}Semaine 11}{55}{subsection.8.11}
+                                                  % [1
 
-] [2]
+])
+\tf@toc=\write5
+\openout5 = `AlgèbreLinéaire2.toc'.
+
+ [2]
 \openout2 = `Chapitres/chapitre1.aux'.
 
- (Chapitres/chapitre1.tex
-[3
+
+(Chapitres/chapitre1.tex [3
 
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
-{C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-[4{C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
-c}] [5] [6] [7] [8] [9]) [10]
+{C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] [4
+{C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}
+] [5] [6] [7] [8] [9]) [10]
 \openout2 = `Chapitres/chapitre2.aux'.
 
  (Chapitres/chapitre2.tex [11
@@ -1256,8 +1266,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ) [14]
 \openout2 = `Chapitres/chapitre3.aux'.
 
-
-(Chapitres/chapitre3.tex [15
+ (Chapitres/chapitre3.tex [15
 
 
 
@@ -1319,24 +1328,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 299--299
 
 
 
-] [39]) [40]
+] [39] [40] [41]) [42]
 \openout2 = `Chapitres/exos.aux'.
 
- (Chapitres/exos.tex [41
+ (Chapitres/exos.tex [43
 
 
 
-] [42]
+] [44]
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
 
  []
 
-[43]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 189--189
 
  []
 
-[44] [45] [46] [47] [48] [49] [50] [51] [52] [53]) (AlgèbreLinéaire2.aux
+[46] [47] [48] [49] [50] [51] [52] [53] [54] [55]) (AlgèbreLinéaire2.aux
 (Chapitres/chapitre1.aux) (Chapitres/chapitre2.aux) (Chapitres/chapitre3.aux)
 (Chapitres/chapitre4.aux) (Chapitres/chapitre5.aux) (Chapitres/chapitre6.aux)
 (Chapitres/chapitre7.aux) (Chapitres/exos.aux))
@@ -1349,14 +1358,14 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `AlgèbreLinéaire2.out' has not changed.
-(rerunfilecheck)             Checksum: 7C162A7D154509B8441B80AC24A093A4;7143.
+(rerunfilecheck)             Checksum: 44BDE278E7318D74C21C4B042742B5E9;7457.
  ) 
 Here is how much of TeX's memory you used:
- 27665 strings out of 467866
- 527857 string characters out of 5418325
+ 27680 strings out of 467866
+ 528025 string characters out of 5418325
  929020 words of memory out of 5000000
- 55744 multiletter control sequences out of 15000+600000
- 719287 words of font info for 108 fonts, out of 8000000 for 9000
+ 55747 multiletter control sequences out of 15000+600000
+ 713308 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,16n,121p,740b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
@@ -1387,9 +1396,9 @@ ls/msam7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on AlgèbreLinéaire2.pdf (54 pages, 785028 bytes).
+Output written on AlgèbreLinéaire2.pdf (56 pages, 792717 bytes).
 PDF statistics:
- 840 PDF objects out of 1000 (max. 8388607)
- 264 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 868 PDF objects out of 1000 (max. 8388607)
+ 278 named destinations out of 1000 (max. 500000)
+ 354 words of extra memory for PDF output out of 10000 (max. 10000000)
 
