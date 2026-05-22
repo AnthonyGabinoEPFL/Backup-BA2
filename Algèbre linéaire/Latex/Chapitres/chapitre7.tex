@@ -234,7 +234,107 @@
 	\]
 }
 
+\subsection{Endomorphismes nilpotents}
+On a vu que si pour $A \in \C^{n \times n}$ on pose $W_i = \ker(A - \lambda_i I_n)^{n_i}$ alors
+\[
+A_{ \mid W_i} : W_i \to W_i
+\]
+est de la norme $\lambda_i I_{n_i} + N_i$ avec $N_i$ nilpotent.
 
+\newdef{Pour $x \neq 0$, on appelle
+	\[
+	m_x = \min \{i \in \N \mid N^i(x) = 0\}
+	\]
+	la \emph{durée de vie} de $x$. De plus la séquence
+	\[
+	x, N(x), \ldots, N^{m_x -1}(x)
+	\]
+	est l'\emph{orbite} de $x$.
+}{} 
+
+\newlem{Soient $x_1, \ldots x_k \neq 0$, alors si l'ensemble des orbites est linéairement dépendant alors
+	\[
+	N^{m_1 - 1} (x_1), ~\ldots~, N^{m_k -1}(x_k)
+	\] 
+	l'est aussi.
+}{orbites linéairement dépendant}
+
+\prf{Soit 
+	\[
+	\beta_0^1 x_1 + \ldots + \beta_{m_1 -1}^1 N^{m_1 -1}(x_1) + ~\ldots~+ \beta_0^k x_k + \ldots + \beta_{m_k - 1}^k N^{m_k -1}(x_k) = 0
+	\]
+	une combinaison linéaire non-trivial de zéro. On peut alors appliquer l'application $N$ $p$-fois, où $p \geqslant 0$ est le plus grand entier tels que les termes
+	\[
+	\beta_i^j N^{p+1} (x_j) = 0
+	\]
+	ne sont pas tous égaux à zéro. Ainsi, on a trouvé un sous-ensemble $J \subset \{1, \ldots, k\}$ et des $\gamma_j \neq 0$ tels que
+	\[
+	\sum_{j \in J} \gamma_j N^{m_j -1}(x_j) = 0
+	\]
+}
+
+	
+
+\newthm{Soit $V$ un espace vectoriel sur $K$ de dimension finie et $N : V \to V$ un endomorphisme nilpotent. Alors $V$ possède une base $\mathcal B$ de la forme,
+	\[
+	x_1, N(x_1), \ldots N^{m_1 -1}(x_1), x_2, N(x_2), \ldots N^{m_2 - 1}(x_2), ~\ldots ~, x_k, N(x_k), \ldots, N^{m_k -1}(x_k)
+	\]
+	telle que $N^{m_i}(x_i) = 0$ pour tout $i$.
+}{}
+
+\prf{En concaténant les orbites des éléments d'une base de $V$ on obtient un ensemble de vecteur qui engendrent $V$. 
+	
+	Supposons alors qu'au début de l'étape $q$, nous avons un ensemble $x_1, \ldots x_k$ avec $x_1, \ldots x_k \neq 0$ dont les orbites
+	\begin{equation} \label{orbites}
+	x_1, N(x_1), \ldots N^{m_1 -1}(x_1), ~\ldots ~, x_k, N(x_k), \ldots, N^{m_k -1}(x_k)
+	\end{equation}
+	engendrent $V$ (pour la première étape il suffit de prendre $k = n$ avec des $x_i$ formant une base de $V$). Si (\ref{orbites}) est linéairement dépendant, on va alors soit supprimer un $x_i$ et son orbite (car superflus), soit remplacer un $x_i$ par un vecteur $y$ tel que
+	\begin{enumerate}
+		\item Les orbites de $x_1, \ldots, x_{i-1}, y , x_{i+1}, \ldots, x_k$ engendrent aussi l'ensemble $V$.
+		\item La somme des durées de vie de $x_1, \ldots, x_{i-1}, y , x_{i+1}, \ldots, x_k$ est strictement plus petite que la somme des durées de vie de $x_1, \ldots, x_k$
+	\end{enumerate}
+	Dès que l'ensemble (\ref{orbites}) est linéairement dépendant, il existe une combinaison linéaire non trivial de (\ref{orbites}) qui est égale à $0$, 
+	\[
+	\beta_0^1 x_1 + \ldots + \beta_{m_1 -1}^1 N^{m_1 -1}(x_1) + ~\ldots~+ \beta_0^k x_k + \ldots + \beta_{m_k - 1}^k N^{m_k -1}(x_k) = 0
+	\]
+	Or le lemme (\ref{orbites linéairement dépendant}) implique qu'il existe un sous-ensemble $J \subset \llbracket 1, k \rrbracket$ et des $\gamma_j \neq 0$ tels que
+	\[
+	\sum_{j \in J} \gamma_j N^{m_j - 1}(x_j) = 0
+	\]
+	On a alors plusieurs cas, s'il existe un $j \in J$ tel que $m_j = 1$. Dans ce cas on peut supprimer $x_j$ et les orbites des autres $x_i$ pour $i \neq j$ engendrent aussi l'ensemble $V$.
+	
+	Autrement soit $m = \min\{m_j -1 \mid j \in J\}\geqslant 1$ et soit $i \in J$ un index où le minimum est atteint. Alors
+	\[
+	0 = N^m \sum_{j \in J} \gamma_j N^{m_j -1 - m}(x_j) = N^m \left( \gamma_i x_i + \sum_{j \in J, ~j \neq i} \gamma_j N^{m_j -1 - m}(x_j) \right)
+	\]
+	Maintenant en posant
+	\[
+	y = \gamma_i x_i + \sum_{j \in J, ~j \neq i} \gamma_j N^{m_j -1 - m}(x_j)
+	\]
+	Si $y \neq 0$, on remplace $x_i$ par $y$. Il est alors facile de voir que les orbites de 
+	\[
+	x_1, \ldots, x_{i-1}, y , x_{i+1}, \ldots, x_k
+	\]
+	engendrent encore $V$. Et la durée de vie de $y$ est au plus $m < m_i$. Sinon, les orbites de 
+	\[
+	x_1, \ldots, x_{i-1}, x_{i+1}, \ldots, x_k
+	\]
+	suffisent alors à engendrer $V$.
+}
+
+\newcor{Si on inverse l'ordre de chaque orbite $x_i, N(x_i), \ldots, N^{m_i -1}(x_i)$, on obtient une base $\mathcal B'$ et la matrice $A_{\mathcal B '}^N$ de l'application $N$ a la forme
+\[
+A_{\mathcal B'}^N = \begin{pmatrix} J_1 & & & \\
+										& J_2 & & \\
+										&     & \ddots & \\
+										&     &        & J_k
+				\end{pmatrix}
+\]
+en forme normale de Jordan, où $J_i = J(0, m_i)$. Par conséquent, $\lambda I_n + N$ est représenté par
+\[
+A_{\mathcal B'}^{\lambda I_n + N} = A_{\mathcal B'}^N + \lambda I_n
+\]
+}
 
 
 

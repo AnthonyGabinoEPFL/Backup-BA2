@@ -414,3 +414,62 @@ Ainsi les facteurs $x^m - \lambda_i$ de partagent pas de racines entre eux. De p
 puisque $\lambda_i \neq 0$ car $A$ est inversible. Ainsi $p(x)$ n'admet que des racines simples. Mais comme $\mu_A$ divise $p(x)$ alors $\mu_A$ est scindé simple et donc $A$ est diagonalisable.
 }
 
+\newexo{Soit $A \in C^{n \times n}$ et soient $J$ une forme normale de Jordan de $A$ et $P$ la matrice de passage associée,
+	\begin{enumerate}
+		\item Soient $B_1, \ldots B_k$ l'ensemble des blocs de $J$ associé à une même valeurs propre $\lambda$. Montrer que 
+		\[
+		\dim \mathrm{Im}(J - \lambda I_n) = n-k
+		\]
+		\item En déduire que le nombre de blocs de $J$ associé à une valeurs propre propre $\lambda$ est égale à sa multiplicité géométrique $\dim \ker(A - \lambda I_n)$.
+		\item Montre que si $A$ diagonalisable, chaque bloc de Jordan est de taille $1$ et la décomposition $A = PJP^{-1}$ est exactement sa diagonalisation.
+	\end{enumerate}
+}{
+\begin{enumerate}
+	\item Comme $J$ est une matrice construite par bloc. On voit que
+\[
+\mathrm{rg}(J - \lambda I_n) = \sum_{B_i} \mathrm{rg}(B_i - \lambda I_{n_i})
+\]
+Si $B_i$ est un bloc de Jordan associé à $\lambda$, alors $B_i - \lambda I_{n_i} = J(0, n_i)$ et donc $\mathrm{rg}(B_i) = n_i -1$. Tandis que si $B_i$ est associé à $\mu \neq \lambda$, alors $B_i - \lambda I_{n_i} = J(\mu - \lambda, n_i)$ et donc $\mathrm{rg}(B_i - \lambda I_{n_i}) = n_i$. Alors
+\[
+\mathrm{rg}(J - \lambda I_n ) = \sum_{B_i} \mathrm{rg}(B_i - \lambda I_{n_i}) = \sum_{B_i = J(\lambda, n_i)} (n_i - 1) + \sum_{B_i = J(\mu, n_i)} n_i = n - k
+\]
+Car il y a $k$ bloc associé à $\lambda$.
+
+\item On a
+\[
+\dim \ker(A - \lambda I_n) = \dim \ker (J - \lambda I_n) = n - \mathrm{rg}(J - \lambda I_n) = k
+\]
+\item Si $A$ est diagonalisable, alors $m_{alg}(\lambda) = m_{geo}(\lambda)$ pour tout valeurs propre de $\lambda$. Alors
+\[
+\sum_{B_i = J(\lambda, n_i)} n_i = m_{alg}(\lambda) = m_{geo}(\lambda) = \sum_{B_i = J(\lambda, n_i)} 1
+\]
+Donc $n_i = 1$ pour tout bloc $B_i$ associé à $\lambda$. Comme $\lambda$ est arbitraire, tout bloc de $J$ est de taille $1$. Alors $J$ est une matrice diagonale et donc $P^{-1} A P = J$ est une diagonalisation de $A$.
+\end{enumerate}
+}
+
+
+\newexo{En utilisant la forme normale de Jordan montrer que toute matrice $A \in \C^{n \times n}$ est semblable à sa transposée $A^\top$.
+}{
+Soit $A \in \C^{n \times n}$, alors il existe une matrice $P \in \C^{n \times n}$ inversible telle que $A = P J P^{-1}$ où $J$ est une forme normale de Jordan de la matrice $A$. Alors $A^\top = P^{- \top} J P^\top$. 
+
+On commence par étudier un bloc de jordan $B_\lambda \in \C^{n_i \times n_i}$, on remarque alors que
+\[
+B_\lambda^\top = C B_\lambda C^{-1} 
+\]
+où 
+\begin{equation} \label{bloc antidiagonal}
+C = \begin{pmatrix} & & 1 \\
+					& \iddots & \\
+					1 && \\
+	\end{pmatrix}
+\end{equation}
+de plus on voit que $C^2 = I_{n_i}$. On définit alors $\tilde C \in \C^{n \times n}$ ayant des blocs de la forme (\ref{bloc antidiagonal}) sur la diagonale où la taille de ces blocs est donnée par la taille des blocs correspondants dans $J$. Ainsi on a en conclut que
+\[
+A^\top = P^{-\top} J^\top P^\top = P^{-\top} \tilde C^\top J \tilde C P^\top = P^{-\top} \tilde C P A P^{-1} \tilde C P^\top
+\]
+Donc si on pose $B = P^{-\top} \tilde C P$ on a $B^{-1} = P^{-1} \tilde C P^\top$ et donc
+\[
+A^\top = B A B^{-1}
+\]
+Ainsi $A$ est bien similaire à sa transposée $A^\top$.
+}

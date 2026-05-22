@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  19 MAY 2026 02:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  21 MAY 2026 02:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -888,6 +888,22 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box78
 \tcb@temp=\box79
 )
+(C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+)
+==> First Aid for cleveref.sty applied!
 \c@theorem=\count354
 \c@definition=\count355
 \c@lemma=\count356
@@ -898,13 +914,13 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \c@exemple=\count361
 Package french3.ldf Info: Setting StandardItemizeEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 234.
+(french3.ldf)             reported on input line 235.
 Package french3.ldf Info: Setting StandardEnumerateEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 234.
+(french3.ldf)             reported on input line 235.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23
-4.
- (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+5.
+(C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
@@ -919,283 +935,532 @@ Package babel Info: 'french' activates 'french' shorthands.
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre2.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `@cref' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre3.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `@cref' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre4.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre5.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `@cref' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre6.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre7.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `@cref' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre8.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre9.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre10.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `@cref' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre11.aux))
 \openout1 = `Analyse2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Info: Redefining \degres on input line 234.
-Package hyperref Info: Link coloring ON on input line 234.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Info: Redefining \degres on input line 235.
+Package hyperref Info: Link coloring ON on input line 235.
  (Analyse2.out) (Analyse2.out)
 \@outlinefile=\write4
 \openout4 = `Analyse2.out'.
@@ -1264,51 +1529,51 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <images/logo-epfl.png, id=206, 1927.2pt x 1084.05pt>
 File: images/logo-epfl.png Graphic file (type png)
 <use images/logo-epfl.png>
-Package pdftex.def Info: images/logo-epfl.png  used on input line 242.
+Package pdftex.def Info: images/logo-epfl.png  used on input line 243.
 (pdftex.def)             Requested size: 164.41711pt x 92.48212pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-71.
+72.
  (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-71.
+72.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-271.
+272.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-271.
+272.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 271.
+(Font)              <10> on input line 272.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 271.
+(Font)              <7> on input line 272.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 271.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 271
+(Font)              <5> on input line 272.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 272
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 271
+LaTeX Font Info:    Trying to load font information for U+msb on input line 272
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-71.
+72.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [1
@@ -1323,19 +1588,48 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 ...onctions intégrables}{56}{subsection.9.5}
+l.49 ...ctions intégrables}{58}{subsection.0.9.5}
                                                   % [1
 
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
-])
+]
+Overfull \hbox (5.44446pt too wide) detected at line 54
+\T1/lmr/bx/n/10 0.10 
+ []
+
+
+Overfull \hbox (2.55548pt too wide) detected at line 55
+\T1/lmr/m/n/10 0.10.1 
+ []
+
+
+Overfull \hbox (2.55548pt too wide) detected at line 56
+\T1/lmr/m/n/10 0.10.2 
+ []
+
+
+Overfull \hbox (2.55548pt too wide) detected at line 57
+\T1/lmr/m/n/10 0.10.3 
+ []
+
+
+Overfull \hbox (2.55548pt too wide) detected at line 58
+\T1/lmr/m/n/10 0.10.4 
+ []
+
+
+Overfull \hbox (5.44446pt too wide) detected at line 61
+\T1/lmr/bx/n/10 0.11 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `Analyse2.toc'.
 
  [2]
 \openout2 = `Chapitres/chapitre1.aux'.
 
-
-(Chapitres/chapitre1.tex [3
+ (Chapitres/chapitre1.tex [3
 
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
@@ -1398,7 +1692,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 206.
 
-<images/boules.png, id=353, 1072.005pt x 292.09125pt>
+<images/boules.png, id=367, 1072.005pt x 292.09125pt>
 File: images/boules.png Graphic file (type png)
 <use images/boules.png>
 Package pdftex.def Info: images/boules.png  used on input line 221.
@@ -1671,55 +1965,341 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `Analyse2.out' has not changed.
-(rerunfilecheck)             Checksum: 4B0AB97495DC6DF973EA9CB39C1E42AC;11797.
+
+Package rerunfilecheck Warning: File `Analyse2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Analyse2.out':
+(rerunfilecheck)             Before: CD38A7A11CFE53C1A05457C287C37C15;11975
+(rerunfilecheck)             After:  4B0AB97495DC6DF973EA9CB39C1E42AC;11797.
  ) 
 Here is how much of TeX's memory you used:
- 28533 strings out of 467866
- 545571 string characters out of 5418325
- 934863 words of memory out of 5000000
- 56458 multiletter control sequences out of 15000+600000
+ 30284 strings out of 467866
+ 586658 string characters out of 5418325
+ 993654 words of memory out of 5000000
+ 58134 multiletter control sequences out of 15000+600000
  733943 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,15n,121p,692b,764s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\gabin\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600\bbm10
-.pk><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmbsy10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmib10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cmextra/cmmib5.pfb><C:/Users/gabin/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users/gabin/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/gabin/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/gabin/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/gabin/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/gabin/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/gabin/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/gabin/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/gabin/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/gabin/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/gabin/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/gabin/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/gabin/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/gabin/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/gabin/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/gabin/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/gabin/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/gabin/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/gabin/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/gabin/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/gabin/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/gabin/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/gabin/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gabin
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C
-:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/hoekwater/stmary10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/hoekwater/stmary7.pfb>
-Output written on Analyse2.pdf (82 pages, 1028958 bytes).
+ 116i,15n,121p,692b,752s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{theorem.0.10.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{theorem.0.10.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{theorem.0.9.8} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{theorem.0.9.5} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lemma.0.9.6} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{theorem.0.9.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{theorem.0.8.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{definition.0.8.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lemma.0.7.4} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lemma.0.7.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{theorem.0.4.5} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{theorem.0.3.8} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{theorem.0.3.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lemma.0.2.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{proposition.0.2.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lemma.0.2.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{definition.0.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{definition.0.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lemma.0.2.1} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lemma.0.1.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.10.4} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.10.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.10.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.10.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.9.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.9.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.9.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.9.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.9.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.9.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.9.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.9.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.9} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.8.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.8.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.8.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.8.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.8} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.7.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.7.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.7.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.7.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.7} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.6.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.6.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.6.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.6} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.5.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.5.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.5.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.5} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.4} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.0.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.0.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\gabin\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600\bbm10.p
+k><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbsy10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmib10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cmextra/cmmib5.pfb><C:/Users/gabin/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users/gabin/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/gabin/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/gabin/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/gabin/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/gabin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/gabin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/gabin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/gabin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/gabin/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/gabin/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/gabin/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/gabin/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/gabin/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/gabin/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/gabin/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/gabin/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/gabin/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/gabin/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/gabin/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/gabin/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/gabin/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/gabin/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/gabin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/
+Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/m
+sbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/hoekwater/stmary10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/hoekwater/stmary7.pfb>
+Output written on Analyse2.pdf (82 pages, 1036381 bytes).
 PDF statistics:
- 1128 PDF objects out of 1200 (max. 8388607)
- 372 named destinations out of 1000 (max. 500000)
+ 1213 PDF objects out of 1440 (max. 8388607)
+ 442 named destinations out of 1000 (max. 500000)
  423 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  13 MAY 2026 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  20 MAY 2026 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -375,23 +375,47 @@ Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-(C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+)
+==> First Aid for cleveref.sty applied!
 
+(C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/mathdots\mathdots.sty
+Package: mathdots 2014/06/11 v0.9 Improve and add various macros for dots in ma
+th.
+\MDo@unit=\dimen182
+\MDo@dotsbox=\box57
+\MDoprekern=\muskip19
+\MDopostkern=\muskip20
+\MDodotkern=\muskip21
+) (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count317
 \Gm@cntv=\count318
 \c@Gm@tempcnt=\count319
-\Gm@bindingoffset=\dimen182
-\Gm@wd@mp=\dimen183
-\Gm@odd@mp=\dimen184
-\Gm@even@mp=\dimen185
-\Gm@layoutwidth=\dimen186
-\Gm@layoutheight=\dimen187
-\Gm@layouthoffset=\dimen188
-\Gm@layoutvoffset=\dimen189
+\Gm@bindingoffset=\dimen183
+\Gm@wd@mp=\dimen184
+\Gm@odd@mp=\dimen185
+\Gm@even@mp=\dimen186
+\Gm@layoutwidth=\dimen187
+\Gm@layoutheight=\dimen188
+\Gm@layouthoffset=\dimen189
+\Gm@layoutvoffset=\dimen190
 \Gm@dimlist=\toks35
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
@@ -460,20 +484,20 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@cmds=\toks40
 \SOUL@buffer=\toks41
 \SOUL@token=\toks42
-\SOUL@syllgoal=\dimen190
-\SOUL@syllwidth=\dimen191
-\SOUL@charkern=\dimen192
-\SOUL@hyphkern=\dimen193
-\SOUL@dimen=\dimen194
-\SOUL@dimeni=\dimen195
+\SOUL@syllgoal=\dimen191
+\SOUL@syllwidth=\dimen192
+\SOUL@charkern=\dimen193
+\SOUL@hyphkern=\dimen194
+\SOUL@dimen=\dimen195
+\SOUL@dimeni=\dimen196
 \SOUL@minus=\count320
 \SOUL@comma=\count321
 \SOUL@apo=\count322
 \SOUL@grave=\count323
 \SOUL@spaceskip=\skip74
-\SOUL@ttwidth=\dimen196
-\SOUL@uldp=\dimen197
-\SOUL@ulht=\dimen198
+\SOUL@ttwidth=\dimen197
+\SOUL@uldp=\dimen198
+\SOUL@ulht=\dimen199
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
@@ -481,28 +505,28 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count324
 \float@exts=\toks43
-\float@box=\box57
+\float@box=\box58
 \@float@everytoks=\toks44
-\@floatcapt=\box58
+\@floatcapt=\box59
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box59
+\ttl@box=\box60
 \beforetitleunit=\skip75
 \aftertitleunit=\skip76
-\ttl@plus=\dimen199
-\ttl@minus=\dimen256
+\ttl@plus=\dimen256
+\ttl@minus=\dimen257
 \ttl@toksa=\toks45
-\titlewidth=\dimen257
-\titlewidthlast=\dimen258
-\titlewidthfirst=\dimen259
+\titlewidth=\dimen258
+\titlewidthlast=\dimen259
+\titlewidthfirst=\dimen260
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip77
-\enit@outerparindent=\dimen260
+\enit@outerparindent=\dimen261
 \enit@toks=\toks46
-\enit@inbox=\box60
+\enit@inbox=\box61
 \enit@count@id=\count325
 \enitdp@description=\count326
 )
@@ -517,12 +541,12 @@ y
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
 \pgfutil@everybye=\toks47
-\pgfutil@tempdima=\dimen261
-\pgfutil@tempdimb=\dimen262
+\pgfutil@tempdima=\dimen262
+\pgfutil@tempdimb=\dimen263
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box61
+\pgfutil@abb=\box62
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
@@ -551,8 +575,8 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen263
-\Gin@req@width=\dimen264
+\Gin@req@height=\dimen264
+\Gin@req@width=\dimen265
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
 sty
@@ -569,16 +593,16 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 libraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks50
 ))
-\pgf@x=\dimen265
-\pgf@y=\dimen266
-\pgf@xa=\dimen267
-\pgf@ya=\dimen268
-\pgf@xb=\dimen269
-\pgf@yb=\dimen270
-\pgf@xc=\dimen271
-\pgf@yc=\dimen272
-\pgf@xd=\dimen273
-\pgf@yd=\dimen274
+\pgf@x=\dimen266
+\pgf@y=\dimen267
+\pgf@xa=\dimen268
+\pgf@ya=\dimen269
+\pgf@xb=\dimen270
+\pgf@yb=\dimen271
+\pgf@xc=\dimen272
+\pgf@yc=\dimen273
+\pgf@xd=\dimen274
+\pgf@yd=\dimen275
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count327
@@ -642,9 +666,9 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 code.tex)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen275
+\pgfmath@dimen=\dimen276
 \pgfmath@count=\count334
-\pgfmath@box=\box62
+\pgfmath@box=\box63
 \pgfmath@toks=\toks54
 \pgfmath@stack@operand=\toks55
 \pgfmath@stack@operation=\toks56
@@ -678,52 +702,52 @@ tex)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen276
-\pgf@picmaxx=\dimen277
-\pgf@picminy=\dimen278
-\pgf@picmaxy=\dimen279
-\pgf@pathminx=\dimen280
-\pgf@pathmaxx=\dimen281
-\pgf@pathminy=\dimen282
-\pgf@pathmaxy=\dimen283
-\pgf@xx=\dimen284
-\pgf@xy=\dimen285
-\pgf@yx=\dimen286
-\pgf@yy=\dimen287
-\pgf@zx=\dimen288
-\pgf@zy=\dimen289
+\pgf@picminx=\dimen277
+\pgf@picmaxx=\dimen278
+\pgf@picminy=\dimen279
+\pgf@picmaxy=\dimen280
+\pgf@pathminx=\dimen281
+\pgf@pathmaxx=\dimen282
+\pgf@pathminy=\dimen283
+\pgf@pathmaxy=\dimen284
+\pgf@xx=\dimen285
+\pgf@xy=\dimen286
+\pgf@yx=\dimen287
+\pgf@yy=\dimen288
+\pgf@zx=\dimen289
+\pgf@zy=\dimen290
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen290
-\pgf@path@lasty=\dimen291
+\pgf@path@lastx=\dimen291
+\pgf@path@lasty=\dimen292
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen292
-\pgf@shorten@start@additional=\dimen293
+\pgf@shorten@end@additional=\dimen293
+\pgf@shorten@start@additional=\dimen294
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box63
-\pgf@hbox=\box64
-\pgf@layerbox@main=\box65
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
 \pgf@picture@serial@count=\count336
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen294
+\pgflinewidth=\dimen295
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen295
-\pgf@pt@y=\dimen296
-\pgf@pt@temp=\dimen297
+\pgf@pt@x=\dimen296
+\pgf@pt@y=\dimen297
+\pgf@pt@temp=\dimen298
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 equick.code.tex
@@ -740,12 +764,12 @@ File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen298
+\pgfarrowsep=\dimen299
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen299
+\pgf@max=\dimen300
 \pgf@sys@shading@range@num=\count337
 \pgf@shadingcount=\count338
 )
@@ -756,7 +780,7 @@ File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box66
+\pgfexternal@startupbox=\box67
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -777,7 +801,7 @@ File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box67
+\pgfnodeparttextbox=\box68
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -786,8 +810,8 @@ File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen300
-\pgf@nodesepend=\dimen301
+\pgf@nodesepstart=\dimen301
+\pgf@nodesepend=\dimen302
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
@@ -805,8 +829,8 @@ ty
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
 code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen302
-\pgffor@skip=\dimen303
+\pgffor@iter=\dimen303
+\pgffor@skip=\dimen304
 \pgffor@stack=\toks57
 \pgffor@toks=\toks58
 ))
@@ -818,20 +842,20 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count339
-\pgfplotmarksize=\dimen304
+\pgfplotmarksize=\dimen305
 )
-\tikz@lastx=\dimen305
-\tikz@lasty=\dimen306
-\tikz@lastxsaved=\dimen307
-\tikz@lastysaved=\dimen308
-\tikz@lastmovetox=\dimen309
-\tikz@lastmovetoy=\dimen310
-\tikzleveldistance=\dimen311
-\tikzsiblingdistance=\dimen312
-\tikz@figbox=\box68
-\tikz@figbox@bg=\box69
-\tikz@tempbox=\box70
-\tikz@tempbox@bg=\box71
+\tikz@lastx=\dimen306
+\tikz@lasty=\dimen307
+\tikz@lastxsaved=\dimen308
+\tikz@lastysaved=\dimen309
+\tikz@lastmovetox=\dimen310
+\tikz@lastmovetoy=\dimen311
+\tikzleveldistance=\dimen312
+\tikzsiblingdistance=\dimen313
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
 \tikztreelevel=\count340
 \tikznumberofchildren=\count341
 \tikznumberofcurrentchild=\count342
@@ -863,19 +887,19 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 ty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box72
-\tcb@upperbox=\box73
-\tcb@lowerbox=\box74
-\tcb@phantombox=\box75
+\tcb@titlebox=\box73
+\tcb@upperbox=\box74
+\tcb@lowerbox=\box75
+\tcb@phantombox=\box76
 \c@tcbbreakpart=\count348
 \c@tcblayer=\count349
 \c@tcolorbox@number=\count350
-\l__tcobox_tmpa_box=\box76
-\l__tcobox_tmpa_dim=\dimen313
-\tcb@temp=\box77
+\l__tcobox_tmpa_box=\box77
+\l__tcobox_tmpa_dim=\dimen314
 \tcb@temp=\box78
 \tcb@temp=\box79
 \tcb@temp=\box80
+\tcb@temp=\box81
 )
 \c@theorem=\count351
 \c@definition=\count352
@@ -887,12 +911,12 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \c@exemple=\count358
 Package french3.ldf Info: Setting StandardItemizeEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 234.
+(french3.ldf)             reported on input line 235.
 Package french3.ldf Info: Setting StandardEnumerateEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 234.
+(french3.ldf)             reported on input line 235.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23
-4.
+5.
  (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -908,205 +932,391 @@ Package babel Info: 'french' activates 'french' shorthands.
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre2.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre3.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre4.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `@cref' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre5.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `@cref' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre6.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
+LaTeX Warning: Label `@cref' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/chapitre7.aux
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `@cref' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
 
 ) (Chapitres/exos.aux))
 \openout1 = `AlgèbreLinéaire2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 234.
-LaTeX Font Info:    ... okay on input line 234.
-LaTeX Info: Redefining \degres on input line 234.
-Package hyperref Info: Link coloring ON on input line 234.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 235.
+LaTeX Font Info:    ... okay on input line 235.
+LaTeX Info: Redefining \degres on input line 235.
+Package hyperref Info: Link coloring ON on input line 235.
  (AlgèbreLinéaire2.out) (AlgèbreLinéaire2.out)
 \@outlinefile=\write4
 \openout4 = `AlgèbreLinéaire2.out'.
@@ -1151,13 +1361,13 @@ Package hyperref Info: Link coloring ON on input line 234.
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count360
-\scratchdimen=\dimen314
-\scratchbox=\box81
+\scratchdimen=\dimen315
+\scratchbox=\box82
 \nofMPsegments=\count361
 \nofMParguments=\count362
 \everyMPshowfont=\toks61
 \MPscratchCnt=\count363
-\MPscratchDim=\dimen315
+\MPscratchDim=\dimen316
 \MPnumerator=\count364
 \makeMPintoPDFobject=\count365
 \everyMPtoPDFconversion=\toks62
@@ -1172,54 +1382,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<images/logo-epfl.png, id=174, 1927.2pt x 1084.05pt>
+<images/logo-epfl.png, id=178, 1927.2pt x 1084.05pt>
 File: images/logo-epfl.png Graphic file (type png)
 <use images/logo-epfl.png>
-Package pdftex.def Info: images/logo-epfl.png  used on input line 242.
+Package pdftex.def Info: images/logo-epfl.png  used on input line 243.
 (pdftex.def)             Requested size: 164.41711pt x 92.48212pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-71.
+72.
  (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-71.
+72.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-271.
+272.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-271.
+272.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 271.
+(Font)              <10> on input line 272.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 271.
+(Font)              <7> on input line 272.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 271.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 271
+(Font)              <5> on input line 272.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 272
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 271
+LaTeX Font Info:    Trying to load font information for U+msb on input line 272
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-71.
+72.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [1
@@ -1234,7 +1444,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 ...ine {8.11}Semaine 11}{55}{subsection.8.11}
+l.44 ...ine {8.10}Semaine 10}{55}{subsection.8.10}
                                                   % [1
 
 ])
@@ -1328,27 +1538,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 299--299
 
 
 
-] [39] [40] [41]) [42]
+] [39] [40] [41] [42] [43]) [44]
 \openout2 = `Chapitres/exos.aux'.
 
- (Chapitres/exos.tex [43
+ (Chapitres/exos.tex [45
 
 
 
-] [44]
+] [46]
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
 
  []
 
-[45]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 189--189
 
  []
 
-[46] [47] [48] [49] [50] [51] [52] [53] [54] [55]) (AlgèbreLinéaire2.aux
-(Chapitres/chapitre1.aux) (Chapitres/chapitre2.aux) (Chapitres/chapitre3.aux)
-(Chapitres/chapitre4.aux) (Chapitres/chapitre5.aux) (Chapitres/chapitre6.aux)
-(Chapitres/chapitre7.aux) (Chapitres/exos.aux))
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
+
+ []
+
+[58] [59]) (AlgèbreLinéaire2.aux (Chapitres/chapitre1.aux)
+(Chapitres/chapitre2.aux) (Chapitres/chapitre3.aux) (Chapitres/chapitre4.aux)
+(Chapitres/chapitre5.aux) (Chapitres/chapitre6.aux) (Chapitres/chapitre7.aux)
+(Chapitres/exos.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1358,16 +1573,16 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `AlgèbreLinéaire2.out' has not changed.
-(rerunfilecheck)             Checksum: 44BDE278E7318D74C21C4B042742B5E9;7457.
+(rerunfilecheck)             Checksum: 51F4EC644FCB3CB07370B2B9B820F7E3;7643.
  ) 
 Here is how much of TeX's memory you used:
- 27680 strings out of 467866
- 528025 string characters out of 5418325
- 929020 words of memory out of 5000000
- 55747 multiletter control sequences out of 15000+600000
+ 29439 strings out of 467866
+ 568710 string characters out of 5418325
+ 958875 words of memory out of 5000000
+ 57475 multiletter control sequences out of 15000+600000
  713308 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,16n,121p,740b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,19n,121p,740b,721s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb
@@ -1396,9 +1611,9 @@ ls/msam7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on AlgèbreLinéaire2.pdf (56 pages, 792717 bytes).
+Output written on AlgèbreLinéaire2.pdf (60 pages, 816648 bytes).
 PDF statistics:
- 868 PDF objects out of 1000 (max. 8388607)
- 278 named destinations out of 1000 (max. 500000)
- 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 300 named destinations out of 1000 (max. 500000)
+ 362 words of extra memory for PDF output out of 10000 (max. 10000000)
 
