@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  22 MAY 2026 07:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  25 MAY 2026 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,24 +437,32 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \l__siunitx_sexagesimal_marker_box=\box64
 \l__siunitx_sexagesimal_unit_box=\box65
 )
+(C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen188
+\WF@size=\dimen189
+\c@WF@wrappedlines=\count332
+\WF@box=\box66
+\WF@everypar=\toks35
+Package: wrapfig 2003/01/31  v 3.6
+)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count332
-\Gm@cntv=\count333
-\c@Gm@tempcnt=\count334
-\Gm@bindingoffset=\dimen188
-\Gm@wd@mp=\dimen189
-\Gm@odd@mp=\dimen190
-\Gm@even@mp=\dimen191
-\Gm@layoutwidth=\dimen192
-\Gm@layoutheight=\dimen193
-\Gm@layouthoffset=\dimen194
-\Gm@layoutvoffset=\dimen195
-\Gm@dimlist=\toks35
+\Gm@cnth=\count333
+\Gm@cntv=\count334
+\c@Gm@tempcnt=\count335
+\Gm@bindingoffset=\dimen190
+\Gm@wd@mp=\dimen191
+\Gm@odd@mp=\dimen192
+\Gm@even@mp=\dimen193
+\Gm@layoutwidth=\dimen194
+\Gm@layoutheight=\dimen195
+\Gm@layouthoffset=\dimen196
+\Gm@layoutvoffset=\dimen197
+\Gm@dimlist=\toks36
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
@@ -509,64 +517,64 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip71
 \f@nch@widthC=\skip72
 \f@nch@widthR=\skip73
-\@temptokenb=\toks36
+\@temptokenb=\toks37
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
 Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
 Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
-\SOUL@word=\toks37
-\SOUL@lasttoken=\toks38
-\SOUL@syllable=\toks39
-\SOUL@cmds=\toks40
-\SOUL@buffer=\toks41
-\SOUL@token=\toks42
-\SOUL@syllgoal=\dimen196
-\SOUL@syllwidth=\dimen197
-\SOUL@charkern=\dimen198
-\SOUL@hyphkern=\dimen199
-\SOUL@dimen=\dimen256
-\SOUL@dimeni=\dimen257
-\SOUL@minus=\count335
-\SOUL@comma=\count336
-\SOUL@apo=\count337
-\SOUL@grave=\count338
+\SOUL@word=\toks38
+\SOUL@lasttoken=\toks39
+\SOUL@syllable=\toks40
+\SOUL@cmds=\toks41
+\SOUL@buffer=\toks42
+\SOUL@token=\toks43
+\SOUL@syllgoal=\dimen198
+\SOUL@syllwidth=\dimen199
+\SOUL@charkern=\dimen256
+\SOUL@hyphkern=\dimen257
+\SOUL@dimen=\dimen258
+\SOUL@dimeni=\dimen259
+\SOUL@minus=\count336
+\SOUL@comma=\count337
+\SOUL@apo=\count338
+\SOUL@grave=\count339
 \SOUL@spaceskip=\skip74
-\SOUL@ttwidth=\dimen258
-\SOUL@uldp=\dimen259
-\SOUL@ulht=\dimen260
+\SOUL@ttwidth=\dimen260
+\SOUL@uldp=\dimen261
+\SOUL@ulht=\dimen262
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count339
-\float@exts=\toks43
-\float@box=\box66
-\@float@everytoks=\toks44
-\@floatcapt=\box67
+\c@float@type=\count340
+\float@exts=\toks44
+\float@box=\box67
+\@float@everytoks=\toks45
+\@floatcapt=\box68
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box68
+\ttl@box=\box69
 \beforetitleunit=\skip75
 \aftertitleunit=\skip76
-\ttl@plus=\dimen261
-\ttl@minus=\dimen262
-\ttl@toksa=\toks45
-\titlewidth=\dimen263
-\titlewidthlast=\dimen264
-\titlewidthfirst=\dimen265
+\ttl@plus=\dimen263
+\ttl@minus=\dimen264
+\ttl@toksa=\toks46
+\titlewidth=\dimen265
+\titlewidthlast=\dimen266
+\titlewidthfirst=\dimen267
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip77
-\enit@outerparindent=\dimen266
-\enit@toks=\toks46
-\enit@inbox=\box69
-\enit@count@id=\count340
-\enitdp@description=\count341
+\enit@outerparindent=\dimen268
+\enit@toks=\toks47
+\enit@inbox=\box70
+\enit@count@id=\count341
+\enitdp@description=\count342
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
@@ -578,13 +586,13 @@ sty
 y
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks47
-\pgfutil@tempdima=\dimen267
-\pgfutil@tempdimb=\dimen268
+\pgfutil@everybye=\toks48
+\pgfutil@tempdima=\dimen269
+\pgfutil@tempdimb=\dimen270
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box70
+\pgfutil@abb=\box71
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
@@ -613,8 +621,8 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen269
-\Gin@req@width=\dimen270
+\Gin@req@height=\dimen271
+\Gin@req@width=\dimen272
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
 sty
@@ -624,33 +632,33 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks48
-\pgfkeys@temptoks=\toks49
+\pgfkeys@pathtoks=\toks49
+\pgfkeys@temptoks=\toks50
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks50
+\pgfkeys@tmptoks=\toks51
 ))
-\pgf@x=\dimen271
-\pgf@y=\dimen272
-\pgf@xa=\dimen273
-\pgf@ya=\dimen274
-\pgf@xb=\dimen275
-\pgf@yb=\dimen276
-\pgf@xc=\dimen277
-\pgf@yc=\dimen278
-\pgf@xd=\dimen279
-\pgf@yd=\dimen280
+\pgf@x=\dimen273
+\pgf@y=\dimen274
+\pgf@xa=\dimen275
+\pgf@ya=\dimen276
+\pgf@xb=\dimen277
+\pgf@yb=\dimen278
+\pgf@xc=\dimen279
+\pgf@yc=\dimen280
+\pgf@xd=\dimen281
+\pgf@yd=\dimen282
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count342
-\c@pgf@countb=\count343
-\c@pgf@countc=\count344
-\c@pgf@countd=\count345
-\t@pgf@toka=\toks51
-\t@pgf@tokb=\toks52
-\t@pgf@tokc=\toks53
-\pgf@sys@id@count=\count346
+\c@pgf@counta=\count343
+\c@pgf@countb=\count344
+\c@pgf@countc=\count345
+\c@pgf@countd=\count346
+\t@pgf@toka=\toks52
+\t@pgf@tokb=\toks53
+\t@pgf@tokc=\toks54
+\pgf@sys@id@count=\count347
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -669,8 +677,8 @@ File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count347
-\pgfsyssoftpath@bigbuffer@items=\count348
+\pgfsyssoftpath@smallbuffer@items=\count348
+\pgfsyssoftpath@bigbuffer@items=\count349
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -704,12 +712,12 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 code.tex)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen281
-\pgfmath@count=\count349
-\pgfmath@box=\box71
-\pgfmath@toks=\toks54
-\pgfmath@stack@operand=\toks55
-\pgfmath@stack@operation=\toks56
+\pgfmath@dimen=\dimen283
+\pgfmath@count=\count350
+\pgfmath@box=\box72
+\pgfmath@toks=\toks55
+\pgfmath@stack@operand=\toks56
+\pgfmath@stack@operation=\toks57
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex)
@@ -733,59 +741,59 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count350
+\c@pgfmathroundto@lastzeros=\count351
 ))
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen282
-\pgf@picmaxx=\dimen283
-\pgf@picminy=\dimen284
-\pgf@picmaxy=\dimen285
-\pgf@pathminx=\dimen286
-\pgf@pathmaxx=\dimen287
-\pgf@pathminy=\dimen288
-\pgf@pathmaxy=\dimen289
-\pgf@xx=\dimen290
-\pgf@xy=\dimen291
-\pgf@yx=\dimen292
-\pgf@yy=\dimen293
-\pgf@zx=\dimen294
-\pgf@zy=\dimen295
+\pgf@picminx=\dimen284
+\pgf@picmaxx=\dimen285
+\pgf@picminy=\dimen286
+\pgf@picmaxy=\dimen287
+\pgf@pathminx=\dimen288
+\pgf@pathmaxx=\dimen289
+\pgf@pathminy=\dimen290
+\pgf@pathmaxy=\dimen291
+\pgf@xx=\dimen292
+\pgf@xy=\dimen293
+\pgf@yx=\dimen294
+\pgf@yy=\dimen295
+\pgf@zx=\dimen296
+\pgf@zy=\dimen297
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen296
-\pgf@path@lasty=\dimen297
+\pgf@path@lastx=\dimen298
+\pgf@path@lasty=\dimen299
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen298
-\pgf@shorten@start@additional=\dimen299
+\pgf@shorten@end@additional=\dimen300
+\pgf@shorten@start@additional=\dimen301
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box72
-\pgf@hbox=\box73
-\pgf@layerbox@main=\box74
-\pgf@picture@serial@count=\count351
+\pgfpic=\box73
+\pgf@hbox=\box74
+\pgf@layerbox@main=\box75
+\pgf@picture@serial@count=\count352
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen300
+\pgflinewidth=\dimen302
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen301
-\pgf@pt@y=\dimen302
-\pgf@pt@temp=\dimen303
+\pgf@pt@x=\dimen303
+\pgf@pt@y=\dimen304
+\pgf@pt@temp=\dimen305
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 equick.code.tex
@@ -802,14 +810,14 @@ File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen304
+\pgfarrowsep=\dimen306
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen305
-\pgf@sys@shading@range@num=\count352
-\pgf@shadingcount=\count353
+\pgf@max=\dimen307
+\pgf@sys@shading@range@num=\count353
+\pgf@shadingcount=\count354
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -818,7 +826,7 @@ File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box75
+\pgfexternal@startupbox=\box76
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -839,7 +847,7 @@ File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box76
+\pgfnodeparttextbox=\box77
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -848,8 +856,8 @@ File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen306
-\pgf@nodesepend=\dimen307
+\pgf@nodesepstart=\dimen308
+\pgf@nodesepend=\dimen309
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
@@ -867,10 +875,10 @@ ty
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
 code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen308
-\pgffor@skip=\dimen309
-\pgffor@stack=\toks57
-\pgffor@toks=\toks58
+\pgffor@iter=\dimen310
+\pgffor@skip=\dimen311
+\pgffor@stack=\toks58
+\pgffor@toks=\toks59
 ))
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -879,34 +887,34 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count354
-\pgfplotmarksize=\dimen310
+\pgf@plot@mark@count=\count355
+\pgfplotmarksize=\dimen312
 )
-\tikz@lastx=\dimen311
-\tikz@lasty=\dimen312
-\tikz@lastxsaved=\dimen313
-\tikz@lastysaved=\dimen314
-\tikz@lastmovetox=\dimen315
-\tikz@lastmovetoy=\dimen316
-\tikzleveldistance=\dimen317
-\tikzsiblingdistance=\dimen318
-\tikz@figbox=\box77
-\tikz@figbox@bg=\box78
-\tikz@tempbox=\box79
-\tikz@tempbox@bg=\box80
-\tikztreelevel=\count355
-\tikznumberofchildren=\count356
-\tikznumberofcurrentchild=\count357
-\tikz@fig@count=\count358
+\tikz@lastx=\dimen313
+\tikz@lasty=\dimen314
+\tikz@lastxsaved=\dimen315
+\tikz@lastysaved=\dimen316
+\tikz@lastmovetox=\dimen317
+\tikz@lastmovetoy=\dimen318
+\tikzleveldistance=\dimen319
+\tikzsiblingdistance=\dimen320
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count356
+\tikznumberofchildren=\count357
+\tikznumberofcurrentchild=\count358
+\tikz@fig@count=\count359
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count359
-\pgfmatrixcurrentcolumn=\count360
-\pgf@matrix@numberofcolumns=\count361
+\pgfmatrixcurrentrow=\count360
+\pgfmatrixcurrentcolumn=\count361
+\pgf@matrix@numberofcolumns=\count362
 )
-\tikz@expandcount=\count362
+\tikz@expandcount=\count363
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -914,8 +922,8 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks59
-\verbatim@line=\toks60
+\every@verbatim=\toks60
+\verbatim@line=\toks61
 \verbatim@in@stream=\read4
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
@@ -925,48 +933,49 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 ty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box81
-\tcb@upperbox=\box82
-\tcb@lowerbox=\box83
-\tcb@phantombox=\box84
-\c@tcbbreakpart=\count363
-\c@tcblayer=\count364
-\c@tcolorbox@number=\count365
-\l__tcobox_tmpa_box=\box85
-\l__tcobox_tmpa_dim=\dimen319
-\tcb@temp=\box86
+\tcb@titlebox=\box82
+\tcb@upperbox=\box83
+\tcb@lowerbox=\box84
+\tcb@phantombox=\box85
+\c@tcbbreakpart=\count364
+\c@tcblayer=\count365
+\c@tcolorbox@number=\count366
+\l__tcobox_tmpa_box=\box86
+\l__tcobox_tmpa_dim=\dimen321
 \tcb@temp=\box87
 \tcb@temp=\box88
 \tcb@temp=\box89
+\tcb@temp=\box90
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen320
-\captionmargin=\dimen321
-\caption@leftmargin=\dimen322
-\caption@rightmargin=\dimen323
-\caption@width=\dimen324
-\caption@indent=\dimen325
-\caption@parindent=\dimen326
-\caption@hangindent=\dimen327
+\caption@tempdima=\dimen322
+\captionmargin=\dimen323
+\caption@leftmargin=\dimen324
+\caption@rightmargin=\dimen325
+\caption@width=\dimen326
+\caption@indent=\dimen327
+\caption@parindent=\dimen328
+\caption@hangindent=\dimen329
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count366
-\c@continuedfloat=\count367
+\c@caption@flags=\count367
+\c@continuedfloat=\count368
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
 )
 Package french3.ldf Info: Setting StandardItemizeEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 70.
+(french3.ldf)             reported on input line 71.
 Package french3.ldf Info: Setting StandardEnumerateEnv=true for
 (french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 70.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
+(french3.ldf)             reported on input line 71.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 71
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
@@ -975,33 +984,33 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count368
+\l__color_backend_stack_int=\count369
 ) (physique2.aux
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported on input line 11.
 )
 \openout1 = `physique2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Info: Redefining \degres on input line 70.
-Package hyperref Info: Link coloring ON on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Info: Redefining \degres on input line 71.
+Package hyperref Info: Link coloring ON on input line 71.
  (physique2.out) (physique2.out)
 \@outlinefile=\write4
 \openout4 = `physique2.out'.
@@ -1013,7 +1022,7 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 70.
+or `french'. on input line 71.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1053,17 +1062,17 @@ or `french'. on input line 70.
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count369
-\scratchdimen=\dimen328
-\scratchbox=\box90
-\nofMPsegments=\count370
-\nofMParguments=\count371
-\everyMPshowfont=\toks61
-\MPscratchCnt=\count372
-\MPscratchDim=\dimen329
-\MPnumerator=\count373
-\makeMPintoPDFobject=\count374
-\everyMPtoPDFconversion=\toks62
+\scratchcounter=\count370
+\scratchdimen=\dimen330
+\scratchbox=\box91
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen331
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks63
 )
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1077,54 +1086,54 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<logo-epfl.png, id=178, 1927.2pt x 1084.05pt>
+<logo-epfl.png, id=194, 1927.2pt x 1084.05pt>
 File: logo-epfl.png Graphic file (type png)
 <use logo-epfl.png>
-Package pdftex.def Info: logo-epfl.png  used on input line 77.
+Package pdftex.def Info: logo-epfl.png  used on input line 78.
 (pdftex.def)             Requested size: 164.41711pt x 92.48212pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-06.
+07.
  (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-06.
+07.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-106.
+107.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-106.
+107.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 106.
+(Font)              <10> on input line 107.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 106.
+(Font)              <7> on input line 107.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 106.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 106
+(Font)              <5> on input line 107.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 107
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 106
+LaTeX Font Info:    Trying to load font information for U+msb on input line 107
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
-06.
+07.
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [1
@@ -1150,155 +1159,155 @@ Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}])
 
  [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 146.
+(Font)              <12> on input line 147.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 146.
+(Font)              <8> on input line 147.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 146.
+(Font)              <6> on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `math shift' on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\nabla' on input line 146.
+(hyperref)                removing `\nabla' on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `math shift' on input line 147.
 
 [3
 
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}
 ] [4]
-<images/pression-hydrostatique.png, id=258, 413.29407pt x 406.51875pt>
+<images/pression-hydrostatique.png, id=278, 413.29407pt x 406.51875pt>
 File: images/pression-hydrostatique.png Graphic file (type png)
 <use images/pression-hydrostatique.png>
 Package pdftex.def Info: images/pression-hydrostatique.png  used on input line 
-245.
+246.
 (pdftex.def)             Requested size: 150.31987pt x 147.85394pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 246.
+(caption)                particular \caption on input line 247.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 222--249
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 223--250
 []$[]$  $[]$ 
  []
 
 [5
 
  <./images/pression-hydrostatique.png>]
-<images/angle-contact.png, id=269, 849.1725pt x 173.89969pt>
+<images/angle-contact.png, id=289, 849.1725pt x 173.89969pt>
 File: images/angle-contact.png Graphic file (type png)
 <use images/angle-contact.png>
-Package pdftex.def Info: images/angle-contact.png  used on input line 274.
+Package pdftex.def Info: images/angle-contact.png  used on input line 275.
 (pdftex.def)             Requested size: 150.31987pt x 30.78316pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 275.
+(caption)                particular \caption on input line 276.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 272--285
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 273--286
 []$[]$  $[]$ 
  []
 
-<images/loi-de-Laplace.png, id=270, 652.68843pt x 308.65312pt>
+<images/loi-de-Laplace.png, id=290, 652.68843pt x 308.65312pt>
 File: images/loi-de-Laplace.png Graphic file (type png)
 <use images/loi-de-Laplace.png>
-Package pdftex.def Info: images/loi-de-Laplace.png  used on input line 296.
+Package pdftex.def Info: images/loi-de-Laplace.png  used on input line 297.
 (pdftex.def)             Requested size: 150.31987pt x 71.08292pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 297.
+(caption)                particular \caption on input line 298.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 287--299
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 288--300
 []$[]$  $[]$ 
  []
 
 [6 <./images/angle-contact.png> <./images/loi-de-Laplace.png>]
-<images/equation-de-continuite.png, id=285, 465.99094pt x 261.22594pt>
+<images/equation-de-continuite.png, id=305, 465.99094pt x 261.22594pt>
 File: images/equation-de-continuite.png Graphic file (type png)
 <use images/equation-de-continuite.png>
 Package pdftex.def Info: images/equation-de-continuite.png  used on input line 
-344.
+345.
 (pdftex.def)             Requested size: 187.90271pt x 105.33354pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 345.
+(caption)                particular \caption on input line 346.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (49.20056pt too wide) in paragraph at lines 329--347
+Overfull \hbox (49.20056pt too wide) in paragraph at lines 330--348
 $[]$  $[]$ 
  []
 
-<images/equation-euler.png, id=286, 430.60875pt x 380.17032pt>
+<images/equation-euler.png, id=306, 430.60875pt x 380.17032pt>
 File: images/equation-euler.png Graphic file (type png)
 <use images/equation-euler.png>
-Package pdftex.def Info: images/equation-euler.png  used on input line 360.
+Package pdftex.def Info: images/equation-euler.png  used on input line 361.
 (pdftex.def)             Requested size: 150.31987pt x 132.71355pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 361.
+(caption)                particular \caption on input line 362.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 357--381
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 358--382
 $[]$  $[]$
  []
 
 [7
 
  <./images/equation-de-continuite.png>]
-<images/bernoulli.png, id=295, 650.43pt x 250.68657pt>
+<images/bernoulli.png, id=315, 650.43pt x 250.68657pt>
 File: images/bernoulli.png Graphic file (type png)
 <use images/bernoulli.png>
-Package pdftex.def Info: images/bernoulli.png  used on input line 417.
+Package pdftex.def Info: images/bernoulli.png  used on input line 418.
 (pdftex.def)             Requested size: 187.90271pt x 72.418pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 418.
+(caption)                particular \caption on input line 419.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 404--420
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 405--421
 $[]$  $[]$ 
  []
 
 [8 <./images/equation-euler.png> <./images/bernoulli.png>]
-<images/viscosité.png, id=306, 676.02562pt x 255.20343pt>
+<images/viscosité.png, id=326, 676.02562pt x 255.20343pt>
 File: images/viscosité.png Graphic file (type png)
 <use images/viscosité.png>
-Package pdftex.def Info: images/viscosité.png  used on input line 445.
+Package pdftex.def Info: images/viscosité.png  used on input line 446.
 (pdftex.def)             Requested size: 164.41711pt x 62.06783pt.
-<images/viscosité-navier.png, id=307, 700.86844pt x 270.25969pt>
+<images/viscosité-navier.png, id=327, 700.86844pt x 270.25969pt>
 File: images/viscosité-navier.png Graphic file (type png)
 <use images/viscosité-navier.png>
-Package pdftex.def Info: images/viscosité-navier.png  used on input line 463.
+Package pdftex.def Info: images/viscosité-navier.png  used on input line 464.
 (pdftex.def)             Requested size: 187.90271pt x 72.4556pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 464.
+(caption)                particular \caption on input line 465.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (46.26727pt too wide) detected at line 473
+Overfull \hbox (46.26727pt too wide) detected at line 474
 []
  []
 
 
-Overfull \hbox (63.48947pt too wide) in paragraph at lines 461--476
+Overfull \hbox (63.48947pt too wide) in paragraph at lines 462--477
 []$[]$  $[]$
  []
 
@@ -1307,11 +1316,11 @@ Overfull \hbox (63.48947pt too wide) in paragraph at lines 461--476
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 546.
+(hyperref)                removing `math shift' on input line 547.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 546.
+(hyperref)                removing `math shift' on input line 547.
 
 [12] [13
 
@@ -1326,25 +1335,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14
 
 ]
-<images/loi-de-gauss.png, id=348, 579.66562pt x 328.97906pt>
+<images/loi-de-gauss.png, id=368, 579.66562pt x 328.97906pt>
 File: images/loi-de-gauss.png Graphic file (type png)
 <use images/loi-de-gauss.png>
-Package pdftex.def Info: images/loi-de-gauss.png  used on input line 679.
+Package pdftex.def Info: images/loi-de-gauss.png  used on input line 680.
 (pdftex.def)             Requested size: 112.74277pt x 63.98248pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 680.
+(caption)                particular \caption on input line 681.
 See the caption package documentation for explanation.
 
-<images/lacet-uwu.png, id=349, 493.845pt x 261.97874pt>
+<images/lacet-uwu.png, id=369, 493.845pt x 261.97874pt>
 File: images/lacet-uwu.png Graphic file (type png)
 <use images/lacet-uwu.png>
-Package pdftex.def Info: images/lacet-uwu.png  used on input line 689.
+Package pdftex.def Info: images/lacet-uwu.png  used on input line 690.
 (pdftex.def)             Requested size: 112.74277pt x 59.80612pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 690.
+(caption)                particular \caption on input line 691.
 See the caption package documentation for explanation.
 
 
@@ -1355,29 +1364,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
 [15 <./images/loi-de-gauss.png> <./images/lacet-uwu.png>]
-Overfull \hbox (34.75539pt too wide) detected at line 731
+Overfull \hbox (34.75539pt too wide) detected at line 732
 []
  []
 
-<images/aàb.png, id=358, 300.3722pt x 247.67531pt>
+<images/aàb.png, id=378, 300.3722pt x 247.67531pt>
 File: images/aàb.png Graphic file (type png)
 <use images/aàb.png>
-Package pdftex.def Info: images/aàb.png  used on input line 736.
+Package pdftex.def Info: images/aàb.png  used on input line 737.
 (pdftex.def)             Requested size: 75.15993pt x 61.97157pt.
-<images/conducteur.png, id=359, 907.89188pt x 604.50844pt>
+<images/conducteur.png, id=379, 907.89188pt x 604.50844pt>
 File: images/conducteur.png Graphic file (type png)
 <use images/conducteur.png>
-Package pdftex.def Info: images/conducteur.png  used on input line 767.
+Package pdftex.def Info: images/conducteur.png  used on input line 768.
 (pdftex.def)             Requested size: 169.10808pt x 112.5979pt.
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 755--770
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 756--771
 []$[]$  $[]$ 
  []
 
-<images/densité-de-charge.png, id=360, 960.58875pt x 300.3722pt>
+<images/densité-de-charge.png, id=380, 960.58875pt x 300.3722pt>
 File: images/densité-de-charge.png Graphic file (type png)
 <use images/densité-de-charge.png>
-Package pdftex.def Info: images/densité-de-charge.png  used on input line 775.
+Package pdftex.def Info: images/densité-de-charge.png  used on input line 776.
 
 (pdftex.def)             Requested size: 281.85587pt x 88.13693pt.
 
@@ -1388,10 +1397,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
 [16 <./images/aàb.png> <./images/conducteur.png>]
-<images/effet-pointe.png, id=373, 717.43031pt x 247.67531pt>
+<images/effet-pointe.png, id=393, 717.43031pt x 247.67531pt>
 File: images/effet-pointe.png Graphic file (type png)
 <use images/effet-pointe.png>
-Package pdftex.def Info: images/effet-pointe.png  used on input line 807.
+Package pdftex.def Info: images/effet-pointe.png  used on input line 808.
 (pdftex.def)             Requested size: 281.85587pt x 97.30347pt.
 
 
@@ -1402,24 +1411,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
 [17 <./images/densité-de-charge.png> <./images/effet-pointe.png>]
-<images/équation-laplace.png, id=384, 277.035pt x 232.61906pt>
+<images/équation-laplace.png, id=404, 277.035pt x 232.61906pt>
 File: images/équation-laplace.png Graphic file (type png)
 <use images/équation-laplace.png>
-Package pdftex.def Info: images/équation-laplace.png  used on input line 820.
+Package pdftex.def Info: images/équation-laplace.png  used on input line 821.
 (pdftex.def)             Requested size: 140.92793pt x 118.33244pt.
-<images/capactié.png, id=385, 428.35031pt x 213.04594pt>
+<images/capactié.png, id=405, 428.35031pt x 213.04594pt>
 File: images/capactié.png Graphic file (type png)
 <use images/capactié.png>
-Package pdftex.def Info: images/capactié.png  used on input line 849.
+Package pdftex.def Info: images/capactié.png  used on input line 850.
 (pdftex.def)             Requested size: 150.31987pt x 74.76224pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 850.
+(caption)                particular \caption on input line 851.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 835--853
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 836--854
 $[]$  $[]$
  []
 
@@ -1431,25 +1440,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
 [18 <./images/équation-laplace.png> <./images/capactié.png>]
-<images/condensateur-cylindrique.png, id=397, 316.93407pt x 258.9675pt>
+<images/condensateur-cylindrique.png, id=417, 316.93407pt x 258.9675pt>
 File: images/condensateur-cylindrique.png Graphic file (type png)
 <use images/condensateur-cylindrique.png>
 Package pdftex.def Info: images/condensateur-cylindrique.png  used on input lin
-e 866.
+e 867.
 (pdftex.def)             Requested size: 150.31987pt x 122.82906pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 867.
+(caption)                particular \caption on input line 868.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 862--881
+Underfull \hbox (badness 10000) in paragraph at lines 863--882
 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 862--881
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 863--882
 []$  $[]$
  []
 
@@ -1469,126 +1478,166 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
 [20]
-<images/équation-continuité.png, id=409, 517.935pt x 356.83313pt>
+<images/équation-continuité.png, id=429, 517.935pt x 356.83313pt>
 File: images/équation-continuité.png Graphic file (type png)
 <use images/équation-continuité.png>
 Package pdftex.def Info: images/équation-continuité.png  used on input line 9
-79.
+80.
 (pdftex.def)             Requested size: 150.31987pt x 103.56062pt.
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 962--982
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 963--983
 []$[]$  $[]$ 
  []
 
 [21
 
 ]
-<images/circuit-electrique.png, id=414, 824.32968pt x 536.75531pt>
+<images/circuit-electrique.png, id=434, 824.32968pt x 536.75531pt>
 File: images/circuit-electrique.png Graphic file (type png)
 <use images/circuit-electrique.png>
-Package pdftex.def Info: images/circuit-electrique.png  used on input line 987.
+Package pdftex.def Info: images/circuit-electrique.png  used on input line 988.
 
 (pdftex.def)             Requested size: 187.89914pt x 122.34543pt.
-<images/kirchhoff.png, id=415, 820.56563pt x 551.05875pt>
+<images/kirchhoff.png, id=435, 820.56563pt x 551.05875pt>
 File: images/kirchhoff.png Graphic file (type png)
 <use images/kirchhoff.png>
-Package pdftex.def Info: images/kirchhoff.png  used on input line 1008.
+Package pdftex.def Info: images/kirchhoff.png  used on input line 1009.
 (pdftex.def)             Requested size: 187.89914pt x 126.17747pt.
  [22 <./images/équation-continuité.png> <./images/circuit-electrique.png>] [2
 3 <./images/kirchhoff.png>]
-<images/loi-ampere.png, id=429, 377.15906pt x 233.37187pt>
+<images/loi-ampere.png, id=449, 377.15906pt x 233.37187pt>
 File: images/loi-ampere.png Graphic file (type png)
 <use images/loi-ampere.png>
-Package pdftex.def Info: images/loi-ampere.png  used on input line 1053.
+Package pdftex.def Info: images/loi-ampere.png  used on input line 1054.
 (pdftex.def)             Requested size: 150.31987pt x 93.01236pt.
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 1040--1055
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 1041--1056
 []$[]$  $[]$ 
  []
 
-<images/ampere1.png, id=430, 290.58563pt x 312.41719pt>
+<images/ampere1.png, id=450, 290.58563pt x 312.41719pt>
 File: images/ampere1.png Graphic file (type png)
 <use images/ampere1.png>
-Package pdftex.def Info: images/ampere1.png  used on input line 1058.
+Package pdftex.def Info: images/ampere1.png  used on input line 1059.
 (pdftex.def)             Requested size: 112.74062pt x 121.21295pt.
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 1056--1068
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 1057--1069
 []$[]$  $[]$ 
  []
 
-<images/ampere2.png, id=431, 313.9228pt x 268.75406pt>
+<images/ampere2.png, id=451, 313.9228pt x 268.75406pt>
 File: images/ampere2.png Graphic file (type png)
 <use images/ampere2.png>
-Package pdftex.def Info: images/ampere2.png  used on input line 1080.
+Package pdftex.def Info: images/ampere2.png  used on input line 1081.
 (pdftex.def)             Requested size: 112.74062pt x 96.51764pt.
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 1069--1082
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 1070--1083
 $[]$  $[]$ 
  []
 
 [24
 
  <./images/loi-ampere.png> <./images/ampere1.png>]
-<images/ampere3.png, id=443, 313.17pt x 277.78781pt>
+<images/ampere3.png, id=463, 313.17pt x 277.78781pt>
 File: images/ampere3.png Graphic file (type png)
 <use images/ampere3.png>
-Package pdftex.def Info: images/ampere3.png  used on input line 1085.
+Package pdftex.def Info: images/ampere3.png  used on input line 1086.
 (pdftex.def)             Requested size: 112.74062pt x 100.00352pt.
 
-Overfull \hbox (17.2222pt too wide) in paragraph at lines 1083--1098
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 1084--1099
 []$[]$  $[]$
  []
 
-<images/ampere4.png, id=444, 547.2947pt x 253.69781pt>
+<images/ampere4.png, id=464, 547.2947pt x 253.69781pt>
 File: images/ampere4.png Graphic file (type png)
 <use images/ampere4.png>
-Package pdftex.def Info: images/ampere4.png  used on input line 1110.
+Package pdftex.def Info: images/ampere4.png  used on input line 1111.
 (pdftex.def)             Requested size: 140.92793pt x 65.32501pt.
 File: images/ampere2.png Graphic file (type png)
 <use images/ampere2.png>
-Package pdftex.def Info: images/ampere2.png  used on input line 1139.
+Package pdftex.def Info: images/ampere2.png  used on input line 1140.
 (pdftex.def)             Requested size: 112.74062pt x 96.51764pt.
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 1125--1141
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 1126--1142
 $[]$  $[]$ 
  []
 
 [25 <./images/ampere2.png> <./images/ampere3.png> <./images/ampere4.png>]
 [26]
-<images/induction-faraday.png, id=459, 1090.0725pt x 246.9225pt>
+<images/induction-faraday.png, id=479, 1090.0725pt x 246.9225pt>
 File: images/induction-faraday.png Graphic file (type png)
 <use images/induction-faraday.png>
-Package pdftex.def Info: images/induction-faraday.png  used on input line 1170.
+Package pdftex.def Info: images/induction-faraday.png  used on input line 1171.
 
 (pdftex.def)             Requested size: 281.85587pt x 63.84416pt.
  [27
 
  <./images/induction-faraday.png>]
-<images/bobine.png, id=474, 903.375pt x 374.14781pt>
+<images/bobine.png, id=494, 903.375pt x 374.14781pt>
 File: images/bobine.png Graphic file (type png)
 <use images/bobine.png>
-Package pdftex.def Info: images/bobine.png  used on input line 1221.
-(pdftex.def)             Requested size: 187.89914pt x 77.81976pt.
+Package pdftex.def Info: images/bobine.png  used on input line 1211.
+(pdftex.def)             Requested size: 140.92793pt x 58.36339pt.
+<images/circuit-bobine.png, id=495, 609.02531pt x 296.60812pt>
+File: images/circuit-bobine.png Graphic file (type png)
+<use images/circuit-bobine.png>
+Package pdftex.def Info: images/circuit-bobine.png  used on input line 1226.
+(pdftex.def)             Requested size: 140.92793pt x 68.63481pt.
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 1207--1223
-$[]$  $[]$ 
+Underfull \hbox (badness 1418) in paragraph at lines 1223--1229
+[]\T1/lmr/m/n/10 Si on consi-d�re le cir-cuit comme ci-pr�s, par la loi des mai
+lles de Kir-ch-hoff on trouve que
  []
 
 [28
 
- <./images/bobine.png>] (physique2.aux)
+ <./images/bobine.png> <./images/circuit-bobine.png>] [29]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\nabla' on input line 1274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\times' on input line 1274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mu' on input line 1274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1274.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.80502pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.80502pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
+
+[30
+
+] (physique2.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `physique2.out' has not changed.
-(rerunfilecheck)             Checksum: 609A879C74D5279566FDB1CA5DA30098;8611.
+(rerunfilecheck)             Checksum: D5AAE30A1D5A44623F04DE2F668AD01E;9484.
  ) 
 Here is how much of TeX's memory you used:
- 34143 strings out of 467866
- 708323 string characters out of 5418325
- 1051633 words of memory out of 5000000
- 62395 multiletter control sequences out of 15000+600000
+ 34236 strings out of 467866
+ 710019 string characters out of 5418325
+ 1052941 words of memory out of 5000000
+ 62473 multiletter control sequences out of 15000+600000
  706918 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,14n,121p,608b,1302s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1620,9 +1669,9 @@ TeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/gabin/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/lm/lmsy8.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on physique2.pdf (29 pages, 1801983 bytes).
+Output written on physique2.pdf (31 pages, 1841927 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 497 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 671 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 534 words of extra memory for PDF output out of 10000 (max. 10000000)
 

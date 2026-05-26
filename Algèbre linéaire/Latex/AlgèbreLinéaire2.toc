@@ -31,15 +31,19 @@
 \contentsline {subsection}{\numberline {7.1}Déterminer la forme normale de Jordan}{39}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Décomposition selon le polynôme caractéristique}{40}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Endomorphismes nilpotents}{42}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Exercices étoiles}{45}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Semaine 1}{45}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Semaine 2}{46}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Semaine 3}{47}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Semaine 4}{48}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Semaine 5}{50}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Semaine 6}{51}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}Semaine 7}{52}{subsection.8.7}%
-\contentsline {subsection}{\numberline {8.8}Semaine 8}{53}{subsection.8.8}%
-\contentsline {subsection}{\numberline {8.9}Semaine 9}{54}{subsection.8.9}%
-\contentsline {subsection}{\numberline {8.10}Semaine 10}{55}{subsection.8.10}%
-\contentsline {subsection}{\numberline {8.11}Semaine 11}{57}{subsection.8.11}%
+\contentsline {subsection}{\numberline {7.4}Résolution de système différentielle}{44}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Formule Normale de Frobenius}{45}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Déterminer la forme normale de Frobenius}{45}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Utilisation de la forme normale de Frobenius}{46}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Exercices étoiles}{48}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Semaine 1}{48}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Semaine 2}{49}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Semaine 3}{50}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Semaine 4}{51}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Semaine 5}{53}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Semaine 6}{54}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Semaine 7}{55}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Semaine 8}{56}{subsection.9.8}%
+\contentsline {subsection}{\numberline {9.9}Semaine 9}{57}{subsection.9.9}%
+\contentsline {subsection}{\numberline {9.10}Semaine 10}{58}{subsection.9.10}%
+\contentsline {subsection}{\numberline {9.11}Semaine 11}{60}{subsection.9.11}%

@@ -335,6 +335,34 @@ en forme normale de Jordan, où $J_i = J(0, m_i)$. Par conséquent, $\lambda I_n
 A_{\mathcal B'}^{\lambda I_n + N} = A_{\mathcal B'}^N + \lambda I_n
 \]
 }
+\newthm{Deux matrices sont semblables si et seulement si elles ont la même forme normale de Jordan, à l'ordre près des blocs}{}
+\subsection{Résolution de système différentielle}
+On a vu que si on voulant résoudre un système linéaire 
+\[
+x_1'(t) = a_{11} x_1(t) + \ldots a_{1n} x_n(t)
+\]
+\[
+x_n'(t) = a_{n1} x_1(t) + \ldots a_{nn} x_n(t)
+\]
+où les $a_{ij} \in \C$. En notation matricielle, on peut écrire
+\[
+x'(t) = A x(t)
+\]
+où $A = (a_{ij})_{ij} \in \C^{n \times n}$ et $x(t) = (x_1(t) ~\ldots ~ x_n(t))^\top$. Alors la solution était donnée par
+\[
+x(t) = e^{At} v
+\]
+Or maintenant on sait qu'il existe une matrice $P \in \C^{n \times n}$ inversible telle que $A = P (\mathrm{diag}(\lambda_1, \ldots, \lambda_n) + N ) P^{-1}$ où $N \in \C^{n \times n}$ est une matrice nilpotente. Mais comme $N$ et $\mathrm{diag}(\lambda_1, \ldots, \lambda_n)$ commutent 
+\[
+e^{t\mathrm{diag}(\lambda_1, \ldots, \lambda_n) + tN} = e^{\mathrm{diag}(\lambda_1t, \ldots, \lambda_nt)} \cdot e^{tN} = \mathrm{diag}(e^{\lambda_1t}, \ldots, e^{\lambda_nt}) \cdot e^{Nt}
+\]
+On peut donc en conclure que
+\[
+x(t) = e^{At}v = Pe^{t \mathrm{diag}(\lambda_1, \ldots, \lambda_n)} e^{tN} P^{-1} v = P \left( \mathrm{diag}(e^{\lambda_1t}, \ldots, e^{\lambda_nt}) \cdot \sum_{j=0}^{k-1} \frac{t^j}{j!} N^j \right) P^{-1} v
+\]
+où $k \in \N$ est tel que $N^k = 0$.
+
+
 
 
 

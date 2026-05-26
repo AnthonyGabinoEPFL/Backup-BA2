@@ -89,5 +89,11 @@ où $A = (a_{ij})_{ij} \in \R^{n \times n}$ et $x(t) = (x_1(t) ~\ldots ~ x_n(t))
 	\]
 }{}
 
-\prf{...}
+\prf{On a
+\[
+e^{A + B} = \sum_{n=0}^\infty \frac{(A + B)^n}{n!} = \sum_{n=0}^\infty \frac{1}{n!} \sum_{k=0}^n \binom{n}{k} A^k B^{n-k} = \sum_{k=0}^\infty \sum_{n=k}^\infty \frac{1}{k!(n-k)!} A^k B^{n-k}
+\]
+\[
+= \sum_{k=0}^\infty \sum_{m=0}^\infty \frac{1}{k!m!} A^k B^m = \sum_{k=0}^\infty A^k \sum_{m=0}^\infty \frac{1}{m!} B^m = e^A \cdot e^B
+\]}
 

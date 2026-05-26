@@ -17,6 +17,7 @@
 \usepackage{cleveref}
 \usepackage{mathdots}
 \usepackage{siunitx}
+\usepackage{wrapfig}
 
 
 
@@ -1204,23 +1205,108 @@ Il est important de déterminer quel est la direction du courant (et du champ $\
 
 \subsection{Circuit électrique en présence de phénomènes d'induction}
 \subsubsection{Self-induction}
-\noindent
-\begin{minipage}{0.6\textwidth}
-	Si on considère une bobine comme ci-près, on a $B \simeq \mu_0 In$ à l'intérieur de la bobine, où $n$ est le nombre de tours par mètre. Ce $B$ produit un flux $\Phi$ à travers la bobine elle même. Ainsi par boucle on a $\Phi = BS = \mu_0 In S$. Or la bobine est le loungueur $l$ et à $n \cdot l$ boucle, ainsi
-	\[
-	\Phi_{tot} = \Phi nl = \mu_0 n^2 ls I = LI
-	\]
-	avec $L:= \mu_0 n^2 l S$ l'\emph{l'auto-inductance} ou \emph{self} de la bobine. L'unité est $[L] = \unit{T.m^2.A^{-1}} = \unit{H}$. Ainsi si $\dot I \neq 0$ alors $\dot \Phi \neq 0$, donc une bobine induit une tension dans elle même, ainsi
-	\[
-	\boxed{\varepsilon_{ind} = \dot \Phi = - L \dot I}
-	\]
-\end{minipage}
-\hfill
-\begin{minipage}{0.4\textwidth}
+
+\begin{wrapfigure}{r}{0.4\textwidth}
 	\centering
-	\includegraphics[width=\textwidth]{images/bobine.png}
-\end{minipage}
-\end{document}	
+	\includegraphics[width=0.3\textwidth]{images/bobine.png}
+\end{wrapfigure}
+	Si on considère une bobine comme ci-près, on a $B \simeq \mu_0 In$ à l'intérieur de la bobine, où $n$ est le nombre de tours par mètre. Ce $B$ produit un flux $\Phi$ à travers la bobine elle même. Ainsi par boucle on a $\Phi = BS = \mu_0 In S$. Or la bobine est le loungueur $l$ et à $n \cdot l$ boucle, ainsi
+\[
+\Phi_{tot} = \Phi nl = \mu_0 n^2 ls I = LI
+\]
+avec $L:= \mu_0 n^2 l S$ l'\emph{l'auto-inductance} ou \emph{self} de la bobine. L'unité est $[L] = \unit{T.m^2.A^{-1}} = \unit{H}$. Ainsi si $\dot I \neq 0$ alors $\dot \Phi \neq 0$, donc une bobine induit une tension dans elle même, ainsi
+\[
+\boxed{\varepsilon_{ind} = -\dot \Phi = - L \dot I}
+\]
+
+\subsubsection{Circuit électrique avec un self}
+Si on considère le circuit comme ci-près, par la loi des mailles de Kirchhoff on trouve que 
+\begin{wrapfigure}{l}{0.4\textwidth}
+	\centering
+	\includegraphics[width=0.3\textwidth]{images/circuit-bobine.png}
+	\caption{Cicuit électrique avec un self}
+	\label{fig: circuit avec self}
+\end{wrapfigure}
+\[
+L \dot I + RI = \varepsilon
+\]
+on a alors une équation différentielle linéaire d'ordre $1$ ayant comme condition initiale $I(0) = 0$, on trouve donc
+\[
+I(t) = \frac{\varepsilon}{R} (1 - e^{- \frac{R}{L} t})
+\]
+On remarque alors qu'un self a tendance à ralentir de courant.
+
+\subsubsection{Signe de $\varepsilon_{ind}$ dans la loi de Maille}
+On se demande lorsque qu'on applique la loi des mailles contentant une tensions induite $\varepsilon_{ind}$ comment savoir savoir quelle est le signe mettre.
+
+Si l'on choisit une orientation pour $\mathrm d \bm S$ tel que $I$ circule le sens respectant la règle de la main droite, alors cela donnera un signe $+$ à $\varepsilon_{ind}$.
+
+\subsubsection{Énergie mécanique}
+Si l'on se rappelle de l'équation différentielle dans l'exemple \eqref{fig: circuit avec self} on a
+\[
+\varepsilon = L \dot I + R I
+\]
+et donc en multipliant de part et autre par $I$ on obtient 
+\[
+\boxed{\varepsilon I = R I^2 + I L\dot I}
+\]
+On peut alors noté que $\varepsilon I$ correspond à l'énergie fournie par le FEM, que $RI^2$ correspond à la puissance dissipée par effet Joule et finalement $IL\dot I$ est la puissance nécessaire pour que les charges puisse surmonter la tension induite.
+
+On note que la puisse $I L \dot I$ est stocké dans le champ $\bm B$ de la bobine en forme d'énergie magnétique, on peut alors calculer cette énergie
+\[
+W_{self} = \int_0^{t_0}	P \mathrm d t = \int_0^{t_0} I L  \dot I \mathrm dt = \frac12 L(I^2(t_0) - I^2(0)) = \frac12L I_0^2
+\]
+et donc dans le cas où on a une bobine solénoïde idéale : $L = \mu_0 n^2 l S$ et $I = \frac{B}{\mu_0 n}$, alors
+\[
+W_{self} = \frac12 L I^2 = \frac{B^2}{2 \mu_0} lS
+\]
+où $ls$ correspond au volume $V$ entouré par le bobine. Alors la \emph{densité d'énergie mécanique} vaut
+\[
+e_B = \frac12 \frac{B^2}{\mu_0}
+\]
+Ce qui permet de trouver la densité d'énergie électrique et magnétique dans le vide 
+\[
+\boxed{e_{EB} = e_E + e_B = \frac12 \varepsilon_0 E^2 + \frac12 \frac{B^2}{\mu_0}}
+\]
+
+\clearpage
+\section{Équations de Maxwell}
+\subsection{Critique de l'équation d'Ampère $\nabla \times B = \mu_0 j$.}
+En générale, la loi d'Ampère $\nabla \times \bm B = \mu_0 \bm j$ n'est pas valable. En effet comme
+\[
+\nabla \cdot (\nabla \times \bm B) = 0
+\]
+et donc en prenant la divergence de la loi d'Ampère on obtient $\nabla \cdot \bm j = 0$. En injectant alors ceci dans l'équation de continuité on trouve
+\[
+\frac{\partial \rho_{el}}{\partial t} = 0 
+\]
+Mais ceci est certainement faux en générale.
+
+\subsection{Courant de déplacement de Maxwell}
+James Maxwell avait postulé qu'un terme supplémentaire étant nécessaire dans la loi d'Ampère dans le cadre plus générale de la dynamique
+\[
+\boxed{\nabla \times \bm B = \mu_0 \bm j + \mu_0 \varepsilon_0 \frac{\partial \bm E}{\partial t}}
+\]
+où $\varepsilon_0 \frac{\partial \bm E}{\partial t}$ a les unités d'une densité de courant. Il est appelé \emph{densité de courant de déplacement}.
+
+De cette loi, on en tire facilement une forme intégrale. Pour un chemin $\gamma$ fermé arbitraire on a
+\[
+\oint_\gamma \bm B \cdot \mathrm d \bm S = \iiint_S \nabla \times \bm B \cdot \mathrm d \bm S = \iint_S \left(\mu_0 \bm j + \mu_0 \varepsilon_0 \frac{\partial \bm E}{\partial t} \right) \cdot \mathrm d \bm S
+\]
+ainsi on a la loi d'Ampère-Maxwell
+\[
+\oint_\gamma \bm B \cdot \mathrm d \bm S = \iint_S \left(\mu_0 \bm j + \mu_0 \varepsilon_0 \frac{\partial \bm E}{\partial t} \right) \cdot \mathrm d \bm S
+\]
+\subsection{Les équations de Maxwell}
+On obtient alors le système d'équation suivant
+\[
+\nabla \cdot \bm E = \frac{\rho_{el}}{\varepsilon_0}, \quad \nabla \times \bm E = - \frac{\partial \bm B}{\partial t}, \quad \nabla \cdot \bm B = 0, \quad \nabla \times \bm B = \mu_0 \bm j + \mu_0 \varepsilon_0 \frac{\partial \bm E}{\partial t}
+\]
+Les équations de Maxwell décrivent, entre autre, que les charges et les courants sont sources des champs électromagnétique ($\bm E$ et $\bm B$). En revanche, la force exercée par $\bm E$ et $\bm B$ sur une charge est donnée par
+\[
+\bm F = q(\bm E + \bm v \times \bm B)
+\]
+\end{document}
 
 
 
