@@ -47,3 +47,5 @@
 \contentsline {subsection}{\numberline {9.9}Semaine 9}{57}{subsection.9.9}%
 \contentsline {subsection}{\numberline {9.10}Semaine 10}{58}{subsection.9.10}%
 \contentsline {subsection}{\numberline {9.11}Semaine 11}{60}{subsection.9.11}%
+\contentsline {subsection}{\numberline {9.12}Semaine 12}{61}{subsection.9.12}%
+\contentsline {subsection}{\numberline {9.13}Semaine 13}{62}{subsection.9.13}%

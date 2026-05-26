@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  23 MAY 2026 02:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  26 MAY 2026 08:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,6 +1294,12 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `@cref' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
 ) (Chapitres/chapitre8.aux
 
 LaTeX Warning: Label `' multiply defined.
@@ -1401,7 +1407,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<images/logo-epfl.png, id=194, 1927.2pt x 1084.05pt>
+<images/logo-epfl.png, id=202, 1927.2pt x 1084.05pt>
 File: images/logo-epfl.png Graphic file (type png)
 <use images/logo-epfl.png>
 Package pdftex.def Info: images/logo-epfl.png  used on input line 243.
@@ -1487,12 +1493,7 @@ l.43 ...erline {9.5}Semaine 5}{53}{subsection.9.5}
 
 
 
-] [12] [13]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 188.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 188.
-) [14]
+] [12] [13]) [14]
 \openout2 = `Chapitres/chapitre3.aux'.
 
  (Chapitres/chapitre3.tex [15
@@ -1600,47 +1601,43 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `AlgèbreLinéaire2.out' has not changed.
-(rerunfilecheck)             Checksum: EEEFD901B8B5D57B64F2383A82CECD08;8664.
+(rerunfilecheck)             Checksum: 756D6489364E16F0A22412CE134CE438;8888.
  ) 
 Here is how much of TeX's memory you used:
- 29481 strings out of 467866
- 569934 string characters out of 5418325
- 960329 words of memory out of 5000000
- 57500 multiletter control sequences out of 15000+600000
- 713308 words of font info for 106 fonts, out of 8000000 for 9000
+ 29445 strings out of 467866
+ 569583 string characters out of 5418325
+ 960330 words of memory out of 5000000
+ 57479 multiletter control sequences out of 15000+600000
+ 697045 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,19n,121p,740b,721s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pf
 b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
-b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb
-><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pf
-b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
-fb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.p
-fb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.p
-fb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pf
-b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb
-><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb>
-<C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><
-C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C
-:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:
-/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/
-Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Us
-ers/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/User
-s/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/
-gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/ga
-bin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ga
-bin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ga
-bin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/gab
-in/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/gabi
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-<C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbo
-ls/msam7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on AlgèbreLinéaire2.pdf (63 pages, 840045 bytes).
+b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.p
+fb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.
+pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.
+pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.
+pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.p
+fb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pf
+b><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
+><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
+<C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><
+C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:
+/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/U
+sers/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Use
+rs/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Use
+rs/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Use
+rs/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/User
+s/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users
+/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10
+.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+symbols/msam7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/symbols/msbm10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
+Output written on AlgèbreLinéaire2.pdf (63 pages, 777628 bytes).
 PDF statistics:
- 953 PDF objects out of 1000 (max. 8388607)
- 310 named destinations out of 1000 (max. 500000)
- 394 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 935 PDF objects out of 1000 (max. 8388607)
+ 311 named destinations out of 1000 (max. 500000)
+ 410 words of extra memory for PDF output out of 10000 (max. 10000000)
 

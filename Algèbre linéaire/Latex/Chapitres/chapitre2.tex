@@ -175,14 +175,38 @@ et donc $n_1 + \ldots + n_r = n$.
 	\chi_A(A) = 0
 	\]
 }{Théorème de Cayley-Hamilton}
-
-\prf{Pour $A$ un matrice diagonalisable alors 
+\prf{Soit $V$ un $\K$-espace vectoriel de dimension $n$ et $A \in M_n(\K)$. On se fixe un $v$ dans $\K^n$, et on veut montrer que $x_A(A)v = 0$. Pour $v = 0$ c'est évident par linéarité. Pour $v \neq 0$, on considère
 	\[
-	A = P D P^{-1}
+	\nu = \min \{k \geqslant 2 \mid v, Av, A^2v, \ldots , A^kv \text{ est liée}\}
 	\]
-	de plus si $A$ est diagonalisable alors $\chi_A = (-1)^n \prod_{i = 1}^n (x - \lambda_i)$ et donc 
+	De sorte que $A^\nu v$ est lié avec $v, Av, \ldots A^{\nu -1} v$ qui est libre, donc se décompose en
 	\[
-	\chi_A(A) = \chi_A(P D P^{-1}) = P \chi_A(D) P^{-1} = P \cdot 0 \cdot P^{-1}
+	A^\nu v = a_0 v + a_1 Av + \ldots a_{\nu - 1} A^{\nu -1} v
 	\]
-	ainsi $\chi_A(A) = 0$ si $A$ est diagonalisable. Et donc par densité des matrices diagonalisables \footnote{Cette démonstration utilisant la densité des matices diagonalisables n'est \textbf{ABSOLUMENT} pas au programme (de Algèbre linéaire 2) mais je trouvais cette démonstration très jolie. Donc si tu lis ça, tu seras peut-être content de savoir que les matrices diagonalisables sont denses dans $M_n(\K)$ au même titre que les matrices inversibles.} dans $M_n(\K)$ et par continuité de $M \mapsto \chi_M(M)$, alors $\chi_A(A) = 0$ pour une matrice quelconque.
+	On complète ensuite la famille libre $v, Av, \ldots A^{\nu-1}$ est une base $\mathcal B$ de $\K^n$, dans laquelle $A$ s'écrit comme
+	\[
+	A_{\mathcal B} = \begin{pmatrix} 0 &  &  & -a_0 & * \\
+									1 & \ddots &  & \vdots & * \\
+									  & \ddots & 0 & a_{\nu-2} & * \\
+									  &    & 1 & a_{\nu -1} & *\\
+									 0 & \dots & \dots &  0 & M 
+					\end{pmatrix}
+					= 
+					\begin{pmatrix}
+						C_p & * \\
+						0 & M
+					\end{pmatrix}
+	\]
+	où l'on a noté $p(x) = x^{\nu} - a_{\nu -1} x^{\nu-1} - \ldots - a_0$. On observe que $P(A)v = 0$. En utilisant le lemme de la matrice compagnon on a
+	\[
+	\chi_A = \chi_{\begin{pmatrix}
+			C_p & * \\
+			0 & M
+		\end{pmatrix}} = \chi_{C_p} \times \chi_M = p \times \chi_M
+	\]
+	d'où en appliquant en $v$
+	\[
+	\chi_A(A)v = \chi_M(A) \cdot p(A)v = 0
+	\]
+	Et donc par arbitrarité de $v$ on conclut bien que $\chi_A(A) = 0$.
 }
