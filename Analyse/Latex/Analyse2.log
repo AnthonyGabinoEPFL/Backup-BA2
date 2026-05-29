@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  25 MAY 2026 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.11)  28 MAY 2026 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,7 +988,37 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `@cref' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
 ) (Chapitres/chapitre2.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -1465,6 +1495,24 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `@cref' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `@cref' multiply defined.
+
 ) (Chapitres/chapitre11.aux))
 \openout1 = `Analyse2.aux'.
 
@@ -1566,7 +1614,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-<images/logo-epfl.png, id=206, 1927.2pt x 1084.05pt>
+<images/logo-epfl.png, id=218, 1927.2pt x 1084.05pt>
 File: images/logo-epfl.png Graphic file (type png)
 <use images/logo-epfl.png>
 Package pdftex.def Info: images/logo-epfl.png  used on input line 244.
@@ -1623,13 +1671,13 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
 n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./images/logo-ep
 fl.png>] (Analyse2.toc
 Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported on input line 49.
+(babel)             Reported on input line 48.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 ...onctions intégrables}{56}{subsection.9.5}
+l.48 ...ne domaine quelconque}{53}{subsection.9.3}
                                                   % [1
 
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
@@ -1646,7 +1694,7 @@ l.49 ...onctions intégrables}{56}{subsection.9.5}
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}
 {C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
 Users/gabin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [4
-]) [5]
+] [5]) [6]
 \openout2 = `Chapitres/chapitre2.aux'.
 
  (Chapitres/chapitre2.tex
@@ -1669,53 +1717,53 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-[6
+[7
 
 
 
-] [7]
+] [8] [9]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 129.
+(Font)              <8> on input line 167.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 129.
+(Font)              <6> on input line 167.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `math shift' on input line 167.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 129.
+(hyperref)                removing `superscript' on input line 167.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `math shift' on input line 167.
 
-[8] [9]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 206.
-
+[10] [11]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 206.
+(hyperref)                removing `math shift' on input line 244.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 206.
+(hyperref)                removing `superscript' on input line 244.
 
-<images/boules.png, id=353, 1072.005pt x 292.09125pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 244.
+
+<images/boules.png, id=389, 1072.005pt x 292.09125pt>
 File: images/boules.png Graphic file (type png)
 <use images/boules.png>
-Package pdftex.def Info: images/boules.png  used on input line 221.
+Package pdftex.def Info: images/boules.png  used on input line 259.
 (pdftex.def)             Requested size: 375.80544pt x 102.3939pt.
-[10
+[12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.235 
-       <./images/boules.png>] [11] [12] [13]) [14]
+l.285 }
+        <./images/boules.png>] [13] [14]) [15]
 \openout2 = `Chapitres/chapitre3.aux'.
 
  (Chapitres/chapitre3.tex
@@ -1729,7 +1777,7 @@ ue $[][] \OML/lmm/m/it/10 f\OT1/lmr/m/n/10 (\OML/cmm/b/it/10 x[]\OT1/lmr/m/n/10
  ) =
  []
 
-[15
+[16
 
 
 
@@ -1746,34 +1794,34 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 105.
 
-[16] [17] [18] [19]) [20]
+[17] [18] [19] [20]) [21]
 \openout2 = `Chapitres/chapitre4.aux'.
 
- (Chapitres/chapitre4.tex [21
+ (Chapitres/chapitre4.tex [22
 
 
 
-] [22] [23] [24] [25]
+] [23] [24] [25] [26]
 
-LaTeX Warning: Reference `Théorème des accroissemnts finis' on page 26 undefi
+LaTeX Warning: Reference `Théorème des accroissemnts finis' on page 27 undefi
 ned on input line 263.
 
-) [26]
+) [27]
 \openout2 = `Chapitres/chapitre5.aux'.
 
- (Chapitres/chapitre5.tex [27
+ (Chapitres/chapitre5.tex [28
 
 
 
-] [28] [29]) [30]
+] [29] [30]) [31]
 \openout2 = `Chapitres/chapitre6.aux'.
 
  (Chapitres/chapitre6.tex
-[31
+[32
 
 
 
-] [32] [33]) [34]
+] [33] [34]) [35]
 \openout2 = `Chapitres/chapitre7.aux'.
 
  (Chapitres/chapitre7.tex
@@ -1786,11 +1834,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
  []
 
-[35
+[36
 
 
 
-] [36]
+] [37]
 Overfull \hbox (31.91035pt too wide) in paragraph at lines 154--154
 \T1/lmr/m/n/10 et de plus donc par conti-nuit� de l'ap-pli-ca-tion $\OML/cmm/b/
 it/10 x \OMS/lmsy/m/n/10 7! [] \OML/lmm/m/it/10 D\OML/cmm/b/it/10 f\OT1/lmr/m/n
@@ -1806,12 +1854,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
  []
 
-[37]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
  []
 
-[38] [39]
+[39] [40]
 
 LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 240.
@@ -1826,14 +1874,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--240
 
  []
 
-[40]) [41]
+[41]) [42]
 \openout2 = `Chapitres/chapitre8.aux'.
 
- (Chapitres/chapitre8.tex [42
+ (Chapitres/chapitre8.tex [43
 
 
 
-] [43] [44] [45]
+] [44] [45] [46]
 Overfull \hbox (0.96269pt too wide) in paragraph at lines 220--220
 \T1/lmr/m/n/10 Puisque $[]\OML/lmm/m/it/10 D\OML/cmm/b/it/10 g\OT1/lmr/m/n/10 (
 \OML/cmm/b/it/10 z[]\OT1/lmr/m/n/10 ) = \OML/lmm/m/it/10 m$\T1/lmr/m/n/10 , il 
@@ -1843,25 +1891,25 @@ m/b/it/10 z[]\OT1/lmr/m/n/10 )$\T1/lmr/m/n/10 . Soient $\OT1/lmr/m/n/10 (\OML/l
 mm/m/it/10 i[]; [] ; i[]\OT1/lmr/m/n/10 )$
  []
 
-[46]) [47]
+[47]) [48]
 \openout2 = `Chapitres/chapitre9.aux'.
 
- (Chapitres/chapitre9.tex [48
+ (Chapitres/chapitre9.tex [49
 
 
 
-] [49] [50] [51] [52]
+] [50] [51] [52] [53]
 LaTeX Font Info:    Trying to load font information for U+bbm on input line 283
 .
 
 (C:\Users\gabin\AppData\Local\Programs\MiKTeX\tex/latex/bbm\ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-) [53]
-[54]
+) [54]
+[55]
 
 LaTeX Warning: Command \' invalid in math mode on input line 366.
 
-[55] [56] [57] [58] [59] [60]) [61]
+[56] [57] [58] [59] [60] [61]) [62]
 \openout2 = `Chapitres/chapitre10.aux'.
 
  (Chapitres/chapitre10.tex
@@ -1872,19 +1920,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
-[62
+[63
 
 
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.80502pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.80502pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
-
-[63]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.80502pt, for example:
@@ -1908,7 +1948,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
-[66])
+[66]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.80502pt, for example:
@@ -1917,13 +1957,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
 [67]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.80502pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.80502pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
+
+[68]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.80502pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.80502pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
+
+[69])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.80502pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.80502pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
+
+[70]
 \openout2 = `Chapitres/chapitre11.aux'.
 
- (Chapitres/chapitre11.tex [68
+ (Chapitres/chapitre11.tex [71
 
 
 
-] [69] [70] [71] [72] [73]
+] [72] [73] [74] [75] [76]
 Overfull \hbox (31.91035pt too wide) in paragraph at lines 367--367
 \T1/lmr/m/n/10 et de plus donc par conti-nuit� de l'ap-pli-ca-tion $\OML/cmm/b/
 it/10 x \OMS/lmsy/m/n/10 7! [] \OML/lmm/m/it/10 D\OML/cmm/b/it/10 f\OT1/lmr/m/n
@@ -1934,7 +1998,7 @@ t/10 f\OT1/lmr/m/n/10 (\OML/cmm/b/it/10 x\OT1/lmr/m/n/10 ) \OMS/lmsy/m/n/10 6\O
 T1/lmr/m/n/10 =
  []
 
-[74]
+[77]
 Underfull \hbox (badness 10000) in paragraph at lines 367--367
 
  []
@@ -1944,7 +2008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--367
 
  []
 
-[75]
+[78]
 Underfull \hbox (badness 10000) in paragraph at lines 434--434
 
  []
@@ -1954,15 +2018,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--434
 
  []
 
-[76] [77] [78] [79]
+[79] [80] [81] [82]
 
 LaTeX Warning: Command \' invalid in math mode on input line 590.
 
-[80]) [81] (Analyse2.aux (Chapitres/chapitre1.aux) (Chapitres/chapitre2.aux)
-(Chapitres/chapitre3.aux) (Chapitres/chapitre4.aux) (Chapitres/chapitre5.aux)
-(Chapitres/chapitre6.aux) (Chapitres/chapitre7.aux) (Chapitres/chapitre8.aux)
-(Chapitres/chapitre9.aux) (Chapitres/chapitre10.aux) (Chapitres/chapitre11.aux)
-)
+[83] [84]) [85] (Analyse2.aux (Chapitres/chapitre1.aux)
+(Chapitres/chapitre2.aux) (Chapitres/chapitre3.aux) (Chapitres/chapitre4.aux)
+(Chapitres/chapitre5.aux) (Chapitres/chapitre6.aux) (Chapitres/chapitre7.aux)
+(Chapitres/chapitre8.aux) (Chapitres/chapitre9.aux) (Chapitres/chapitre10.aux)
+(Chapitres/chapitre11.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1978,13 +2042,13 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Analyse2.out' has not changed.
-(rerunfilecheck)             Checksum: 4B0AB97495DC6DF973EA9CB39C1E42AC;11797.
+(rerunfilecheck)             Checksum: 0F6862727B3FDC9975A92F09488D5AB4;12519.
  ) 
 Here is how much of TeX's memory you used:
- 31032 strings out of 467866
- 600122 string characters out of 5418325
+ 31072 strings out of 467866
+ 600804 string characters out of 5418325
  993655 words of memory out of 5000000
- 58928 multiletter control sequences out of 15000+600000
+ 58943 multiletter control sequences out of 15000+600000
  733943 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,15n,121p,692b,752s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2023,9 +2087,9 @@ l/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/gabin/AppData/Local
 sfonts/symbols/msbm7.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/hoekwater/stmary10.pfb><C:/Users/gabin/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/hoekwater/stmary7.pfb>
-Output written on Analyse2.pdf (82 pages, 1029158 bytes).
+Output written on Analyse2.pdf (86 pages, 1062642 bytes).
 PDF statistics:
- 1128 PDF objects out of 1200 (max. 8388607)
- 372 named destinations out of 1000 (max. 500000)
- 423 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1184 PDF objects out of 1200 (max. 8388607)
+ 397 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

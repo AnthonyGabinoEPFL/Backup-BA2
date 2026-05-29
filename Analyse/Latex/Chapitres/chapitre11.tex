@@ -625,3 +625,38 @@ De plus $f$ est continue en $\bm x_0$
 
 \prf{Soit $R$ un pavé contenant $E$ et $\tilde f$ le prolongement par zéro de $f$. Comme $E$ est mesurable, alors $\partial E $ est négligeable. Ne plus l'ensemble $\tilde N$ des points de discontinuité de $\tilde f$ est inclus dans $\partial E$, et donc $\tilde N$ est négligeable. Ainsi par le théorème (\ref{Caractérisation par négligeabilité des points de discontinuité}), $\tilde f \in \mathcal R(R)$ et donc $f$ est intégrable au sens de Riemann sur $E$.
 }
+
+\newprf{Soit $I \subset \R$ un intervalle ouvert, $E \subset \rn$ ouvert et $\bm f : I \times E \to \rn$ une fonction continue et localement lipschitzienne par rapport à la deuxième variable. 
+	
+	Alors pour tout $(t_0, \bm u_0) \in I \times E$, il existe $\delta >  0$ tel que $J_\delta := [t_0 - \delta, t_0 + \delta] \subset I$ et une fonction $\bm u : J_\delta \to E$ de classe $C^1$ solution du problème de Cauchy.
+	
+	De plus cette solution est localement unique.
+}{Cauchy-Lipschitz --- version locale}
+
+\prf{Puisque $\bm f$ est localement lipschitzienne par rapport au deuxième arguement,il existe $a,b > 0$ avec $[t_0 - a, t_0 + a]\times \overline B(\bm u_0, b) \subset I \times E$ et une constante $L > 0$ tels que
+	\[
+	\forall t \in [t_0 -a, t_0 + a], ~\forall \bm x, \bm y \in \overline B(\bm u_0, b), \quad \norme{\bm f(t, \bm x) - \bm f(t, \bm y)} \leqslant L \norme{\bm x - \bm y}
+	\]
+	On choisit
+	\[
+	M > \max_{(t, \bm x) \in [t_0 - a, t_0 + a] \times \overline B(\bm u_0, b)} \norme{\bm f(t, \bm x)}
+	\] 
+	Soit maintenant $\delta \in ]0,a], ~J_\delta := [t_0 - a,t_0 + \delta]\subset I$ et considérons la quantité
+	\[
+	K_{b, \bm u_0} (J_\delta) = \{\bm v \in C^0(J_\delta), ~ \max_{t \in J_\delta} \norme{\bm v(t) -\bm u_0} \leqslant b \}
+	\]
+	qui est alors une sous-ensemble fermé (donc complet) de $C^0(J_\delta)$. On considère l'application $\phi : K_{b, \bm u_0}(J_\delta) \to C^0(J_\delta)$ définie par 
+	\[
+	\forall t \in J_\delta, \quad \phi(\bm v)(t) = \bm u_0 + \int_{t_0}^t \bm f(s, \bm v(s))~\mathrm ds
+	\]
+	Or pour tout $\bm v \in K_{b, \bm u_0}(J_\delta)$ et $t \in J_\delta$,
+	\[
+	\norme{\phi(\bm v) - \bm u_0} = \norme{\int_{t_0}^t \bm f(s, \bm v(s)) ~\mathrm d s} \leqslant \left|\int_{t_0}^t \norme{\bm f(s, \bm v(s))} ~\mathrm ds \right| \leqslant M \delta
+	\]
+	donc si on prend $\delta \leqslant \frac{b}{M}$ on a $\norme{\phi(\bm v) -  \bm u_0}_{C^0(J_\delta)} \leqslant b$, c'est-à-dire $\phi(\bm v) \in 	K_{b, \bm u_0} (J_\delta)$ pour tout $v \in K_{b, \bm u_0} (J_\delta)$. De plus, pour tout $\bm v_1, v_2 \in K_{b, \bm u_0} (J_\delta)$ et pour tout $t \in J_\delta$,
+	\begin{align*}
+		\norme{\phi(\bm v_1) - \phi(\bm v_2)} &= \norme{\int_{t_0}^t \bm f(s, \bm v_1(s)) - \bm f(s, \bm v_2(s)) ~\mathrm d s} \leqslant \left| \int_{t_0}^t \norme{\bm f(s, \bm v_1(s)) - \bm f(s, \bm v_2(s)) } ~\mathrm ds \right| \\
+		&\leqslant \left| \int_{t_0}^t L \norme{\bm v_1(s) - \bm v_2(s)} ~\mathrm d s \right| \leqslant L \delta \max_{t \in J_\delta} \norme{\bm v_1(t) - \bm v_2(t)}
+	\end{align*}
+	ce qui implique que $\norme{\phi(\bm v_1) - \phi(\bm v_2)}_{C^0(J_\delta)} \leqslant L \delta \norme{\bm v_1 - \bm v_2}_{C^0(J_\delta)}$. Donc, pour $\delta < \min\{a, \frac{b}{M}, \frac1L\}$, l'application $\phi : K_{b, \bm u_0} (J_\delta) \to K_{b, \bm u_0} (J_\delta)$ est contractante et il existe un unique $ \bm u \in K_{b, \bm u_0} (J_\delta)$ point fixe de $\phi$. Alors $(J_\delta, \bm u)$ est l'unique solution du problème de Cauchy dans $K_{b, \bm u_0} (J_\delta)$.
+}

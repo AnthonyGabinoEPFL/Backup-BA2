@@ -1,4 +1,5 @@
 \section{Espace $\rn$}
+\subsection{Espace vectoriel réel}
 On désigne par $\rn$ l'ensemble constitué de tous les $n$-tuples ordonnées $(x_1, \ldots, x_n)$ de nombres réels. Par la suite, les éléments de $\rn$ seront notés indifféremment $\bm x$ ou $(x_1, \ldots, x_n)$. On munit alors $\rn$ de deux opérations,
 \[
  \forall \bm x, \bm y \in \rn, \quad  \bm x + \bm y = (x_1 + y_1, \ldots, x_n + x_n)
@@ -9,7 +10,7 @@ et
 \]
 Avec ces deux opérations on vérifie immédiatement de $\rn$ est un \emph{espace vectoriel} sur $\R$ de dimension $n$.
 
-\subsection{Normes}
+\subsection{Norme et produit scalaire}
 Une des notions les plus importantes sur $\rn$ est sans aucuns doute la notion de \emph{norme}
 
 \newdef{Une \emph{norme} est une application $N : \rn \to \R_+$ telle que,
@@ -126,9 +127,46 @@ Une des notions les plus importantes sur $\rn$ est sans aucuns doute la notion d
 	Ainsi on en déduit que n'importe quelle norme $\norme{\cdot}_\alpha$ pour être bornée par n'importe quelle autre norme $\norme{\cdot}_\beta$ multipliée par une constante $C_{\alpha, \beta} > 0$ indépendante de $\bm x$. Donc on a bien que toutes les normes $\{ \norme{\cdot}_p, ~p \in [1, \infty] \}$ sont équivalentes.
 }
 
+
+
+\newdef{Un \emph{produit scalaire} sur $\rn$ est une application $b : \rn \times \rn \to \R$ telle que 
+	\begin{enumerate} \label{def : produit scalaire}
+		\item $\forall \bm x, \bm y \in \rn, \quad b(\bm x, \bm y) = \bm (\bm y, \bm y)$
+		\item $\forall \bm x, \bm y, \bm z, ~\alpha, \beta \in \R, \quad b(\alpha \bm x + \bm y, \bm z) = \alpha b(\bm x, \bm z) + b(\bm y, \bm z)$
+		\item $\forall \bm x \in \rn, \quad b(\bm x, \bm x) \geqslant 0$ et $b(\bm x, \bm x) = 0$ ssi $\bm x = 0$.
+	\end{enumerate}
+}{}
+
+\newprop{On définit le \emph{produit scalaire usuelle} comme 
+	\[
+	\forall \bm x, \bm y \in \rn, \quad \langle \bm x, \bm y \rangle = \bm x^\top \bm y = \bm y^\top \bm x = \sum_{i=1}^n x_i y_i
+	\]
+}{}
+
+\prf{Il est facile de voir que cette application respecte bien tout les conditions d'un produit scalaire.}
+
+\newlem{Soit $b : \rn \times \rn$ un produit scalaire alors pour tout $\bm x, \bm y \in \rn$ on a
+	\[
+	|b(\bm x, \bm y)| \leqslant \sqrt{b(\bm x, \bm x)}\sqrt{b(\bm y, \bm y)} = \norme{\bm x}_E \norme{\bm y}_E
+	\]
+	où $\norme{\cdot}_E$ désigne la norme induite par le produit scalaire $b$.
+}{}
+
+\prf{Pour tout $\bm x, \bm y \in \rn$ et $\alpha \in \R$ on a
+	\[
+	0 \leqslant b(\alpha \bm x + \bm y, \alpha \bm x + \bm y) = \alpha^2 b(\bm x, \bm x) + 2\alpha b(\bm x, \bm y) + b(\bm y, \bm y) = p(\alpha)
+	\]
+	on a alors on polynôme positif ou nul en $\alpha$, on a donc un discriminant nécessairement négatif ou nul, on peut donc en conclure que
+	\[
+	4 b(\bm x, \bm y)^2 - 4 b(\bm x, \bm x) b(\bm y, \bm y) \leqslant 0
+	\]
+	D'où le lemme.
+}
+	
+
 \subsection{Suites dans $\rn$}
 
-\newdef{Soi$(\bm x^k) \subset \rn$ une suite d'éléments de $\rn$, $\bm x^k = (x_1^k, \ldots, x_n^k) \in \rn$. On dit que $(\bm x^k)$ converge s'il existe $\bm x \in \rn$ tel que,
+\newdef{Soit $(\bm x^k) \subset \rn$ une suite d'éléments de $\rn$, $\bm x^k = (x_1^k, \ldots, x_n^k) \in \rn$. On dit que $(\bm x^k)$ \emph{converge} s'il existe $\bm x \in \rn$ tel que,
 \[
 \forall \varepsilon > 0, \exists N > 0, \forall k \geqslant N, \quad \norme{\bm x^k - \bm x} \leqslant  \varepsilon
 \]
@@ -185,7 +223,7 @@ Si on pose $\tilde N = \max\{N_1, \ldots, N_n\}$, on a $\max_{i \in \llbracket 1
 En suivant la même démonstration que le lemme (\ref{Convergence des suites composantes}), on peut montrer qu'une suite $(\bm x^k) \subset \rn$ est de Cauchy si et seulement si chaque suite $(x_j^k) \subset \R$ pour $j = 1, \ldots, n$ est de Cauchy.
 
 
-\newthm{Une suite $(\bm x^k) \subset \rn$ est convergente si et seulement si elle est de Cauchy.}{}
+\newprop{Une suite $(\bm x^k) \subset \rn$ est convergente si et seulement si elle est de Cauchy.}{}
 
 \prf{On sait que cela est vrai en dimension $n = 1$. Ainsi,
 	\begin{align*}
@@ -203,7 +241,7 @@ En suivant la même démonstration que le lemme (\ref{Convergence des suites com
 En itérant ce processus $n$ fois, on peut extraire une sous-suite de $(\bm x^k)$ donc chaque composante converge vers $(x_1, x_2, \ldots, x_n)$.
 }
 
-\subsection{Topolodie de $\rn$}
+\subsection{Topologie de $\rn$}
 On s'intéresse ici à l'étude et classification de sous-ensembles de $\rn$.
 \newdef{Pour tout $\bm x \in \rn$ et $\delta > 0$, on appelle
 	\[
@@ -245,7 +283,7 @@ On s'intéresse ici à l'étude et classification de sous-ensembles de $\rn$.
 	\]
 	donc $\overline B(\bm x, \delta)$ est fermée.
 }
-
+\subsubsection{Classification des points de $\rn$ par rapport à $E$.}
 \newdef{Soit $E \subset \rn$ et $\bm x \in \rn$. On dit que
 	\begin{itemize}
 		\item $\bm x$ est un \emph{point intérieur} de $E$ si
@@ -260,7 +298,7 @@ On s'intéresse ici à l'étude et classification de sous-ensembles de $\rn$.
 		l'ensemble des points frontière de $E$ est noté $\partial E$ et appelé la \emph{frontière} de $E$.
 		\item $\bm x$ est un \emph{point adhérent} à $E$ si,
 		\[
-		\forall \delta > 0, \quad B B(\bm x, \delta) \cap E \neq \emptyset
+		\forall \delta > 0, \quad  B(\bm x, \delta) \cap E \neq \emptyset
 		\]
 		Un point adhérent est soit un point intérieur, soit un point frontière. L'ensemble des points adhérents à $E$ est noté $\overline E$, et appelé \emph{la fermeture} de $E$.
 		\item $\bm x$ est un \emph{point isolé} de $E$ si,
@@ -275,7 +313,7 @@ On s'intéresse ici à l'étude et classification de sous-ensembles de $\rn$.
 	\end{itemize}
 }{}
 \subsubsection{Quelques remarques sur les ensembles ouverts}
-\newthm{$\mathring E$ est ouvert. De plus $E$ est ouvert si et seulement si $E = \mathring E$.}{}
+\newprop{$\mathring E$ est ouvert. De plus $E$ est ouvert si et seulement si $E = \mathring E$.}{}
 
 \prf{Si $\bm x \in \mathring E$, il existe $\delta > 0$ tel que $B(\bm x, \delta) \subset E$. Or pour tout $\bm z \in B(\bm x, \delta)$, 
 	\[
@@ -321,7 +359,7 @@ donc $B(\bm x, \delta) \subset \bigcap_{i=1}^m E_i = E$.
 	\end{align*}
 }
 
-\newthm{$\overline E$ est fermé. De plus $E$ est fermé si et seulement si $E = \overline E$.}{}
+\newprop{$\overline E$ est fermé. De plus $E$ est fermé si et seulement si $E = \overline E$.}{}
 
 \prf{Par passage on complémentaire on a
 	\[
@@ -349,7 +387,7 @@ donc $B(\bm x, \delta) \subset \bigcap_{i=1}^m E_i = E$.
 \prf{Soit $E$ fermé et $(\bm x^k) \subset E$ une suite convergente vers $\bm x \in \rn$. Alors $\bm x$ adhère $E$ et, puisque $E$ est fermé, $\bm x \in E$. Réciproquement, supposons que $E$ ne soit pas fermé, par passage au complémentaire $E^c$ n'est pas ouvert et donc il existe $\bm{\tilde x} \in E^c$ tel que $\forall \delta > 0, \quad B(\bm{\tilde x}, \delta) \not \subset E$. En posant $\delta = \frac{1}{k}$ pour tout $k \in \N^*$, on obtient alors une suite $(\bm x^k) \subset E$ convergente vers $\bm{\tilde x} \not \in E$.
 }
 
-\subsubsection{Ensembles compacts}
+\subsection{Ensembles compacts}
 
 \newdef{Un ensemble $E \subset \rn$ est \emph{compact} si et seulement s'il est à la fois borné et fermé}{}
 

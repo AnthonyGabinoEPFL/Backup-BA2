@@ -248,8 +248,129 @@ De plus cette solution est localement unique.
 		\norme{\phi(\bm v_1) - \phi(\bm v_2)} &= \norme{\int_{t_0}^t \bm f(s, \bm v_1(s)) - \bm f(s, \bm v_2(s)) ~\mathrm d s} \leqslant \left| \int_{t_0}^t \norme{\bm f(s, \bm v_1(s)) - \bm f(s, \bm v_2(s)) } ~\mathrm ds \right| \\
 		&\leqslant \left| \int_{t_0}^t L \norme{\bm v_1(s) - \bm v_2(s)} ~\mathrm d s \right| \leqslant L \delta \max_{t \in J_\delta} \norme{\bm v_1(t) - \bm v_2(t)}
 	\end{align*}
-	ce qui implique que $\norme{\phi(\bm v_1) - \phi(\bm v_2)}_C^0(J_\delta) \leqslant L \delta \norme{\bm v_1 - \bm v_2}_{C^0(J_\delta)}$. Donc, pour $\delta < \min\{a, \frac{b}{M}, \frac1L\}$, l'application $\phi : K_{b, \bm u_0} (J_\delta) \to K_{b, \bm u_0} (J_\delta)$ est contractante et il existe un unique $ \bm u \in K_{b, \bm u_0} (J_\delta)$ point fixe de $\phi$. Alors $(J_\delta, \bm u)$ est l'unique solution du problème de Cauchy dans $K_{b, \bm u_0} (J_\delta)$.
+	ce qui implique que $\norme{\phi(\bm v_1) - \phi(\bm v_2)}_{C^0(J_\delta)} \leqslant L \delta \norme{\bm v_1 - \bm v_2}_{C^0(J_\delta)}$. Donc, pour $\delta < \min\{a, \frac{b}{M}, \frac1L\}$, l'application $\phi : K_{b, \bm u_0} (J_\delta) \to K_{b, \bm u_0} (J_\delta)$ est contractante et il existe un unique $ \bm u \in K_{b, \bm u_0} (J_\delta)$ point fixe de $\phi$. Alors $(J_\delta, \bm u)$ est l'unique solution du problème de Cauchy dans $K_{b, \bm u_0} (J_\delta)$.
 }
+
+\newdef{On dit que $\bm f : I \times \rn \to \rn$ est \emph{globalement lipschitzienne} par rapport au deuxième argument s'il existe une fonction continue $L(t) \to \R$ telle que pour tout $\bm x, \bm y \in \rn$ on a
+	\[
+	\norme{\bm f(t, \bm x) - \bm f(t, \bm y)} \leqslant L(t) \norme{\bm x - \bm y}
+	\]
+}{}
+
+\newthm{Si $\bm f$ est globalement lipschitzienne par rapport au deuxième argument, alors il existe une solution globale au problème de Cauchy pour tout $(t_0, \bm u_0) \in I \times \rn$.
+}{Cauchy-Lipschitz --- version globale}
+
+\subsection{Équation linéaire du deuxième ordre}
+Soit $I \subset \R$ un ouvert et $a,b,g \in C^0(I)$. On considère alors le problème de Cauchy 
+\[
+\begin{cases}
+	u''(t) + a(t)u'(t) + b(t) u(t) = g(t),  \quad\forall t \in I \\
+	u(t_0) = u_0, ~u'(t_0) = v_0 
+\end{cases}
+\]
+On a donc
+\[
+\bm u(t) = \begin{pmatrix} u(t) \\ u'(t) \end{pmatrix} \implies \bm u'(t) = \begin{pmatrix} u'(t) \\ g(t) - a(t)u'(t) - b(t)u(t) \end{pmatrix} = \bm f(t, \bm u(t)) 
+\]
+On peut construire une intégrale générale du problème de Cauchy de la forme : "solution générale de l'équation homogène" plus "solution particulière de l'équation non homogène".
+
+\subsubsection{Solution générale de l'équation homogène}
+
+\newdef{Soit $z_1$ et $z_2$ des solutions de l'équation homogène. On dit que $z_1$ et $z_2$ sont linéairement indépendant si pour $\alpha, \beta \in \R$ et pour tout $t \in I$ on a
+	\[
+	\alpha z_1(t) + \beta z_2(t) = 0 \implies \alpha = 0 \et \beta = 0
+	\]
+	De plus le \emph{Wronksien} de $z_1$ et $z_2$ noté $W[z_1, z_2]$ comme la fonction
+	\[
+	W[z_1, z_2](t) = \det \begin{pmatrix} z_1(t) & z_2(t) \\ z_1'(t) & z_2'(t) \end{pmatrix} 
+	\]
+}{}
+
+\newthm{Les fonctions $z_1$ et $z_2$ sont linéairement indépendantes si et seulement si 
+	\[
+	W[z_1, z_2](t) \neq 0
+	\]
+	pour tout $t \in I$.
+}{}
+
+\prf{Supposons qu'il existe $t_0 \in I$ tel que $W[z_1, z_2] = 0$, alors les vecteurs $(z_1(t_0), z_21't_0))^\top$ et $(z_2(t_0), z_2(t_0))^\top$ sont linéairement dépendents. Ils existent alors $\alpha$ et $\beta$ dans $\R^*$ tels que 
+	\[
+	\alpha \begin{pmatrix} z_1(t_0) \\ z_1'(t_0) \end{pmatrix} + \beta \begin{pmatrix} z_2(t_0) \\ z_2'(t_0) \end{pmatrix} = 0 
+	\]
+	Soit $v(t) = \alpha z_1(t) + \beta z_2(t)$ et 
+	\[
+	\begin{cases}
+		v''(t) + \alpha (t) v'(t) + b(t) v(t) = \alpha[z_1''(t) + a(t) z_1(t) + b(t) z_1(t)] + \beta[z_2''(t) + a(t) z_2'(t) + b(t) z_2(t)] = 0 \\
+		v(t_0) = 0, ~v'(t_0) = 0
+	\end{cases}
+	\]
+	Donc $v(t) = 0$ pour tout $t$ et $\alpha z_1(t)	+ \beta z_2(t) = 0$ pour tout $t$ qui est une contradiction avec l'hypothèse que $z_1$ et $z_2$ sont linéairement indépendant.
+	
+	Réciproquement, par l'absurde supposons que $z_1$ et $z_2$ sont linéairement dépendants, alors ils existent $\alpha$ et $\beta$ dans $\R$ tels que $\alpha z_1(t) + \beta z_2(t) = 0$ pour tout $t \in I$.  La dérivée est aussi nulle, alors
+	\[
+	\alpha \begin{pmatrix} z_1(t_0) \\ z_1'(t_0) \end{pmatrix} + \beta \begin{pmatrix} z_2(t_0) \\ z_2'(t_0) \end{pmatrix} = 0 
+	\]
+	Mais ceci pose une contradiction avec l'hypothèse que $W[z_1, z_2] \neq 0$.
+}
+
+Soit
+\[
+S = \{ z \in C^2(I) \mid z'' + a z' + bz = 0 \}
+\]
+l'ensemble des solutions de l'équation différentielle. On remarque alors que $S$ est un espace vectorielle de dimension  $2$ et donc toute paire $z_1, z_2 \in S$ linéairement indépendante en est une base. Et donc la \textbf{solution générale de l'équation homogène} est de la forme
+\[
+u(t) = C_1z(t) + C_2z_2(t), \quad t \in I 
+\]
+Si l'on veut résoudre le problème de Cauchy il faudra encore trouver les bonnes valeurs des constantes pour satisfaire les conditions initiale.
+
+\subsubsection*{Méthode de la variation de la constante}
+Soit $z_1$ une solution de l'équation homogène. On peut construire une deuxième solution $z_2$ de l'équation homogène linéairement indépendante à $z_1$ sous la forme
+\[
+z_2(t) = C(t) z_1(t)
+\]
+avec $C \in C^2(I)$. 
+
+\subsubsection{Équation à coefficient constants}
+Soit $a(t) = \alpha \in \R$ et $b(t) = \beta \in \R$ pour tout $t \in I$. Alors
+\[
+u''(t) + \alpha u'(t) 1+ \beta u(t) = g(t)
+\]
+Pour l'équation homogène, on cherche une solution de la forme $z_1 = e^{\lambda t}$,  ainsi
+ \[
+ 0 = z_1'' + \alpha z_1' + \beta z_1 = (\lambda^2 + \alpha \lambda + \beta) e^{\lambda t}
+ \]
+ 
+ \begin{description}
+ 	\item[Cas 1 :  Le discriminant $\Delta = \alpha^2 - 4 \beta > 0$] Soit $\lambda_1, \lambda_2$ les deux racines réels du polynôme. Alors
+ 	\[
+ 	z_1(t) = e^{\lambda_1 t}, \quad z_2(t) = e^{\lambda_2 t}
+ 	\]
+ 	Ces solutions sont linéairement indépendante car
+ 	\[
+ 	W[z_1, z_2](t) = (\lambda_2 - \lambda_1) = e^{(\lambda_1 + \lambda_2)t} \neq 0
+ 	\]
+ 	\item[Cas 2 : Le discriminant $\Delta = \alpha^2 - 4 \beta < 0$] Les deux zéros du polynôme $\lambda_1, \lambda_2$ seront des complexes conjuguées,
+ 	\[
+ 	\lambda_{1,2} = -\frac\alpha2 \pm \frac{i \sqrt{|\Delta|}}{2}
+ 	\]
+ 	Alors
+ 	\[
+ 	\tilde z_1(t) = \exp\left( - \frac\alpha2 t - i  \frac{\sqrt \Delta}{2} t \right) = e^{-\alpha t/2} e^{-i \omega t}, \quad \tilde z_2(t) = e^{-\alpha t/2} e^{i \omega t}
+ 	\]
+ 	On trouve donc les solutions réelles 
+ 	\[
+ 	z_1(t) = e^{-\alpha t/2} \cos(\omega t) \et z_2(t) = e^{-\alpha t/2}\sin(\omega t)
+ 	\]
+ 	\item[Cas 3 : Le discriminant $\Delta = 0$] On a donc $\lambda_1 = \lambda_2 = - \frac\alpha2$
+ 	\[
+ 	z_1(t) = e^{-\alpha t/2}
+ 	\]
+ 	Et par la variation de la constant on trouve
+ 	\[
+ 	z_2(t)	 = te^{-\alpha t/2}
+ 	\]
+ \end{description}
+
 
 
 	
